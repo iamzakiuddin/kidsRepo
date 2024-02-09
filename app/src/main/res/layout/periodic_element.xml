@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvCardSubHome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    app:cardCornerRadius="10.0dip"
+    app:cardElevation="5.0dip"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/purple"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lloutCardSubHome"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/elementSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorCorrect"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/elementName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hydrogen"
+            android:textSize="12sp"
+            android:letterSpacing="0"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

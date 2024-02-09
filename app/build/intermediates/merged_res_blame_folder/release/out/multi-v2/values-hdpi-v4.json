@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-66:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/DELL/.gradle/caches/transforms-3/9cd7b9f01fd9419319bf154cfc52f0c5/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

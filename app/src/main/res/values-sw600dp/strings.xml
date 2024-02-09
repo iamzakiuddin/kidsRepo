@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">Guide</string>
+    <string name="fun_activity">Fun Activity</string>
+    <string name="my_school">My School</string>
+    <string name="games">Games</string>
+
+    <string name="daily_routine">Daily Routine</string>
+    <string name="face_expressions">Face Expressions</string>
+    <string name="autism">Autism</string>
+    <string name="behavior">Behaviors</string>
+    <string name="learning_delay">Learning delay</string>
+    <string name="speech_delay">Speech delay</string>
+    <string name="odd">ODD</string>
+    <string name="adhd">ADHD</string>
+
+    <string name="machine_learning">My Machine Learning</string>
+    <string name="word_image">Word Image</string>
+    <string name="riddle">Riddle</string>
+    <string name="synonyms">Find Synonyms</string>
+    <string name="periodic_table">Learn Periodic table</string>
+    <string name="ask_me_anything">Ask me anything</string>
+
+    <string name="search">Search</string>
+    <string name="show_answer">Show Answer</string>
+</resources>

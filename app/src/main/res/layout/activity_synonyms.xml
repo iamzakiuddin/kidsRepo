@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SynonymsActivity"
+    android:background="@drawable/splash"
+    >
+    <RelativeLayout
+        android:id="@+id/rltTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingTop="24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:layout_margin="5.0dip"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_back_150" />
+
+            <TextView
+                android:id="@+id/txtTitleSubHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Find synonyms"
+                android:textColor="@color/colorBlack"
+                android:textSize="20.0dip"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/searchField"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="for e.g. happy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rltTop"
+        android:layout_margin="20dp"
+        android:textColor="#3d4b57"
+        android:textColorHint="#3d4b57"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textCursorDrawable="@drawable/cursor_background"
+        android:background="@drawable/background_searchtext"
+        android:padding="12dp"
+        />
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="@+id/searchField"
+        app:layout_constraintTop_toBottomOf="@+id/searchField"
+        app:layout_constraintEnd_toEndOf="@+id/searchField"
+        android:layout_marginTop="5dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/synonymsListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        />
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
