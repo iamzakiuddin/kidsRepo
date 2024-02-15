@@ -9,6 +9,7 @@
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
         <item name="android:windowDisablePreview">true</item>
+        <item name="android:fontFamily">@font/atma_medium</item>
     </style>
 
     <style name="SCBSwitch" parent="Theme.AppCompat.Light">

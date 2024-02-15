@@ -70,7 +70,7 @@ class RiddleActivity : AppCompatActivity() {
         loading = findViewById(R.id.loading)
         back = findViewById(R.id.back)
         var loadingDrawable = loading?.progressDrawable?.mutate()
-        loadingDrawable?.setColorFilter(resources.getColor(R.color.purple),android.graphics.PorterDuff.Mode.SRC_IN)
+        loadingDrawable?.setColorFilter(resources.getColor(R.color.yellow),android.graphics.PorterDuff.Mode.SRC_IN)
         loading?.progressDrawable = loadingDrawable
     }
 }

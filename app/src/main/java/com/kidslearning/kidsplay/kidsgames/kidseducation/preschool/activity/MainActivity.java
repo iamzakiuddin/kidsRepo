@@ -9,11 +9,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
@@ -38,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
     DatabaseHelper databaseHelper;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
+    ImageView back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +67,12 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
 
         Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
 
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     @Override
@@ -131,6 +141,7 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
     public int[] arrOfCategory;
     public int[] categoriesTitle;
     private void initDefine() {
+        back = findViewById(R.id.back);
         rvCategory=findViewById(R.id.rvCategory);
         arrOfCategory = new int[]{R.drawable.card_one, R.drawable.card_two, R.drawable.card_three, R.drawable.card_four};
         categoriesTitle = new int[]{R.string.kids_learning, R.string.video_learning, R.string.look_and_choose, R.string.listen_and_guess};
@@ -147,8 +158,9 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
     RecyclerView rvCategory;
     int position = 0;
     private void setRvAdapter() {
-        LinearLayoutManager linearLayoutManager=new LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false);
-        rvCategory.setLayoutManager(linearLayoutManager);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(context, 2, GridLayoutManager.VERTICAL, false);
+        //LinearLayoutManager linearLayoutManager=new LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false);
+        rvCategory.setLayoutManager(gridLayoutManager);
         homeAdapter=new HomeAdapter(context, arrOfCategory,categoriesTitle, new HomeAdapter.onClickMain() {
             @Override
             public void onClickCategory(int pos) {

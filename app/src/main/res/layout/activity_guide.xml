@@ -8,15 +8,7 @@
     tools:context=".activity.GuideActivity"
     android:background="@drawable/splash"
     >
-    <ImageView
-        android:id="@+id/close"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/options"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="20dp"
-        android:src="@drawable/btn_back_150"
-        />
+
     <LinearLayout
         android:id="@+id/options"
         android:layout_width="match_parent"
@@ -49,82 +41,111 @@
                 <Button
                     android:id="@+id/daily_routine"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/daily_routine"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
                     android:theme="@style/AppTheme"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite" />
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
+                    android:visibility="gone"
+                    />
 
                 <Button
                     android:id="@+id/face_expression"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/face_expressions"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
                     android:layout_marginBottom="10dp"
+                    android:visibility="gone"
                     />
                 <Button
                     android:id="@+id/autism"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/autism"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
                     />
                 <Button
                     android:id="@+id/behaviors"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/behavior"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
                     android:layout_marginTop="10dp"
                     />
                 <Button
                     android:id="@+id/learning_delay"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/learning_delay"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
                     android:layout_marginTop="10dp"
                     />
                 <Button
                     android:id="@+id/speech_delay"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/speech_delay"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
                     android:layout_marginTop="10dp"
                     />
                 <Button
                     android:id="@+id/odd"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/odd"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
                     android:layout_marginTop="10dp"
                     />
                 <Button
                     android:id="@+id/adhd"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:text="@string/adhd"
+                    android:textSize="18sp"
                     android:textAllCaps="false"
-                    android:background="@drawable/button_background"
-                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
                     android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintBottom_toTopOf="@+id/options"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/btn_back_150"
                     />
             </LinearLayout>
         </ScrollView>

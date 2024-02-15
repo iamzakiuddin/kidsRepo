@@ -30,7 +30,9 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".activity.AskMeAnything"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".activity.MachineLearningActivity"
             android:exported="false"
