@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.ElementDetail"
-    android:background="@color/purple"
+    android:background="@color/light_blue"
     >
 
     <RelativeLayout
@@ -63,9 +63,10 @@
                 android:id="@+id/elementName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorCorrect"
+                android:textColor="@color/yellow_secondary"
                 android:text=""
                 android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
                 android:textSize="24sp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"

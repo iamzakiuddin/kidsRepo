@@ -11,7 +11,7 @@
     app:cardCornerRadius="10.0dip"
     app:cardElevation="5.0dip"
     app:cardUseCompatPadding="true"
-    app:cardBackgroundColor="@color/purple"
+    app:cardBackgroundColor="@color/light_blue"
     >
 
     <RelativeLayout
@@ -29,7 +29,7 @@
             android:text="H"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/colorCorrect"
+            android:textColor="@color/pink"
             android:gravity="center"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
@@ -42,7 +42,7 @@
             android:textSize="12sp"
             android:letterSpacing="0"
             android:textStyle="bold"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/greenish_yellow"
             android:gravity="center"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"

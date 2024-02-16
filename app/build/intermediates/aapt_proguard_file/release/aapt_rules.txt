@@ -34,6 +34,7 @@
 -keep class com.google.mlkit.common.internal.MlKitComponentDiscoveryService { <init>(); }
 -keep class com.google.mlkit.common.internal.MlKitInitProvider { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.SurfingActivity { <init>(); }
+-keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.AskMeAnything { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.ElementDetail { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FunActivity { <init>(); }
@@ -49,6 +50,7 @@
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SynonymsActivity { <init>(); }
+-keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.WordImageActivity { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity { <init>(); }
 -keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.ListVideoActivity { <init>(); }

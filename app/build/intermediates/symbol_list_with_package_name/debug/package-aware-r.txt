@@ -1510,9 +1510,12 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color greenish_yellow
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color ic_launcher_new_background
+color light_blue
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2166,6 +2169,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2189,6 +2193,8 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color yellow
+color yellow_secondary
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3169,6 +3175,7 @@ drawable butcher
 drawable butter
 drawable buttercup
 drawable button_background
+drawable button_bg
 drawable c
 drawable c_cat
 drawable cake
@@ -3282,6 +3289,7 @@ drawable electrician
 drawable elephant
 drawable eleven_11
 drawable ellipse
+drawable emoji
 drawable empty
 drawable engineer
 drawable england
@@ -3488,6 +3496,8 @@ drawable material_ic_menu_arrow_up_black_24dp
 drawable may
 drawable mechanics
 drawable meerkat
+drawable message_background
+drawable message_background_secondary
 drawable mexico
 drawable milk
 drawable mint
@@ -3652,6 +3662,7 @@ drawable rice
 drawable right_triangle
 drawable robin
 drawable rose
+drawable routines
 drawable ruler
 drawable running
 drawable russia
@@ -3796,6 +3807,11 @@ drawable z
 drawable z_zebra
 drawable zebra
 drawable zero_0
+font atma_bold
+font atma_light
+font atma_medium
+font atma_regular
+font atma_semibold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3882,6 +3898,7 @@ id animateToStart
 id answer
 id antiClockwise
 id anticipate
+id appBar
 id arc
 id asConfigured
 id ask_me_anything
@@ -3935,6 +3952,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chatListView
 id checkbox
 id checked
 id chronometer
@@ -4052,6 +4070,9 @@ id grouping
 id groups
 id guide
 id guideline
+id guideline3
+id guideline4
+id guideline5
 id headerLayout
 id header_title
 id hide_ime_id
@@ -4071,6 +4092,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imagesListView
 id imgBackButton
 id imgBtnNext
 id imgBtnPrev
@@ -4086,6 +4108,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id inputContainer
 id invisible
 id inward
 id ionRadius
@@ -4151,6 +4174,7 @@ id material_value_index
 id matrix
 id meltingPoints
 id message
+id messageText
 id middle
 id minerals
 id mini
@@ -4259,7 +4283,6 @@ id radio
 id ratio
 id rectangles
 id report_drawn
-id responseText
 id reverseSawtooth
 id riddle
 id riddleBtn
@@ -4307,6 +4330,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -4433,6 +4457,7 @@ id wide
 id withText
 id with_icon
 id withinBounds
+id wordImage
 id word_image
 id wrap
 id wrap_content
@@ -4579,6 +4604,7 @@ layout activity_surfing
 layout activity_synonyms
 layout activity_video_learning
 layout activity_video_play
+layout activity_word_image
 layout admob_empty_layout
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -4629,6 +4655,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout message_layout
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -4675,8 +4702,12 @@ layout support_simple_spinner_dropdown_item
 layout synonym_item
 layout video_card_list
 layout viewpager_layout
+layout word_image_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
+mipmap ic_launcher_new
+mipmap ic_launcher_new_foreground
+mipmap ic_launcher_new_round
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw ayp_youtube_player

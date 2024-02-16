@@ -4,6 +4,7 @@ import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.Periodi
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.PeriodicElementResponseItem
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.RiddleResponse
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.SynonymsResponse
+import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.WordImageResponse
 
 class Repository(val dataApi: RestApi) {
 
@@ -21,6 +22,32 @@ class Repository(val dataApi: RestApi) {
                     }
                 } else if(responseBody != null && responseBody.statusCode == 404){
                     return NetworkResources.error(responseBody.message)
+                }else {
+                    return NetworkResources.error("No data!")
+                }
+            } else {
+                return NetworkResources.error(response.message())
+            }
+        }catch (e: Exception){
+            return NetworkResources.error(e.message!!)
+        }
+    }
+
+    suspend fun getWordImage(word: String): NetworkResources<WordImageResponse>{
+        try {
+            val response = dataApi.getWordImage(
+                "https://edupix.p.rapidapi.com/science/$word",
+                "b42a85a811msh4e571f6b5d07e65p102209jsneb74d08ea20f",
+                "edupix.p.rapidapi.com")
+            if (response.isSuccessful) {
+                val responseBody = response.body()
+                if (responseBody != null && response.code() == 200) {
+                    // Check if the response body is not empty
+                    if (responseBody.images.isNotEmpty()) {
+                        return NetworkResources.success(responseBody)
+                    } else {
+                        return NetworkResources.error("No data!")
+                    }
                 }else {
                     return NetworkResources.error("No data!")
                 }

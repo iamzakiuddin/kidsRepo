@@ -1434,6 +1434,8 @@ color browser_actions_text_color
 color browser_actions_title_color
 color button_material_dark
 color button_material_light
+color call_notification_answer_color
+color call_notification_decline_color
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -1508,9 +1510,12 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color greenish_yellow
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color ic_launcher_new_background
+color light_blue
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2164,6 +2169,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2187,6 +2193,8 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color yellow
+color yellow_secondary
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3167,6 +3175,7 @@ drawable butcher
 drawable butter
 drawable buttercup
 drawable button_background
+drawable button_bg
 drawable c
 drawable c_cat
 drawable cake
@@ -3280,6 +3289,7 @@ drawable electrician
 drawable elephant
 drawable eleven_11
 drawable ellipse
+drawable emoji
 drawable empty
 drawable engineer
 drawable england
@@ -3379,6 +3389,12 @@ drawable i
 drawable i_icecream
 drawable ic_action_name
 drawable ic_arrow_back_black_24
+drawable ic_call_answer
+drawable ic_call_answer_low
+drawable ic_call_answer_video
+drawable ic_call_answer_video_low
+drawable ic_call_decline
+drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_close_rate
@@ -3480,6 +3496,8 @@ drawable material_ic_menu_arrow_up_black_24dp
 drawable may
 drawable mechanics
 drawable meerkat
+drawable message_background
+drawable message_background_secondary
 drawable mexico
 drawable milk
 drawable mint
@@ -3555,6 +3573,7 @@ drawable notification_bg_normal
 drawable notification_bg_normal_pressed
 drawable notification_icon
 drawable notification_icon_background
+drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
@@ -3643,6 +3662,7 @@ drawable rice
 drawable right_triangle
 drawable robin
 drawable rose
+drawable routines
 drawable ruler
 drawable running
 drawable russia
@@ -3787,6 +3807,11 @@ drawable z
 drawable z_zebra
 drawable zebra
 drawable zero_0
+font atma_bold
+font atma_light
+font atma_medium
+font atma_regular
+font atma_semibold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3873,6 +3898,7 @@ id animateToStart
 id answer
 id antiClockwise
 id anticipate
+id appBar
 id arc
 id asConfigured
 id ask_me_anything
@@ -3926,6 +3952,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chatListView
 id checkbox
 id checked
 id chronometer
@@ -3994,6 +4021,7 @@ id easeOut
 id east
 id edge
 id edit_query
+id edit_text_id
 id elastic
 id electronicConfiguration
 id elementName
@@ -4042,8 +4070,12 @@ id grouping
 id groups
 id guide
 id guideline
+id guideline3
+id guideline4
+id guideline5
 id headerLayout
 id header_title
+id hide_ime_id
 id hideable
 id histroy
 id home
@@ -4060,6 +4092,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imagesListView
 id imgBackButton
 id imgBtnNext
 id imgBtnPrev
@@ -4075,6 +4108,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id inputContainer
 id invisible
 id inward
 id ionRadius
@@ -4140,6 +4174,7 @@ id material_value_index
 id matrix
 id meltingPoints
 id message
+id messageText
 id middle
 id minerals
 id mini
@@ -4295,6 +4330,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -4421,6 +4457,7 @@ id wide
 id withText
 id with_icon
 id withinBounds
+id wordImage
 id word_image
 id wrap
 id wrap_content
@@ -4545,6 +4582,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_ask_me_anything
 layout activity_element_detail
 layout activity_exam_listen_guess
 layout activity_exam_question
@@ -4566,6 +4604,7 @@ layout activity_surfing
 layout activity_synonyms
 layout activity_video_learning
 layout activity_video_play
+layout activity_word_image
 layout admob_empty_layout
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -4593,6 +4632,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout ime_base_split_test_activity
+layout ime_secondary_split_test_activity
 layout item_notification_coll
 layout item_notification_expand
 layout m3_alert_dialog
@@ -4614,6 +4655,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout message_layout
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -4660,8 +4702,12 @@ layout support_simple_spinner_dropdown_item
 layout synonym_item
 layout video_card_list
 layout viewpager_layout
+layout word_image_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
+mipmap ic_launcher_new
+mipmap ic_launcher_new_foreground
+mipmap ic_launcher_new_round
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw ayp_youtube_player
@@ -4708,6 +4754,13 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string call_notification_answer_action
+string call_notification_answer_video_action
+string call_notification_decline_action
+string call_notification_hang_up_action
+string call_notification_incoming_text
+string call_notification_ongoing_text
+string call_notification_screening_text
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

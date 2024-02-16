@@ -1,3 +1,0 @@
-com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

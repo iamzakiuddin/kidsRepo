@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.R;
@@ -18,10 +18,10 @@ import java.lang.String;
 
 public final class CardListStartBinding implements ViewBinding {
   @NonNull
-  private final CardView rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final CardView cVHomeCategories;
+  public final LinearLayout cVHomeCategories;
 
   @NonNull
   public final ImageView imgThumbnail;
@@ -29,8 +29,9 @@ public final class CardListStartBinding implements ViewBinding {
   @NonNull
   public final TextView title;
 
-  private CardListStartBinding(@NonNull CardView rootView, @NonNull CardView cVHomeCategories,
-      @NonNull ImageView imgThumbnail, @NonNull TextView title) {
+  private CardListStartBinding(@NonNull LinearLayout rootView,
+      @NonNull LinearLayout cVHomeCategories, @NonNull ImageView imgThumbnail,
+      @NonNull TextView title) {
     this.rootView = rootView;
     this.cVHomeCategories = cVHomeCategories;
     this.imgThumbnail = imgThumbnail;
@@ -39,7 +40,7 @@ public final class CardListStartBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public CardView getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -64,7 +65,7 @@ public final class CardListStartBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      CardView cVHomeCategories = (CardView) rootView;
+      LinearLayout cVHomeCategories = (LinearLayout) rootView;
 
       id = R.id.imgThumbnail;
       ImageView imgThumbnail = ViewBindings.findChildViewById(rootView, id);
@@ -78,7 +79,8 @@ public final class CardListStartBinding implements ViewBinding {
         break missingId;
       }
 
-      return new CardListStartBinding((CardView) rootView, cVHomeCategories, imgThumbnail, title);
+      return new CardListStartBinding((LinearLayout) rootView, cVHomeCategories, imgThumbnail,
+          title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

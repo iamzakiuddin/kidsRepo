@@ -36,8 +36,8 @@
 23        <intent>
 23-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:38:9-44:18
 24            <action android:name="android.intent.action.VIEW" />
-24-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:17-69
-24-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:25-66
+24-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:17-69
+24-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:25-66
 25
 26            <category android:name="android.intent.category.BROWSABLE" />
 26-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:41:13-74
@@ -100,7 +100,7 @@
 52-->[androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 53
 54    <application
-54-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:17:5-130:19
+54-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:17:5-137:19
 55        android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.customclasses.AppControl"
 55-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:18:9-49
 56        android:allowBackup="false"
@@ -115,16 +115,16 @@
 61-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:21:9-39
 62        android:hardwareAccelerated="true"
 62-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:22:9-43
-63        android:icon="@mipmap/ic_launcher"
-63-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:23:9-43
+63        android:icon="@mipmap/ic_launcher_new"
+63-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:23:9-47
 64        android:label="@string/app_name"
 64-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:24:9-41
 65        android:largeHeap="true"
 65-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:25:9-33
 66        android:requestLegacyExternalStorage="true"
 66-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:26:9-52
-67        android:roundIcon="@mipmap/ic_launcher_round"
-67-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:27:9-54
+67        android:roundIcon="@mipmap/ic_launcher_new_round"
+67-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:27:9-58
 68        android:supportsRtl="true"
 68-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:28:9-35
 69        android:testOnly="true"
@@ -133,792 +133,804 @@
 71        android:usesCleartextTraffic="true" >
 71-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:30:9-44
 72        <activity
-72-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:31:9-33:40
-73            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.AskMeAnything"
-73-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:32:13-51
-74            android:exported="false" />
+72-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:31:9-35:15
+73            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.WordImageActivity"
+73-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:32:13-55
+74            android:exported="false"
 74-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:33:13-37
-75        <activity
-75-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:34:9-37:52
-76            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MachineLearningActivity"
-76-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:35:13-61
-77            android:exported="false"
-77-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:36:13-37
-78            android:screenOrientation="portrait" />
-78-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:37:13-49
-79        <activity
-79-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:38:9-41:52
-80            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.ElementDetail"
-80-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:39:13-51
-81            android:exported="false"
-81-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:40:13-37
-82            android:screenOrientation="portrait" />
-82-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:41:13-49
-83        <activity
-83-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:42:9-45:52
-84            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PeriodicElementsActivity"
-84-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:43:13-62
-85            android:exported="false"
-85-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:44:13-37
-86            android:screenOrientation="portrait" />
-86-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:45:13-49
-87        <activity
-87-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:46:9-49:52
-88            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.RiddleActivity"
-88-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:47:13-52
-89            android:exported="false"
-89-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:48:13-37
-90            android:screenOrientation="portrait" />
-90-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:49:13-49
-91        <activity
-91-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:50:9-53:52
-92            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SynonymsActivity"
-92-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:51:13-54
-93            android:exported="false"
-93-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:52:13-37
-94            android:screenOrientation="portrait" />
-94-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:53:13-49
-95        <activity
-95-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:54:9-57:52
-96            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.SurfingActivity"
-96-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:55:13-44
-97            android:exported="false"
-97-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:56:13-37
-98            android:screenOrientation="portrait" />
-98-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:57:13-49
-99        <activity
-99-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:58:9-61:52
-100            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FunActivity"
-100-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:59:13-49
-101            android:exported="false"
-101-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:60:13-37
-102            android:screenOrientation="portrait" />
-102-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:61:13-49
-103        <activity
-103-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:62:9-65:52
-104            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.GuideActivity"
-104-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:63:13-51
-105            android:exported="false"
-105-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:64:13-37
-106            android:screenOrientation="portrait" />
-106-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:65:13-49
-107        <activity
-107-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:66:9-68:52
-108            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainMenu"
-108-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:67:13-46
-109            android:screenOrientation="portrait" />
-109-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:68:13-49
-110        <activity
-110-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:69:9-79:20
-111            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity"
-111-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:70:13-52
-112            android:exported="true"
-112-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:71:13-36
-113            android:screenOrientation="portrait" >
-113-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:72:13-49
-114            <intent-filter>
-114-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:73:13-78:29
-115                <action android:name="android.intent.action.MAIN" />
-115-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:74:17-69
-115-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:74:25-66
-116                <action android:name="android.intent.action.VIEW" />
-116-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:17-69
-116-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:25-66
-117
-118                <category android:name="android.intent.category.LAUNCHER" />
-118-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:77:17-77
-118-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:77:27-74
-119            </intent-filter>
-120        </activity>
-121        <activity
-121-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:80:9-82:52
-122            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainActivity"
-122-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:81:13-50
-123            android:screenOrientation="portrait" />
-123-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:13-49
-124        <activity
-124-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:83:9-85:52
-125            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.HomeActivity"
-125-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:84:13-50
-126            android:screenOrientation="portrait" />
-126-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:85:13-49
+75            android:screenOrientation="portrait" />
+75-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:34:13-49
+76        <activity
+76-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:36:9-40:55
+77            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.AskMeAnything"
+77-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:37:13-51
+78            android:exported="false"
+78-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:38:13-37
+79            android:screenOrientation="portrait"
+79-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:39:13-49
+80            android:windowSoftInputMode="adjustPan" />
+80-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:40:13-52
+81        <activity
+81-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:41:9-44:52
+82            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MachineLearningActivity"
+82-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:42:13-61
+83            android:exported="false"
+83-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:43:13-37
+84            android:screenOrientation="portrait" />
+84-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:44:13-49
+85        <activity
+85-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:45:9-48:52
+86            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.ElementDetail"
+86-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:46:13-51
+87            android:exported="false"
+87-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:47:13-37
+88            android:screenOrientation="portrait" />
+88-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:48:13-49
+89        <activity
+89-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:49:9-52:52
+90            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PeriodicElementsActivity"
+90-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:50:13-62
+91            android:exported="false"
+91-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:51:13-37
+92            android:screenOrientation="portrait" />
+92-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:52:13-49
+93        <activity
+93-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:53:9-56:52
+94            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.RiddleActivity"
+94-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:54:13-52
+95            android:exported="false"
+95-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:55:13-37
+96            android:screenOrientation="portrait" />
+96-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:56:13-49
+97        <activity
+97-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:57:9-60:52
+98            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SynonymsActivity"
+98-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:58:13-54
+99            android:exported="false"
+99-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:59:13-37
+100            android:screenOrientation="portrait" />
+100-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:60:13-49
+101        <activity
+101-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:61:9-64:52
+102            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.SurfingActivity"
+102-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:62:13-44
+103            android:exported="false"
+103-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:63:13-37
+104            android:screenOrientation="portrait" />
+104-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:64:13-49
+105        <activity
+105-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:65:9-68:52
+106            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FunActivity"
+106-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:66:13-49
+107            android:exported="false"
+107-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:67:13-37
+108            android:screenOrientation="portrait" />
+108-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:68:13-49
+109        <activity
+109-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:69:9-72:52
+110            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.GuideActivity"
+110-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:70:13-51
+111            android:exported="false"
+111-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:71:13-37
+112            android:screenOrientation="portrait" />
+112-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:72:13-49
+113        <activity
+113-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:73:9-75:52
+114            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainMenu"
+114-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:74:13-46
+115            android:screenOrientation="portrait" />
+115-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:13-49
+116        <activity
+116-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:76:9-86:20
+117            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity"
+117-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:77:13-52
+118            android:exported="true"
+118-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:78:13-36
+119            android:screenOrientation="portrait" >
+119-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:79:13-49
+120            <intent-filter>
+120-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:80:13-85:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:81:17-69
+121-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:81:25-66
+122                <action android:name="android.intent.action.VIEW" />
+122-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:17-69
+122-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:25-66
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:84:17-77
+124-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:84:27-74
+125            </intent-filter>
+126        </activity>
 127        <activity
-127-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:86:9-88:52
-128            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity"
-128-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:87:13-49
+127-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:87:9-89:52
+128            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainActivity"
+128-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:88:13-50
 129            android:screenOrientation="portrait" />
-129-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:88:13-49
+129-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:89:13-49
 130        <activity
-130-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:89:9-91:52
-131            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity"
-131-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:90:13-56
+130-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:90:9-92:52
+131            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.HomeActivity"
+131-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:91:13-50
 132            android:screenOrientation="portrait" />
-132-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:91:13-49
+132-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:92:13-49
 133        <activity
-133-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:92:9-94:52
-134            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity"
-134-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:93:13-61
+133-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:93:9-95:52
+134            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity"
+134-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:94:13-49
 135            android:screenOrientation="portrait" />
-135-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:94:13-49
+135-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:95:13-49
 136        <activity
-136-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:95:9-97:52
-137            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity"
-137-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:96:13-62
+136-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:96:9-98:52
+137            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity"
+137-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:97:13-56
 138            android:screenOrientation="portrait" />
-138-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:97:13-49
+138-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:98:13-49
 139        <activity
-139-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:98:9-100:52
-140            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.ListVideoActivity"
-140-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:99:13-61
+139-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:99:9-101:52
+140            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity"
+140-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:100:13-61
 141            android:screenOrientation="portrait" />
-141-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:100:13-49
+141-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:101:13-49
 142        <activity
-142-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:101:9-103:52
-143            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoLearningActivity"
-143-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:102:13-65
+142-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:102:9-104:52
+143            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity"
+143-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:103:13-62
 144            android:screenOrientation="portrait" />
-144-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:103:13-49
+144-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:104:13-49
 145        <activity
-145-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:104:9-107:54
-146            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoPlayActivity"
-146-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:105:13-61
-147            android:configChanges="orientation|screenSize"
-147-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:106:13-59
-148            android:theme="@style/AppThemeYoutube" />
-148-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:107:13-51
-149        <activity
-149-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:108:9-110:52
-150            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity"
-150-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:109:13-53
-151            android:screenOrientation="portrait" />
-151-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:110:13-49
-152        <activity
-152-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:111:9-113:52
-153            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PrivacyPolicyActivity"
-153-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:112:13-59
-154            android:screenOrientation="portrait" />
-154-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:113:13-49
-155
-156        <service
-156-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:115:9-122:19
-157            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.pushnotification.MyFirebaseMessagingService"
-157-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:116:13-72
-158            android:exported="false" >
-158-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:117:13-37
-159            <intent-filter>
-159-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:118:13-121:29
-160                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-160-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:17-78
-160-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:25-75
-161                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-161-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:17-81
-161-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:25-78
-162            </intent-filter>
-163        </service>
-164
-165        <meta-data
-165-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:124:9-126:61
-166            android:name="com.google.android.gms.ads.APPLICATION_ID"
-166-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:125:13-69
-167            android:value="@string/AD_MOB_APPLICATION_ID" />
-167-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:13-58
-168        <meta-data
-168-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:9-129:69
-169            android:name="com.google.android.gms.version"
-169-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:128:13-58
-170            android:value="@integer/google_play_services_version" />
-170-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:129:13-66
-171
-172        <receiver
-172-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:29:9-40:20
-173            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-173-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:30:13-78
-174            android:exported="true"
-174-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:31:13-36
-175            android:permission="com.google.android.c2dm.permission.SEND" >
-175-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:32:13-73
-176            <intent-filter>
-176-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:33:13-35:29
-177                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-177-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:17-81
-177-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:25-78
-178            </intent-filter>
-179
-180            <meta-data
-180-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:37:13-39:40
-181                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-181-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:38:17-92
-182                android:value="true" />
-182-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:39:17-37
-183        </receiver>
-184        <!--
-185             FirebaseMessagingService performs security checks at runtime,
-186             but set to not exported to explicitly avoid allowing another app to call it.
-187        -->
-188        <service
-188-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:46:9-53:19
-189            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-189-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:47:13-82
-190            android:directBootAware="true"
-190-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:48:13-43
-191            android:exported="false" >
-191-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:49:13-37
-192            <intent-filter android:priority="-500" >
-192-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:50:13-52:29
-192-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:50:28-51
-193                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-193-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:17-78
-193-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:25-75
-194            </intent-filter>
-195        </service>
-196        <service
-196-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:54:9-63:19
-197            android:name="com.google.firebase.components.ComponentDiscoveryService"
-197-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:55:13-84
-198            android:directBootAware="true"
-198-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
-199            android:exported="false" >
-199-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:56:13-37
-200            <meta-data
-200-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:57:13-59:85
-201                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-201-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:58:17-122
-202                android:value="com.google.firebase.components.ComponentRegistrar" />
-202-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:59:17-82
-203            <meta-data
-203-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:60:13-62:85
-204                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-204-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:61:17-119
-205                android:value="com.google.firebase.components.ComponentRegistrar" />
-205-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:62:17-82
+145-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:105:9-107:52
+146            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.ListVideoActivity"
+146-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:106:13-61
+147            android:screenOrientation="portrait" />
+147-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:107:13-49
+148        <activity
+148-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:108:9-110:52
+149            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoLearningActivity"
+149-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:109:13-65
+150            android:screenOrientation="portrait" />
+150-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:110:13-49
+151        <activity
+151-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:111:9-114:54
+152            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoPlayActivity"
+152-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:112:13-61
+153            android:configChanges="orientation|screenSize"
+153-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:113:13-59
+154            android:theme="@style/AppThemeYoutube" />
+154-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:114:13-51
+155        <activity
+155-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:115:9-117:52
+156            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity"
+156-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:116:13-53
+157            android:screenOrientation="portrait" />
+157-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:117:13-49
+158        <activity
+158-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:118:9-120:52
+159            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PrivacyPolicyActivity"
+159-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:13-59
+160            android:screenOrientation="portrait" />
+160-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:13-49
+161
+162        <service
+162-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:122:9-129:19
+163            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.pushnotification.MyFirebaseMessagingService"
+163-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:123:13-72
+164            android:exported="false" >
+164-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:124:13-37
+165            <intent-filter>
+165-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:125:13-128:29
+166                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+166-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:17-78
+166-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:25-75
+167                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+167-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:17-81
+167-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:25-78
+168            </intent-filter>
+169        </service>
+170
+171        <meta-data
+171-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:131:9-133:61
+172            android:name="com.google.android.gms.ads.APPLICATION_ID"
+172-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:132:13-69
+173            android:value="@string/AD_MOB_APPLICATION_ID" />
+173-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:133:13-58
+174        <meta-data
+174-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:134:9-136:69
+175            android:name="com.google.android.gms.version"
+175-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:135:13-58
+176            android:value="@integer/google_play_services_version" />
+176-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:136:13-66
+177
+178        <receiver
+178-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:29:9-40:20
+179            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+179-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:30:13-78
+180            android:exported="true"
+180-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:31:13-36
+181            android:permission="com.google.android.c2dm.permission.SEND" >
+181-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:32:13-73
+182            <intent-filter>
+182-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:33:13-35:29
+183                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+183-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:17-81
+183-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:25-78
+184            </intent-filter>
+185
+186            <meta-data
+186-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:37:13-39:40
+187                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+187-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:38:17-92
+188                android:value="true" />
+188-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:39:17-37
+189        </receiver>
+190        <!--
+191             FirebaseMessagingService performs security checks at runtime,
+192             but set to not exported to explicitly avoid allowing another app to call it.
+193        -->
+194        <service
+194-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:46:9-53:19
+195            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+195-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:47:13-82
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:48:13-43
+197            android:exported="false" >
+197-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:49:13-37
+198            <intent-filter android:priority="-500" >
+198-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:50:13-52:29
+198-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:50:28-51
+199                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+199-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:17-78
+199-->/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:25-75
+200            </intent-filter>
+201        </service>
+202        <service
+202-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:54:9-63:19
+203            android:name="com.google.firebase.components.ComponentDiscoveryService"
+203-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:55:13-84
+204            android:directBootAware="true"
+204-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+205            android:exported="false" >
+205-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:56:13-37
 206            <meta-data
-206-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:37:13-39:85
-207                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-207-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:38:17-139
+206-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:57:13-59:85
+207                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+207-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:58:17-122
 208                android:value="com.google.firebase.components.ComponentRegistrar" />
-208-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:39:17-82
+208-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:59:17-82
 209            <meta-data
-209-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
-210                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-210-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+209-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:60:13-62:85
+210                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+210-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:61:17-119
 211                android:value="com.google.firebase.components.ComponentRegistrar" />
-211-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+211-->[com.google.firebase:firebase-messaging:23.4.0] /Users/DELL/.gradle/caches/transforms-3/8158b7b6e49a80cb7e3aafe20847d76f/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:62:17-82
 212            <meta-data
-212-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
-213                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-213-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+212-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:37:13-39:85
+213                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+213-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:38:17-139
 214                android:value="com.google.firebase.components.ComponentRegistrar" />
-214-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+214-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:39:17-82
 215            <meta-data
-215-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/DELL/.gradle/caches/transforms-3/9fdea87b952caae261bdf3f7528d2c08/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
-216                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-216-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/DELL/.gradle/caches/transforms-3/9fdea87b952caae261bdf3f7528d2c08/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+215-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+216                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+216-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
 217                android:value="com.google.firebase.components.ComponentRegistrar" />
-217-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/DELL/.gradle/caches/transforms-3/9fdea87b952caae261bdf3f7528d2c08/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+217-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
 218            <meta-data
-218-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
-219                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-219-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+218-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+219                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+219-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
 220                android:value="com.google.firebase.components.ComponentRegistrar" />
-220-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+220-->[com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
 221            <meta-data
-221-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
-222                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-222-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+221-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/DELL/.gradle/caches/transforms-3/9fdea87b952caae261bdf3f7528d2c08/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+222                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+222-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/DELL/.gradle/caches/transforms-3/9fdea87b952caae261bdf3f7528d2c08/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
 223                android:value="com.google.firebase.components.ComponentRegistrar" />
-223-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
-224        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-225        <activity
-225-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:56:9-61:43
-226            android:name="com.google.android.gms.ads.AdActivity"
-226-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:57:13-65
-227            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-227-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:58:13-122
-228            android:exported="false"
-228-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:59:13-37
-229            android:theme="@android:style/Theme.Translucent" />
-229-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:60:13-61
-230
-231        <provider
-231-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:63:9-68:43
-232            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-232-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:64:13-76
-233            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.mobileadsinitprovider"
-233-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:65:13-73
+223-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/DELL/.gradle/caches/transforms-3/9fdea87b952caae261bdf3f7528d2c08/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+224            <meta-data
+224-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+225                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+225-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+228                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+228-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+230        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+231        <activity
+231-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:56:9-61:43
+232            android:name="com.google.android.gms.ads.AdActivity"
+232-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:57:13-65
+233            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+233-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:58:13-122
 234            android:exported="false"
-234-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:66:13-37
-235            android:initOrder="100" />
-235-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:67:13-36
+234-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:59:13-37
+235            android:theme="@android:style/Theme.Translucent" />
+235-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:60:13-61
 236
-237        <service
-237-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:70:9-74:43
-238            android:name="com.google.android.gms.ads.AdService"
-238-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:71:13-64
-239            android:enabled="true"
-239-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:72:13-35
-240            android:exported="false" />
-240-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:73:13-37
-241
-242        <activity
-242-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:76:9-80:43
-243            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-243-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:77:13-82
-244            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-244-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:78:13-122
-245            android:exported="false" />
-245-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:79:13-37
-246        <activity
-246-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:81:9-88:43
-247            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-247-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:82:13-82
-248            android:excludeFromRecents="true"
-248-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:83:13-46
-249            android:exported="false"
-249-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:84:13-37
-250            android:launchMode="singleTask"
-250-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:85:13-44
-251            android:taskAffinity=""
-251-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:86:13-36
-252            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-252-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:87:13-72
-253
-254        <property
-254-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:90:9-92:62
-255            android:name="android.adservices.AD_SERVICES_CONFIG"
-255-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:91:13-65
-256            android:resource="@xml/gma_ad_services_config" />
-256-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:92:13-59
-257
-258        <provider
-258-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
-259            android:name="androidx.startup.InitializationProvider"
-259-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
-260            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.androidx-startup"
-260-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
-261            android:exported="false" >
-261-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
-262            <meta-data
-262-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
-263                android:name="androidx.work.WorkManagerInitializer"
-263-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
-264                android:value="androidx.startup" />
-264-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
-265            <meta-data
-265-->[androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-266                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-266-->[androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-267                android:value="androidx.startup" />
-267-->[androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+237        <provider
+237-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:63:9-68:43
+238            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+238-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:64:13-76
+239            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.mobileadsinitprovider"
+239-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:65:13-73
+240            android:exported="false"
+240-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:66:13-37
+241            android:initOrder="100" />
+241-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:67:13-36
+242
+243        <service
+243-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:70:9-74:43
+244            android:name="com.google.android.gms.ads.AdService"
+244-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:71:13-64
+245            android:enabled="true"
+245-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:72:13-35
+246            android:exported="false" />
+246-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:73:13-37
+247
+248        <activity
+248-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:76:9-80:43
+249            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+249-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:77:13-82
+250            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+250-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:78:13-122
+251            android:exported="false" />
+251-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:79:13-37
+252        <activity
+252-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:81:9-88:43
+253            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+253-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:82:13-82
+254            android:excludeFromRecents="true"
+254-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:83:13-46
+255            android:exported="false"
+255-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:84:13-37
+256            android:launchMode="singleTask"
+256-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:85:13-44
+257            android:taskAffinity=""
+257-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:86:13-36
+258            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+258-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:87:13-72
+259
+260        <property
+260-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:90:9-92:62
+261            android:name="android.adservices.AD_SERVICES_CONFIG"
+261-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:91:13-65
+262            android:resource="@xml/gma_ad_services_config" />
+262-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:92:13-59
+263
+264        <provider
+264-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+265            android:name="androidx.startup.InitializationProvider"
+265-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+266            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.androidx-startup"
+266-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+267            android:exported="false" >
+267-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
 268            <meta-data
-268-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
-269                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-269-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+268-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+269                android:name="androidx.work.WorkManagerInitializer"
+269-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
 270                android:value="androidx.startup" />
-270-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+270-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
 271            <meta-data
-271-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-272                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-272-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+271-->[androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+272                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+272-->[androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 273                android:value="androidx.startup" />
-273-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-274        </provider>
-275
-276        <service
-276-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
-277            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-277-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
-278            android:directBootAware="false"
-278-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
-279            android:enabled="@bool/enable_system_alarm_service_default"
-279-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
-280            android:exported="false" />
-280-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
-281        <service
-281-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
-282            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-282-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
-283            android:directBootAware="false"
-283-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
-284            android:enabled="@bool/enable_system_job_service_default"
-284-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
-285            android:exported="true"
-285-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
-286            android:permission="android.permission.BIND_JOB_SERVICE" />
-286-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+273-->[androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+274            <meta-data
+274-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+275                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+275-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+276                android:value="androidx.startup" />
+276-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+277            <meta-data
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+278                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+279                android:value="androidx.startup" />
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+280        </provider>
+281
+282        <service
+282-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+283            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+283-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+284            android:directBootAware="false"
+284-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+285            android:enabled="@bool/enable_system_alarm_service_default"
+285-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+286            android:exported="false" />
+286-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
 287        <service
-287-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
-288            android:name="androidx.work.impl.foreground.SystemForegroundService"
-288-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+287-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+288            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+288-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
 289            android:directBootAware="false"
-289-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
-290            android:enabled="@bool/enable_system_foreground_service_default"
-290-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
-291            android:exported="false" />
-291-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
-292
-293        <receiver
-293-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
-294            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-294-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+289-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+290            android:enabled="@bool/enable_system_job_service_default"
+290-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+291            android:exported="true"
+291-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+292            android:permission="android.permission.BIND_JOB_SERVICE" />
+292-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+293        <service
+293-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+294            android:name="androidx.work.impl.foreground.SystemForegroundService"
+294-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
 295            android:directBootAware="false"
-295-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
-296            android:enabled="true"
-296-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+295-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+296            android:enabled="@bool/enable_system_foreground_service_default"
+296-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
 297            android:exported="false" />
-297-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
-298        <receiver
-298-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
-299            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-299-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
-300            android:directBootAware="false"
-300-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
-301            android:enabled="false"
-301-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
-302            android:exported="false" >
-302-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
-303            <intent-filter>
-303-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
-304                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-304-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
-304-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
-305                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-305-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
-305-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
-306            </intent-filter>
-307        </receiver>
-308        <receiver
-308-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
-309            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-309-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
-310            android:directBootAware="false"
-310-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
-311            android:enabled="false"
-311-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
-312            android:exported="false" >
-312-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
-313            <intent-filter>
-313-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
-314                <action android:name="android.intent.action.BATTERY_OKAY" />
-314-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
-314-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
-315                <action android:name="android.intent.action.BATTERY_LOW" />
-315-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
-315-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
-316            </intent-filter>
-317        </receiver>
-318        <receiver
-318-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
-319            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-319-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
-320            android:directBootAware="false"
-320-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
-321            android:enabled="false"
-321-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
-322            android:exported="false" >
-322-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
-323            <intent-filter>
-323-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
-324                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-324-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
-324-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
-325                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-325-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
-325-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
-326            </intent-filter>
-327        </receiver>
-328        <receiver
-328-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
-329            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-329-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
-330            android:directBootAware="false"
-330-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
-331            android:enabled="false"
-331-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
-332            android:exported="false" >
-332-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
-333            <intent-filter>
-333-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
-334                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-334-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
-334-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
-335            </intent-filter>
-336        </receiver>
-337        <receiver
-337-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
-338            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-338-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
-339            android:directBootAware="false"
-339-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
-340            android:enabled="false"
-340-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
-341            android:exported="false" >
-341-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
-342            <intent-filter>
-342-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
-343                <action android:name="android.intent.action.BOOT_COMPLETED" />
-343-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
-343-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
-344                <action android:name="android.intent.action.TIME_SET" />
-344-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
-344-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
-345                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-345-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
-345-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
-346            </intent-filter>
-347        </receiver>
-348        <receiver
-348-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
-349            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-349-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
-350            android:directBootAware="false"
-350-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
-351            android:enabled="@bool/enable_system_alarm_service_default"
-351-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
-352            android:exported="false" >
-352-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
-353            <intent-filter>
-353-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
-354                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-354-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
-354-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
-355            </intent-filter>
-356        </receiver>
-357        <receiver
-357-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
-358            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-358-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
-359            android:directBootAware="false"
-359-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
-360            android:enabled="true"
-360-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
-361            android:exported="true"
-361-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
-362            android:permission="android.permission.DUMP" >
-362-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
-363            <intent-filter>
-363-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
-364                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-364-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
-364-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
-365            </intent-filter>
-366        </receiver>
-367
-368        <service
-368-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
-369            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-369-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:9:13-91
-370            android:directBootAware="true"
-370-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:17:13-43
-371            android:exported="false" >
-371-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:10:13-37
-372            <meta-data
-372-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:11:13-13:85
-373                android:name="com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar"
-373-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:12:17-132
-374                android:value="com.google.firebase.components.ComponentRegistrar" />
-374-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:13:17-82
-375            <meta-data
-375-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/DELL/.gradle/caches/transforms-3/2a0a2ad5acd829f429af371dafbd5020/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
-376                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
-376-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/DELL/.gradle/caches/transforms-3/2a0a2ad5acd829f429af371dafbd5020/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
-377                android:value="com.google.firebase.components.ComponentRegistrar" />
-377-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/DELL/.gradle/caches/transforms-3/2a0a2ad5acd829f429af371dafbd5020/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+297-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+298
+299        <receiver
+299-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+300            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+300-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+301            android:directBootAware="false"
+301-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+302            android:enabled="true"
+302-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+303            android:exported="false" />
+303-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+304        <receiver
+304-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+305            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+305-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+306            android:directBootAware="false"
+306-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+307            android:enabled="false"
+307-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+308            android:exported="false" >
+308-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+309            <intent-filter>
+309-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+310                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+310-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+310-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+311                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+311-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+311-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+312            </intent-filter>
+313        </receiver>
+314        <receiver
+314-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+315            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+315-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+316            android:directBootAware="false"
+316-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+317            android:enabled="false"
+317-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+318            android:exported="false" >
+318-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+319            <intent-filter>
+319-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+320                <action android:name="android.intent.action.BATTERY_OKAY" />
+320-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+320-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+321                <action android:name="android.intent.action.BATTERY_LOW" />
+321-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+321-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+322            </intent-filter>
+323        </receiver>
+324        <receiver
+324-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+325            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+325-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+326            android:directBootAware="false"
+326-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+327            android:enabled="false"
+327-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+328            android:exported="false" >
+328-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+329            <intent-filter>
+329-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+330                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+330-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+330-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+331                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+331-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+331-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+332            </intent-filter>
+333        </receiver>
+334        <receiver
+334-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+335            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+335-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+336            android:directBootAware="false"
+336-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+337            android:enabled="false"
+337-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+338            android:exported="false" >
+338-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+339            <intent-filter>
+339-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+340                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+340-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+340-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+341            </intent-filter>
+342        </receiver>
+343        <receiver
+343-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+344            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+344-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+345            android:directBootAware="false"
+345-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+346            android:enabled="false"
+346-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+347            android:exported="false" >
+347-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+348            <intent-filter>
+348-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+349                <action android:name="android.intent.action.BOOT_COMPLETED" />
+349-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
+349-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
+350                <action android:name="android.intent.action.TIME_SET" />
+350-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+350-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+351                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+351-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+351-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+352            </intent-filter>
+353        </receiver>
+354        <receiver
+354-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+355            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+355-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+356            android:directBootAware="false"
+356-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+357            android:enabled="@bool/enable_system_alarm_service_default"
+357-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+358            android:exported="false" >
+358-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+359            <intent-filter>
+359-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+360                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+360-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+360-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+361            </intent-filter>
+362        </receiver>
+363        <receiver
+363-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+364            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+364-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+365            android:directBootAware="false"
+365-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+366            android:enabled="true"
+366-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+367            android:exported="true"
+367-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+368            android:permission="android.permission.DUMP" >
+368-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+369            <intent-filter>
+369-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+370                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+370-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+370-->[androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+371            </intent-filter>
+372        </receiver>
+373
+374        <service
+374-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
+375            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+375-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:9:13-91
+376            android:directBootAware="true"
+376-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:17:13-43
+377            android:exported="false" >
+377-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:10:13-37
 378            <meta-data
-378-->[com.google.mlkit:vision-common:17.0.0] /Users/DELL/.gradle/caches/transforms-3/ffefbd79f2e9dbad4d10d7600693b038/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
-379                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-379-->[com.google.mlkit:vision-common:17.0.0] /Users/DELL/.gradle/caches/transforms-3/ffefbd79f2e9dbad4d10d7600693b038/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:13:17-124
+378-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:11:13-13:85
+379                android:name="com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar"
+379-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:12:17-132
 380                android:value="com.google.firebase.components.ComponentRegistrar" />
-380-->[com.google.mlkit:vision-common:17.0.0] /Users/DELL/.gradle/caches/transforms-3/ffefbd79f2e9dbad4d10d7600693b038/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:14:17-82
+380-->[com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/86658f652bb0c3c5d2f7c4242a73ac32/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:13:17-82
 381            <meta-data
-381-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:20:13-22:85
-382                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-382-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:21:17-120
+381-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/DELL/.gradle/caches/transforms-3/2a0a2ad5acd829f429af371dafbd5020/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+382                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+382-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/DELL/.gradle/caches/transforms-3/2a0a2ad5acd829f429af371dafbd5020/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
 383                android:value="com.google.firebase.components.ComponentRegistrar" />
-383-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:22:17-82
-384        </service>
-385
-386        <provider
-386-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:9:9-13:38
-387            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-387-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:10:13-78
-388            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.mlkitinitprovider"
-388-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:11:13-69
-389            android:exported="false"
-389-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:12:13-37
-390            android:initOrder="99" />
-390-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:13:13-35
+383-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/DELL/.gradle/caches/transforms-3/2a0a2ad5acd829f429af371dafbd5020/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+384            <meta-data
+384-->[com.google.mlkit:vision-common:17.0.0] /Users/DELL/.gradle/caches/transforms-3/ffefbd79f2e9dbad4d10d7600693b038/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
+385                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+385-->[com.google.mlkit:vision-common:17.0.0] /Users/DELL/.gradle/caches/transforms-3/ffefbd79f2e9dbad4d10d7600693b038/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:13:17-124
+386                android:value="com.google.firebase.components.ComponentRegistrar" />
+386-->[com.google.mlkit:vision-common:17.0.0] /Users/DELL/.gradle/caches/transforms-3/ffefbd79f2e9dbad4d10d7600693b038/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:14:17-82
+387            <meta-data
+387-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:20:13-22:85
+388                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+388-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:21:17-120
+389                android:value="com.google.firebase.components.ComponentRegistrar" />
+389-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:22:17-82
+390        </service>
 391
-392        <activity
-392-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-393            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-393-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-394            android:exported="false"
-394-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-395            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-395-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-396        <activity
-396-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:19:9-23:75
-397            android:name="com.facebook.ads.AudienceNetworkActivity"
-397-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:20:13-68
-398            android:configChanges="keyboardHidden|orientation|screenSize"
-398-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:21:13-74
-399            android:exported="false"
-399-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:22:13-37
-400            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-400-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:23:13-72
-401
-402        <provider
-402-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:25:9-28:40
-403            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-403-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:26:13-75
-404            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.AudienceNetworkContentProvider"
-404-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:27:13-82
-405            android:exported="false" />
-405-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:28:13-37
-406
-407        <receiver
-407-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
-408            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-408-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
-409            android:enabled="true"
-409-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
-410            android:exported="false" >
-410-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
-411        </receiver>
+392        <provider
+392-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:9:9-13:38
+393            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+393-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:10:13-78
+394            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.mlkitinitprovider"
+394-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:11:13-69
+395            android:exported="false"
+395-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:12:13-37
+396            android:initOrder="99" />
+396-->[com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/233fad568bcf4ab6245df4508810e889/transformed/jetified-common-18.0.0/AndroidManifest.xml:13:13-35
+397
+398        <activity
+398-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+399            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+399-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+400            android:exported="false"
+400-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+401            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+401-->[com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+402        <activity
+402-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:19:9-23:75
+403            android:name="com.facebook.ads.AudienceNetworkActivity"
+403-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:20:13-68
+404            android:configChanges="keyboardHidden|orientation|screenSize"
+404-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:21:13-74
+405            android:exported="false"
+405-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:22:13-37
+406            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+406-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:23:13-72
+407
+408        <provider
+408-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:25:9-28:40
+409            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+409-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:26:13-75
+410            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.AudienceNetworkContentProvider"
+410-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:27:13-82
+411            android:exported="false" />
+411-->[com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:28:13-37
 412
-413        <service
-413-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
-414            android:name="com.google.android.gms.measurement.AppMeasurementService"
-414-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+413        <receiver
+413-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+414            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+414-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
 415            android:enabled="true"
-415-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
-416            android:exported="false" />
-416-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
-417        <service
-417-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
-418            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-418-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
-419            android:enabled="true"
-419-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
-420            android:exported="false"
-420-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
-421            android:permission="android.permission.BIND_JOB_SERVICE" />
-421-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
-422
-423        <property
-423-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:90:9-92:62
-424            android:name="android.adservices.AD_SERVICES_CONFIG"
-424-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:91:13-65
-425            android:resource="@xml/ga_ad_services_config" />
-425-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:92:13-59
-426
-427        <provider
-427-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
-428            android:name="com.google.firebase.provider.FirebaseInitProvider"
-428-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-429            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.firebaseinitprovider"
-429-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
-430            android:directBootAware="true"
-430-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
-431            android:exported="false"
-431-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
-432            android:initOrder="100" />
-432-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
-433
-434        <uses-library
-434-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
-435            android:name="android.ext.adservices"
-435-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
-436            android:required="false" />
-436-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
-437        <uses-library
-437-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
-438            android:name="androidx.window.extensions"
-438-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
-439            android:required="false" />
-439-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+415-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+416            android:exported="false" >
+416-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+417        </receiver>
+418
+419        <service
+419-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+420            android:name="com.google.android.gms.measurement.AppMeasurementService"
+420-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+421            android:enabled="true"
+421-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+422            android:exported="false" />
+422-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+423        <service
+423-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+424            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+424-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+425            android:enabled="true"
+425-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+426            android:exported="false"
+426-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+427            android:permission="android.permission.BIND_JOB_SERVICE" />
+427-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
+428
+429        <property
+429-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:90:9-92:62
+430            android:name="android.adservices.AD_SERVICES_CONFIG"
+430-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:91:13-65
+431            android:resource="@xml/ga_ad_services_config" />
+431-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:92:13-59
+432
+433        <provider
+433-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+434            android:name="com.google.firebase.provider.FirebaseInitProvider"
+434-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+435            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.firebaseinitprovider"
+435-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+436            android:directBootAware="true"
+436-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+437            android:exported="false"
+437-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+438            android:initOrder="100" />
+438-->[com.google.firebase:firebase-common:20.4.2] /Users/DELL/.gradle/caches/transforms-3/10982b57be2118cdc43c34bad71c7c90/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+439
 440        <uses-library
-440-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
-441            android:name="androidx.window.sidecar"
-441-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+440-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+441            android:name="android.ext.adservices"
+441-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
 442            android:required="false" />
-442-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
-443
-444        <receiver
-444-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-445            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-445-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-446            android:directBootAware="false"
-446-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-447            android:enabled="true"
-447-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-448            android:exported="true"
-448-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-449            android:permission="android.permission.DUMP" >
-449-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-450            <intent-filter>
-450-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-451                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-451-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-451-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-452            </intent-filter>
-453            <intent-filter>
-453-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-454                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-454-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-454-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-455            </intent-filter>
+442-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+443        <uses-library
+443-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+444            android:name="androidx.window.extensions"
+444-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+445            android:required="false" />
+445-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+446        <uses-library
+446-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+447            android:name="androidx.window.sidecar"
+447-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+448            android:required="false" />
+448-->[androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+449
+450        <receiver
+450-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+451            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+451-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+452            android:directBootAware="false"
+452-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+453            android:enabled="true"
+453-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+454            android:exported="true"
+454-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+455            android:permission="android.permission.DUMP" >
+455-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 456            <intent-filter>
-456-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-457                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-457-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-457-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+456-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+457                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+457-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+457-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 458            </intent-filter>
 459            <intent-filter>
-459-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-460                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-460-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-460-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+459-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+460                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+460-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+460-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 461            </intent-filter>
-462        </receiver>
-463
-464        <service
-464-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
-465            android:name="androidx.room.MultiInstanceInvalidationService"
-465-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
-466            android:directBootAware="true"
-466-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
-467            android:exported="false" />
-467-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
-468        <service
-468-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
-469            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-469-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
-470            android:exported="false" >
-470-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
-471            <meta-data
-471-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
-472                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-472-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
-473                android:value="cct" />
-473-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
-474        </service>
-475        <service
-475-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
-476            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-476-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
-477            android:exported="false"
-477-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
-478            android:permission="android.permission.BIND_JOB_SERVICE" >
-478-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
-479        </service>
-480
-481        <receiver
-481-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
-482            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-482-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
-483            android:exported="false" />
-483-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
-484    </application>
-485
-486</manifest>
+462            <intent-filter>
+462-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+463                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+463-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+463-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+464            </intent-filter>
+465            <intent-filter>
+465-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+466                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+466-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+466-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+467            </intent-filter>
+468        </receiver>
+469
+470        <service
+470-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+471            android:name="androidx.room.MultiInstanceInvalidationService"
+471-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+472            android:directBootAware="true"
+472-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+473            android:exported="false" />
+473-->[androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+474        <service
+474-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+475            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+475-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+476            android:exported="false" >
+476-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+477            <meta-data
+477-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+478                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+478-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+479                android:value="cct" />
+479-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+480        </service>
+481        <service
+481-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+482            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+482-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+483            android:exported="false"
+483-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+484            android:permission="android.permission.BIND_JOB_SERVICE" >
+484-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+485        </service>
+486
+487        <receiver
+487-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+488            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+488-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+489            android:exported="false" />
+489-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/DELL/.gradle/caches/transforms-3/6b00294bd8e925bc8546a1cafb7ddf6f/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+490    </application>
+491
+492</manifest>

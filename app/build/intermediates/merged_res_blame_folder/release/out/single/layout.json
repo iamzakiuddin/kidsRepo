@@ -1,95 +1,99 @@
 [
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_video_play.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_video_play.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_surfing.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_surfing.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_home.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_home.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_video_learning.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_video_learning.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_video_learning.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_video_learning.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_list_start.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_list_start.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_periodic_elements.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_periodic_elements.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_item_video_list.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_item_video_list.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_surfing.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_surfing.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_sub.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_sub.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_exam_answer.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_exam_answer.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_exam_phonics.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_exam_phonics.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_setting.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_setting.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/message_layout.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/message_layout.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_splash.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_splash.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/periodic_element.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/periodic_element.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_exam_listen_guess.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_exam_listen_guess.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_splash.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_splash.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_item_related_list.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_item_related_list.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/synonym_item.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/synonym_item.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/item_notification_expand.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/item_notification_expand.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_home.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_home.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_list_home.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_list_home.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_list_video.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_list_video.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_item_video_list.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_item_video_list.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_main.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/item_notification_coll.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/item_notification_coll.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_privacy_policy.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_privacy_policy.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/periodic_element.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/periodic_element.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/item_notification_expand.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/item_notification_expand.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_list_start.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_list_start.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_setting.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_setting.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_riddle.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_riddle.xml"
-    },
-    {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_full_screen.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_full_screen.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_video_play.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_video_play.xml"
     },
     {
         "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_element_detail.xml",
         "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_element_detail.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_video_learning.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_video_learning.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_sub_list_home.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_sub_list_home.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_fun.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_fun.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/viewpager_layout.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/viewpager_layout.xml"
     },
     {
         "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_fun.xml",
         "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_fun.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_sub_list_home.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_sub_list_home.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_main_menu.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_item_related_list.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_item_related_list.xml"
+    },
+    {
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/word_image_item.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/word_image_item.xml"
     },
     {
         "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_riddle.xml",
@@ -104,59 +108,51 @@
         "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_synonyms.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_element_detail.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_element_detail.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_guide.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_guide.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_main.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_main.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_exam_question.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_exam_question.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/viewpager_layout.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/viewpager_layout.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_video_learning.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_video_learning.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/video_card_list.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/video_card_list.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_exam_listen_guess.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_exam_listen_guess.xml"
+    },
+    {
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_word_image.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_word_image.xml"
     },
     {
         "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_periodic_elements.xml",
         "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_periodic_elements.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/synonym_item.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/synonym_item.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_ask_me_anything.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_ask_me_anything.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_sub.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_sub.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/item_notification_coll.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/item_notification_coll.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_exam_question.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_exam_question.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_full_screen.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_full_screen.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_exam_phonics.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_exam_phonics.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/video_card_list.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/video_card_list.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_list_video.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_list_video.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_exam_answer.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_exam_answer.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_privacy_policy.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_privacy_policy.xml"
-    },
-    {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_main_menu.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_main_menu.xml"
-    },
-    {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_synonyms.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_synonyms.xml"
-    },
-    {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/activity_guide.xml",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/activity_guide.xml"
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-67:/layout/card_list_home.xml",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-69:/layout/card_list_home.xml"
     }
 ]

@@ -8,6 +8,7 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.R;
@@ -26,13 +27,22 @@ public final class ActivityMainMenuBinding implements ViewBinding {
   public final Button guide;
 
   @NonNull
+  public final Guideline guideline3;
+
+  @NonNull
+  public final Guideline guideline4;
+
+  @NonNull
   public final Button mySchool;
 
   private ActivityMainMenuBinding(@NonNull ConstraintLayout rootView, @NonNull Button funactivity,
-      @NonNull Button guide, @NonNull Button mySchool) {
+      @NonNull Button guide, @NonNull Guideline guideline3, @NonNull Guideline guideline4,
+      @NonNull Button mySchool) {
     this.rootView = rootView;
     this.funactivity = funactivity;
     this.guide = guide;
+    this.guideline3 = guideline3;
+    this.guideline4 = guideline4;
     this.mySchool = mySchool;
   }
 
@@ -75,13 +85,26 @@ public final class ActivityMainMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.guideline3;
+      Guideline guideline3 = ViewBindings.findChildViewById(rootView, id);
+      if (guideline3 == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline4;
+      Guideline guideline4 = ViewBindings.findChildViewById(rootView, id);
+      if (guideline4 == null) {
+        break missingId;
+      }
+
       id = R.id.mySchool;
       Button mySchool = ViewBindings.findChildViewById(rootView, id);
       if (mySchool == null) {
         break missingId;
       }
 
-      return new ActivityMainMenuBinding((ConstraintLayout) rootView, funactivity, guide, mySchool);
+      return new ActivityMainMenuBinding((ConstraintLayout) rootView, funactivity, guide,
+          guideline3, guideline4, mySchool);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-132:12
-INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-132:12
-INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-132:12
-INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-132:12
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-139:12
+INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-139:12
+INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-139:12
+INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:2:1-139:12
 MERGED from [androidx.databinding:viewbinding:8.2.1] /Users/DELL/.gradle/caches/transforms-3/9e77f89273b05d2a07db18ec4a985534/transformed/jetified-viewbinding-8.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/DELL/.gradle/caches/transforms-3/751ea8fd6715938c688ed56fba2f97ff/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/DELL/.gradle/caches/transforms-3/de91395e507ad6c1e33185275debf71a/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
@@ -54,10 +54,20 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] /U
 MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] /Users/DELL/.gradle/caches/transforms-3/d896ee244647d7ba95bb75568214dc92/transformed/jetified-play-services-measurement-base-21.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/DELL/.gradle/caches/transforms-3/67b9821b0ad903927592aa65ab3b3e59/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
 MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/DELL/.gradle/caches/transforms-3/7b2e81cf7a656456d08f2f3018ec317f/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ai.client.generativeai:generativeai:0.1.2] /Users/DELL/.gradle/caches/transforms-3/fc53c396dfe762c9c231de7cb7fcd6cf/transformed/jetified-generativeai-0.1.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-ktx:2.5.0] /Users/DELL/.gradle/caches/transforms-3/fc4de3695a19d274ae95aac66787ed3c/transformed/jetified-room-ktx-2.5.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/DELL/.gradle/caches/transforms-3/3fbf9c007f2633aeb71c05e919133770/transformed/jetified-core-12.1.0/AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/DELL/.gradle/caches/transforms-3/ffcbacfea6a628845f55a5e68768da32/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/DELL/.gradle/caches/transforms-3/061185fcc13314736fa01cc9e66cf49f/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/DELL/.gradle/caches/transforms-3/30bc9e0c828f957602b6ab52624b59ac/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/DELL/.gradle/caches/transforms-3/75f9260e960cb91c1073722c88ce98a1/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/DELL/.gradle/caches/transforms-3/6a53cfbfb9bfe53735b599ab82061abb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/1b1671c2c66cfe4aba3964f18385c03b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/DELL/.gradle/caches/transforms-3/4575c784321a9fc4666270d90b4c1456/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/DELL/.gradle/caches/transforms-3/6f02ad77a1c0289f86818f10cad36dc3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/DELL/.gradle/caches/transforms-3/48c0de35c37144082292baf25028c678/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/DELL/.gradle/caches/transforms-3/52b68bdc35720529c17a511a1beab613/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/DELL/.gradle/caches/transforms-3/5597532c4d9583ab981dda86978d2a7f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/DELL/.gradle/caches/transforms-3/b0db212d52dc28141c35ce1def7037a8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -67,16 +77,7 @@ MERGED from [androidx.browser:browser:1.4.0] /Users/DELL/.gradle/caches/transfor
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/DELL/.gradle/caches/transforms-3/aeb318066d077cc1bac5df410b7ce005/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/0fb55a16db3a201199220a2236263ae7/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/DELL/.gradle/caches/transforms-3/061185fcc13314736fa01cc9e66cf49f/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/DELL/.gradle/caches/transforms-3/30bc9e0c828f957602b6ab52624b59ac/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/DELL/.gradle/caches/transforms-3/75f9260e960cb91c1073722c88ce98a1/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/DELL/.gradle/caches/transforms-3/6a53cfbfb9bfe53735b599ab82061abb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/1b1671c2c66cfe4aba3964f18385c03b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/DELL/.gradle/caches/transforms-3/6f02ad77a1c0289f86818f10cad36dc3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/DELL/.gradle/caches/transforms-3/48c0de35c37144082292baf25028c678/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/DELL/.gradle/caches/transforms-3/4575c784321a9fc4666270d90b4c1456/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/DELL/.gradle/caches/transforms-3/1e1f2fc81b81591ef6f4be337767af93/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/DELL/.gradle/caches/transforms-3/bbf11c02eea6c5ec07c123298ccae0a1/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/DELL/.gradle/caches/transforms-3/0c4c5c41f3db85099cc21ac19ab81bf6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/DELL/.gradle/caches/transforms-3/6d08e3045173c9cb9d78c754acff9b16/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/DELL/.gradle/caches/transforms-3/38f376f8407fd55220abd41ee64a74d5/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -84,10 +85,11 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/DELL/.gradle/caches/tran
 MERGED from [androidx.customview:customview:1.1.0] /Users/DELL/.gradle/caches/transforms-3/6d2f2dbcefe0283f942defbaedff2e39/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] /Users/DELL/.gradle/caches/transforms-3/1faa764152fae0919e523e651619a884/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/DELL/.gradle/caches/transforms-3/404d11e57f24dcaa9b50da675d83a186/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/DELL/.gradle/caches/transforms-3/acc1720bd2f71e36e82feacb1fd36a45/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/7dd11f18dc4a0f2da71b2b65a7161e5e/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/3438f4ee55acd475038e5675520034a8/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f60b3bc3892490c66f95d7ca16875329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.6.2] /Users/DELL/.gradle/caches/transforms-3/629fb6063f24124d7d1e806455e80172/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
@@ -101,7 +103,6 @@ MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/DELL/.gradle/caches/transforms
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/DELL/.gradle/caches/transforms-3/169ad691098a50b505c481ca51ec4033/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/DELL/.gradle/caches/transforms-3/dc3457f52919550a9ced8bad9b26b3a4/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/DELL/.gradle/caches/transforms-3/38856fe0036fd2bb496c8e16a41d0354/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/DELL/.gradle/caches/transforms-3/1e854d53c89be20d2b0752673f15ead3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/DELL/.gradle/caches/transforms-3/25f7be50bc5138f68ca416745b15e259/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
@@ -179,6 +180,8 @@ MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gra
 MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/DELL/.gradle/caches/transforms-3/f0ce135b9905dd141db1c1af86fff8fa/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/86976e4d3d767f25e739f3cd9ddb86f5/transformed/jetified-play-services-measurement-sdk-api-21.5.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] /Users/DELL/.gradle/caches/transforms-3/86976e4d3d767f25e739f3cd9ddb86f5/transformed/jetified-play-services-measurement-sdk-api-21.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.1.2] /Users/DELL/.gradle/caches/transforms-3/fc53c396dfe762c9c231de7cb7fcd6cf/transformed/jetified-generativeai-0.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.1.2] /Users/DELL/.gradle/caches/transforms-3/fc53c396dfe762c9c231de7cb7fcd6cf/transformed/jetified-generativeai-0.1.2/AndroidManifest.xml:22:5-67
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/DELL/.gradle/caches/transforms-3/3fbf9c007f2633aeb71c05e919133770/transformed/jetified-core-12.1.0/AndroidManifest.xml:7:5-67
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/DELL/.gradle/caches/transforms-3/3fbf9c007f2633aeb71c05e919133770/transformed/jetified-core-12.1.0/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/DELL/.gradle/caches/transforms-3/c1ca337a2c3dd41e4ce0afd0dafcbe92/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
@@ -186,30 +189,30 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /User
 	android:name
 		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:7:5-79
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:7:22-77
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:9:5-11:11
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:7:5-9:38
 	android:maxSdkVersion
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:9:9-35
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:8:9-65
 queries
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:13:5-17:15
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:11:5-15:15
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:35:5-51:15
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:35:5-51:15
 MERGED from [com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:11:5-13:15
 MERGED from [com.facebook.android:audience-network-sdk:6.8.0] /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/AndroidManifest.xml:11:5-13:15
 intent#action:name:com.google.android.youtube.api.service.START
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:14:9-16:18
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:12:9-14:18
 action#com.google.android.youtube.api.service.START
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:15:13-83
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:13:13-83
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:15:21-80
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:13:21-80
 application
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:19:5-130:19
-INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:19:5-130:19
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:17:5-137:19
+INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:17:5-137:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/DELL/.gradle/caches/transforms-3/cc60b5696a93bafcec94fc9f85e3bfc1/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/DELL/.gradle/caches/transforms-3/cc60b5696a93bafcec94fc9f85e3bfc1/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/DELL/.gradle/caches/transforms-3/14e7ce4859bc26ad181c61fa5c8f632b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -268,14 +271,16 @@ MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] /Users/DELL/.gradle/caches/transforms-3/d896ee244647d7ba95bb75568214dc92/transformed/jetified-play-services-measurement-base-21.5.0/AndroidManifest.xml:7:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/3438f4ee55acd475038e5675520034a8/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/3438f4ee55acd475038e5675520034a8/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f60b3bc3892490c66f95d7ca16875329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
@@ -284,8 +289,6 @@ MERGED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transf
 MERGED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/DELL/.gradle/caches/transforms-3/dc3457f52919550a9ced8bad9b26b3a4/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/DELL/.gradle/caches/transforms-3/dc3457f52919550a9ced8bad9b26b3a4/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/DELL/.gradle/caches/transforms-3/1e854d53c89be20d2b0752673f15ead3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/DELL/.gradle/caches/transforms-3/1e854d53c89be20d2b0752673f15ead3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
@@ -301,223 +304,241 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/DELL/.gradle/cach
 	android:extractNativeLibs
 		INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:28:9-52
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:26:9-52
 	android:roundIcon
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:29:9-54
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:27:9-58
 	android:largeHeap
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:27:9-33
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:25:9-33
 	android:icon
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:25:9-43
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:23:9-47
 	android:fullBackupOnly
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:23:9-39
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:21:9-39
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:30:9-35
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:28:9-35
 	android:label
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:24:9-41
 	android:hardwareAccelerated
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:24:9-43
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:22:9-43
 	android:fullBackupContent
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:22:9-42
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:20:9-42
 	android:allowBackup
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:21:9-36
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:19:9-36
 	android:theme
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:31:9-40
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:29:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:32:9-44
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:20:9-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:18:9-49
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.WordImageActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:31:9-35:15
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:34:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:32:13-55
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.AskMeAnything
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:36:9-40:55
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:39:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:40:13-52
+	android:exported
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:37:13-51
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MachineLearningActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:33:9-37:15
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:41:9-44:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:36:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:44:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:35:13-37
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:34:13-61
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:42:13-61
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.ElementDetail
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:38:9-41:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:45:9-48:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:48:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:39:13-51
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:46:13-51
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PeriodicElementsActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:42:9-45:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:49:9-52:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:45:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:52:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:44:13-37
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:43:13-62
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:50:13-62
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.RiddleActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:46:9-49:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:53:9-56:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:49:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:56:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:48:13-37
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:47:13-52
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:54:13-52
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SynonymsActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:50:9-53:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:57:9-60:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:53:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:60:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:52:13-37
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:51:13-54
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:58:13-54
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.SurfingActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:54:9-57:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:61:9-64:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:57:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:64:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:56:13-37
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:55:13-44
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:62:13-44
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FunActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:58:9-61:52
-	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:61:13-49
-	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:60:13-37
-	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:59:13-49
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.GuideActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:62:9-65:52
-	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:65:13-49
-	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:64:13-37
-	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:63:13-51
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainMenu
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:66:9-68:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:65:9-68:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:68:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:67:13-46
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:69:9-79:20
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:66:13-49
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.GuideActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:69:9-72:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:72:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:71:13-36
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:71:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:70:13-52
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:70:13-51
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainMenu
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:73:9-75:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:74:13-46
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:76:9-86:20
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:79:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:78:13-36
+	android:name
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:77:13-52
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:73:13-78:29
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:80:13-85:29
 action#android.intent.action.MAIN
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:74:17-69
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:81:17-69
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:74:25-66
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:81:25-66
 action#android.intent.action.VIEW
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:17-69
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:17-69
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:75:25-66
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:77:17-77
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:84:17-77
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:77:27-74
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:84:27-74
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:80:9-82:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:87:9-89:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:82:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:89:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:81:13-50
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:88:13-50
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.HomeActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:83:9-85:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:90:9-92:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:85:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:92:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:84:13-50
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:91:13-50
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:86:9-88:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:93:9-95:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:88:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:95:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:87:13-49
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:89:9-91:52
-	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:91:13-49
-	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:90:13-56
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:92:9-94:52
-	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:94:13-49
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:96:9-98:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:98:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:93:13-61
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:97:13-56
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:99:9-101:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:101:13-49
+	android:name
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:100:13-61
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:95:9-97:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:102:9-104:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:97:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:104:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:96:13-62
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:103:13-62
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.ListVideoActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:98:9-100:52
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:105:9-107:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:100:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:107:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:99:13-61
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:106:13-61
 activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoLearningActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:101:9-103:52
-	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:103:13-49
-	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:102:13-65
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoPlayActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:104:9-107:54
-	android:configChanges
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:106:13-59
-	android:theme
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:107:13-51
-	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:105:13-61
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity
 ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:108:9-110:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:110:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:109:13-53
-activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PrivacyPolicyActivity
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:111:9-113:52
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:109:13-65
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoPlayActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:111:9-114:54
+	android:configChanges
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:113:13-59
+	android:theme
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:114:13-51
+	android:name
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:112:13-61
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:115:9-117:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:113:13-49
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:117:13-49
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:112:13-59
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:116:13-53
+activity#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PrivacyPolicyActivity
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:118:9-120:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:13-59
 service#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.pushnotification.MyFirebaseMessagingService
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:115:9-122:19
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:122:9-129:19
 	android:exported
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:117:13-37
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:124:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:116:13-72
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:123:13-72
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:118:13-121:29
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:125:13-128:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:17-78
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:17-78
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:119:25-75
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:25-75
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:17-81
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:17-81
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:120:25-78
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:25-78
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:124:9-126:61
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:131:9-133:61
 	android:value
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:126:13-58
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:133:13-58
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:125:13-69
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:132:13-69
 meta-data#com.google.android.gms.version
-ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:127:9-129:69
+ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:134:9-136:69
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f60b3bc3892490c66f95d7ca16875329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f60b3bc3892490c66f95d7ca16875329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:129:13-66
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:136:13-66
 	android:name
-		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:128:13-58
+		ADDED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml:135:13-58
 uses-sdk
 INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/AndroidManifest.xml
@@ -622,6 +643,8 @@ MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/D
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/DELL/.gradle/caches/transforms-3/67b9821b0ad903927592aa65ab3b3e59/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
 MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/DELL/.gradle/caches/transforms-3/7b2e81cf7a656456d08f2f3018ec317f/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/DELL/.gradle/caches/transforms-3/7b2e81cf7a656456d08f2f3018ec317f/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ai.client.generativeai:generativeai:0.1.2] /Users/DELL/.gradle/caches/transforms-3/fc53c396dfe762c9c231de7cb7fcd6cf/transformed/jetified-generativeai-0.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:generativeai:0.1.2] /Users/DELL/.gradle/caches/transforms-3/fc53c396dfe762c9c231de7cb7fcd6cf/transformed/jetified-generativeai-0.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.5.0] /Users/DELL/.gradle/caches/transforms-3/fc4de3695a19d274ae95aac66787ed3c/transformed/jetified-room-ktx-2.5.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.5.0] /Users/DELL/.gradle/caches/transforms-3/fc4de3695a19d274ae95aac66787ed3c/transformed/jetified-room-ktx-2.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/DELL/.gradle/caches/transforms-3/3fbf9c007f2633aeb71c05e919133770/transformed/jetified-core-12.1.0/AndroidManifest.xml:5:5-44
@@ -630,6 +653,24 @@ MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/DELL/.gradle/cach
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/DELL/.gradle/caches/transforms-3/ffcbacfea6a628845f55a5e68768da32/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/DELL/.gradle/caches/transforms-3/061185fcc13314736fa01cc9e66cf49f/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/DELL/.gradle/caches/transforms-3/061185fcc13314736fa01cc9e66cf49f/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/DELL/.gradle/caches/transforms-3/30bc9e0c828f957602b6ab52624b59ac/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/DELL/.gradle/caches/transforms-3/30bc9e0c828f957602b6ab52624b59ac/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/DELL/.gradle/caches/transforms-3/75f9260e960cb91c1073722c88ce98a1/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/DELL/.gradle/caches/transforms-3/75f9260e960cb91c1073722c88ce98a1/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/DELL/.gradle/caches/transforms-3/6a53cfbfb9bfe53735b599ab82061abb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/DELL/.gradle/caches/transforms-3/6a53cfbfb9bfe53735b599ab82061abb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/1b1671c2c66cfe4aba3964f18385c03b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/1b1671c2c66cfe4aba3964f18385c03b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/DELL/.gradle/caches/transforms-3/4575c784321a9fc4666270d90b4c1456/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/DELL/.gradle/caches/transforms-3/4575c784321a9fc4666270d90b4c1456/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/DELL/.gradle/caches/transforms-3/6f02ad77a1c0289f86818f10cad36dc3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/DELL/.gradle/caches/transforms-3/6f02ad77a1c0289f86818f10cad36dc3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/DELL/.gradle/caches/transforms-3/48c0de35c37144082292baf25028c678/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/DELL/.gradle/caches/transforms-3/48c0de35c37144082292baf25028c678/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/DELL/.gradle/caches/transforms-3/52b68bdc35720529c17a511a1beab613/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/DELL/.gradle/caches/transforms-3/52b68bdc35720529c17a511a1beab613/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/DELL/.gradle/caches/transforms-3/5597532c4d9583ab981dda86978d2a7f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -648,26 +689,8 @@ MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /User
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/0fb55a16db3a201199220a2236263ae7/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/DELL/.gradle/caches/transforms-3/061185fcc13314736fa01cc9e66cf49f/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/DELL/.gradle/caches/transforms-3/061185fcc13314736fa01cc9e66cf49f/transformed/jetified-fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/DELL/.gradle/caches/transforms-3/30bc9e0c828f957602b6ab52624b59ac/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/DELL/.gradle/caches/transforms-3/30bc9e0c828f957602b6ab52624b59ac/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/DELL/.gradle/caches/transforms-3/75f9260e960cb91c1073722c88ce98a1/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/DELL/.gradle/caches/transforms-3/75f9260e960cb91c1073722c88ce98a1/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/DELL/.gradle/caches/transforms-3/6a53cfbfb9bfe53735b599ab82061abb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/DELL/.gradle/caches/transforms-3/6a53cfbfb9bfe53735b599ab82061abb/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/1b1671c2c66cfe4aba3964f18385c03b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/1b1671c2c66cfe4aba3964f18385c03b/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/DELL/.gradle/caches/transforms-3/6f02ad77a1c0289f86818f10cad36dc3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/DELL/.gradle/caches/transforms-3/6f02ad77a1c0289f86818f10cad36dc3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/DELL/.gradle/caches/transforms-3/48c0de35c37144082292baf25028c678/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/DELL/.gradle/caches/transforms-3/48c0de35c37144082292baf25028c678/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/DELL/.gradle/caches/transforms-3/4575c784321a9fc4666270d90b4c1456/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/DELL/.gradle/caches/transforms-3/4575c784321a9fc4666270d90b4c1456/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/DELL/.gradle/caches/transforms-3/1e1f2fc81b81591ef6f4be337767af93/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.9.0] /Users/DELL/.gradle/caches/transforms-3/1e1f2fc81b81591ef6f4be337767af93/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/DELL/.gradle/caches/transforms-3/bbf11c02eea6c5ec07c123298ccae0a1/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/DELL/.gradle/caches/transforms-3/bbf11c02eea6c5ec07c123298ccae0a1/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/DELL/.gradle/caches/transforms-3/0c4c5c41f3db85099cc21ac19ab81bf6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/DELL/.gradle/caches/transforms-3/0c4c5c41f3db85099cc21ac19ab81bf6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/DELL/.gradle/caches/transforms-3/6d08e3045173c9cb9d78c754acff9b16/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -682,14 +705,16 @@ MERGED from [androidx.transition:transition:1.4.1] /Users/DELL/.gradle/caches/tr
 MERGED from [androidx.transition:transition:1.4.1] /Users/DELL/.gradle/caches/transforms-3/1faa764152fae0919e523e651619a884/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/DELL/.gradle/caches/transforms-3/404d11e57f24dcaa9b50da675d83a186/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/DELL/.gradle/caches/transforms-3/404d11e57f24dcaa9b50da675d83a186/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/DELL/.gradle/caches/transforms-3/acc1720bd2f71e36e82feacb1fd36a45/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/DELL/.gradle/caches/transforms-3/acc1720bd2f71e36e82feacb1fd36a45/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/7dd11f18dc4a0f2da71b2b65a7161e5e/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/DELL/.gradle/caches/transforms-3/7dd11f18dc4a0f2da71b2b65a7161e5e/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/3438f4ee55acd475038e5675520034a8/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/3438f4ee55acd475038e5675520034a8/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f60b3bc3892490c66f95d7ca16875329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
@@ -716,8 +741,6 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/DELL/.gradle/ca
 MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/DELL/.gradle/caches/transforms-3/dc3457f52919550a9ced8bad9b26b3a4/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/DELL/.gradle/caches/transforms-3/38856fe0036fd2bb496c8e16a41d0354/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/DELL/.gradle/caches/transforms-3/38856fe0036fd2bb496c8e16a41d0354/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/DELL/.gradle/caches/transforms-3/1e854d53c89be20d2b0752673f15ead3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/DELL/.gradle/caches/transforms-3/1e854d53c89be20d2b0752673f15ead3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/DELL/.gradle/caches/transforms-3/25f7be50bc5138f68ca416745b15e259/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -1355,18 +1378,18 @@ ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-
 		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/DELL/.gradle/caches/transforms-3/a3b5ae3197de65660f8045c9a0638f56/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-uses-library#android.ext.adservices
-ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
-	android:required
-		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
-	android:name
-		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
 	android:value
 		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/DELL/.gradle/caches/transforms-3/12d0b263019b2794e258950a3198bf80/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/DELL/.gradle/caches/transforms-3/929dc76f56b1ce72fe016d4035011c8f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required
@@ -1380,35 +1403,25 @@ ADDED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-
 	android:name
 		ADDED from [androidx.window:window:1.0.0] /Users/DELL/.gradle/caches/transforms-3/42122404fbedf3f66ba9271a2f85361e/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 permission#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 uses-permission#com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.9.0] /Users/DELL/.gradle/caches/transforms-3/6067715e524d5a977ac58a2832ba487c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
-	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
-	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
-	android:name
-		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/cc3599e8e8d786b00cac6e4c63b6a68f/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
@@ -1451,6 +1464,16 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/DELL/.gradle/caches/transforms-3/33cda0d8effa6d1c38787b8ed7400521/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/DELL/.gradle/caches/transforms-3/1c62b5434d9ae3724b9b3a03c847af5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
 meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
 ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/DELL/.gradle/caches/transforms-3/6b3823874db86ae8c9ab7fb31b978e94/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
 	android:value

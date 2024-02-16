@@ -4,6 +4,7 @@ import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.Periodi
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.PeriodicElementResponseItem
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.RiddleResponse
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.SynonymsResponse
+import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.WordImageResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Header
@@ -31,4 +32,10 @@ interface RestApi {
         @Url baseUrl: String,
         @Header("X-RapidAPI-Key") key: String,
         @Header("X-RapidAPI-Host") host: String) : Response<PeriodicElementResponse>
+
+    @GET
+    suspend fun getWordImage(
+        @Url baseUrl: String,
+        @Header("X-RapidAPI-Key") key: String,
+        @Header("X-RapidAPI-Host") host: String) : Response<WordImageResponse>
 }

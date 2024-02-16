@@ -16,6 +16,7 @@ class FunActivity : AppCompatActivity() {
     var periodicTable: Button? = null
     var machineLearningActivity: Button? = null
     var askMeAnything : Button? = null
+    var wordToImage : Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,6 +46,10 @@ class FunActivity : AppCompatActivity() {
             startActivity(Intent(this,AskMeAnything::class.java))
         }
 
+        wordToImage?.setOnClickListener {
+            startActivity(Intent(this,WordImageActivity::class.java))
+        }
+
     }
 
     private fun initUI() {
@@ -54,5 +59,6 @@ class FunActivity : AppCompatActivity() {
         periodicTable = findViewById(R.id.learning_periodic_table)
         machineLearningActivity = findViewById(R.id.machine_learning)
         askMeAnything = findViewById(R.id.ask_me_anything)
+        wordToImage = findViewById(R.id.word_image)
     }
 }

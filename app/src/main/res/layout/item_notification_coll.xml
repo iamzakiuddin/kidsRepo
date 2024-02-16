@@ -17,7 +17,7 @@
             android:paddingLeft="4dp"
             android:paddingRight="6dp"
             android:paddingBottom="1dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_launcher_new" />
 
 
     </RelativeLayout>

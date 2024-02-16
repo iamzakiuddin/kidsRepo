@@ -8,6 +8,7 @@ import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.Periodi
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.PeriodicElementResponseItem
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.RiddleResponse
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.SynonymsResponse
+import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.WordImageResponse
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.network.NetworkResources
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.network.NetworkUtil
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.network.Repository
@@ -19,6 +20,9 @@ class FunActivityViewModel : ViewModel(){
 
     private var synonymsResponse = MutableLiveData<NetworkResources<SynonymsResponse>>()
     var synonymsResponseObserver: LiveData<NetworkResources<SynonymsResponse>> = synonymsResponse
+
+    private var wordImageResponse = MutableLiveData<NetworkResources<WordImageResponse>>()
+    var wordImageResponseObserver: LiveData<NetworkResources<WordImageResponse>> = wordImageResponse
 
     private var riddleResponse = MutableLiveData<NetworkResources<RiddleResponse>>()
     var riddleResponseObserver: LiveData<NetworkResources<RiddleResponse>> = riddleResponse
@@ -38,6 +42,16 @@ class FunActivityViewModel : ViewModel(){
     }
     fun synonymsResponseObserver():LiveData<NetworkResources<SynonymsResponse>>{
         return synonymsResponseObserver
+    }
+
+    fun getWordImage(word: String){
+        wordImageResponse.value = NetworkResources.loading()
+        viewModelScope.launch {
+            wordImageResponse.value = repository?.getWordImage(word)
+        }
+    }
+    fun wordImageResponseObserver():LiveData<NetworkResources<WordImageResponse>>{
+        return wordImageResponseObserver
     }
 
     fun getRiddle(){

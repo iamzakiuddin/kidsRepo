@@ -4,10 +4,12 @@ package com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.EditText;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.R;
@@ -20,12 +22,34 @@ public final class ActivityAskMeAnythingBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView responseText;
+  public final ConstraintLayout appBar;
+
+  @NonNull
+  public final ImageView back;
+
+  @NonNull
+  public final RecyclerView chatListView;
+
+  @NonNull
+  public final ConstraintLayout inputContainer;
+
+  @NonNull
+  public final EditText searchField;
+
+  @NonNull
+  public final ImageView send;
 
   private ActivityAskMeAnythingBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView responseText) {
+      @NonNull ConstraintLayout appBar, @NonNull ImageView back, @NonNull RecyclerView chatListView,
+      @NonNull ConstraintLayout inputContainer, @NonNull EditText searchField,
+      @NonNull ImageView send) {
     this.rootView = rootView;
-    this.responseText = responseText;
+    this.appBar = appBar;
+    this.back = back;
+    this.chatListView = chatListView;
+    this.inputContainer = inputContainer;
+    this.searchField = searchField;
+    this.send = send;
   }
 
   @Override
@@ -55,13 +79,44 @@ public final class ActivityAskMeAnythingBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.responseText;
-      TextView responseText = ViewBindings.findChildViewById(rootView, id);
-      if (responseText == null) {
+      id = R.id.appBar;
+      ConstraintLayout appBar = ViewBindings.findChildViewById(rootView, id);
+      if (appBar == null) {
         break missingId;
       }
 
-      return new ActivityAskMeAnythingBinding((ConstraintLayout) rootView, responseText);
+      id = R.id.back;
+      ImageView back = ViewBindings.findChildViewById(rootView, id);
+      if (back == null) {
+        break missingId;
+      }
+
+      id = R.id.chatListView;
+      RecyclerView chatListView = ViewBindings.findChildViewById(rootView, id);
+      if (chatListView == null) {
+        break missingId;
+      }
+
+      id = R.id.inputContainer;
+      ConstraintLayout inputContainer = ViewBindings.findChildViewById(rootView, id);
+      if (inputContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.searchField;
+      EditText searchField = ViewBindings.findChildViewById(rootView, id);
+      if (searchField == null) {
+        break missingId;
+      }
+
+      id = R.id.send;
+      ImageView send = ViewBindings.findChildViewById(rootView, id);
+      if (send == null) {
+        break missingId;
+      }
+
+      return new ActivityAskMeAnythingBinding((ConstraintLayout) rootView, appBar, back,
+          chatListView, inputContainer, searchField, send);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

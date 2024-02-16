@@ -96,7 +96,7 @@ import java.util.*
             builder.setSmallIcon(R.drawable.notification_icon)
             builder.color = ContextCompat.getColor(context, R.color.colorBlack)
 
-            expandedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher)
+            expandedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher_new)
             expandedView.setTextViewText(
                 R.id.timestamp,
                 DateUtils.formatDateTime(
@@ -106,7 +106,7 @@ import java.util.*
                 )
             )
 
-            collapsedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher)
+            collapsedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher_new)
             collapsedView.setTextViewText(
                 R.id.timestamp,
                 DateUtils.formatDateTime(
@@ -118,7 +118,7 @@ import java.util.*
         } else {
             builder.setSmallIcon(R.drawable.notification_icon)
 
-            expandedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher)
+            expandedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher_new)
             expandedView.setTextViewText(
                 R.id.timestamp,
                 DateUtils.formatDateTime(
@@ -128,7 +128,7 @@ import java.util.*
                 )
             )
 
-            collapsedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher)
+            collapsedView.setImageViewResource(R.id.big_icon, R.mipmap.ic_launcher_new)
             collapsedView.setTextViewText(
                 R.id.timestamp,
                 DateUtils.formatDateTime(

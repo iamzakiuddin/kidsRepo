@@ -9,6 +9,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.Guideline;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -19,7 +21,13 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
+
+  @NonNull
+  public final ImageView back;
+
+  @NonNull
+  public final Guideline guideline5;
 
   @NonNull
   public final ImageView imgExitApp;
@@ -39,10 +47,13 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView rvCategory;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull ImageView imgExitApp,
-      @NonNull ImageView imgNotice, @NonNull ImageView imgSetting, @NonNull RelativeLayout llAdView,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView back,
+      @NonNull Guideline guideline5, @NonNull ImageView imgExitApp, @NonNull ImageView imgNotice,
+      @NonNull ImageView imgSetting, @NonNull RelativeLayout llAdView,
       @NonNull LinearLayout llAdViewFacebook, @NonNull RecyclerView rvCategory) {
     this.rootView = rootView;
+    this.back = back;
+    this.guideline5 = guideline5;
     this.imgExitApp = imgExitApp;
     this.imgNotice = imgNotice;
     this.imgSetting = imgSetting;
@@ -53,7 +64,7 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -78,6 +89,18 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.back;
+      ImageView back = ViewBindings.findChildViewById(rootView, id);
+      if (back == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline5;
+      Guideline guideline5 = ViewBindings.findChildViewById(rootView, id);
+      if (guideline5 == null) {
+        break missingId;
+      }
+
       id = R.id.imgExitApp;
       ImageView imgExitApp = ViewBindings.findChildViewById(rootView, id);
       if (imgExitApp == null) {
@@ -114,8 +137,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, imgExitApp, imgNotice, imgSetting,
-          llAdView, llAdViewFacebook, rvCategory);
+      return new ActivityMainBinding((ConstraintLayout) rootView, back, guideline5, imgExitApp,
+          imgNotice, imgSetting, llAdView, llAdViewFacebook, rvCategory);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

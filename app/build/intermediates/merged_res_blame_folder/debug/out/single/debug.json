@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_hibiscus.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/hibiscus.png"
-    },
-    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_pharmacist.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/pharmacist.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_hibiscus.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/hibiscus.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -56,12 +56,12 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/layout/activity_exam_listen_guess.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_painter.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/painter.png"
-    },
-    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_engineer.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/engineer.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_painter.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/painter.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_nectarine.png.flat",
@@ -84,16 +84,16 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/rice.png"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_twenty_20.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/twenty_20.png"
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_container_truck.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/container_truck.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_elephant.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/elephant.png"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_container_truck.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/container_truck.png"
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_twenty_20.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/twenty_20.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_neck.png.flat",
@@ -196,16 +196,16 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/anim/bounce_amn.xml"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_btn_home.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/btn_home.png"
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_nose.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/nose.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_home_day.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/home_day.png"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_nose.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/nose.png"
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_btn_home.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/btn_home.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_lecturer.png.flat",
@@ -412,6 +412,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/spain.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-hdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-hdpi/ic_launcher_new_foreground.webp"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_door.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/door.png"
     },
@@ -430,6 +434,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_q.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/q.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/layout_message_layout.xml.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/layout/message_layout.xml"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_police_car.png.flat",
@@ -544,12 +552,20 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/purple_mallow.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable-mdpi_button_bg.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable-mdpi/button_bg.png"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_beer.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/beer.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_c_cat.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/c_cat.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-anydpi-v26_ic_launcher_new.xml.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-anydpi-v26/ic_launcher_new.xml"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_puffin.png.flat",
@@ -654,6 +670,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_book.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/book.png"
+    },
+    {
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_routines.jpeg.flat",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/routines.jpeg"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_belt.png.flat",
@@ -856,12 +876,12 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/tulips.png"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_h_horse.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/h_horse.png"
-    },
-    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_smiling.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/smiling.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_h_horse.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/h_horse.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_have_lunch.jpg.flat",
@@ -1032,6 +1052,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_message_background_secondary.xml.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/message_background_secondary.xml"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_ribonl.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/ribonl.png"
     },
@@ -1050,10 +1074,6 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_red.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/red.png"
-    },
-    {
-        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/layout_activity_ask_me_anything.xml.flat",
-        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/layout/activity_ask_me_anything.xml"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_soup.png.flat",
@@ -1094,6 +1114,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_school_bag.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/school_bag.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable-xhdpi_button_bg.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable-xhdpi/button_bg.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_blackberry.png.flat",
@@ -1140,12 +1164,12 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_south_korea.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/south_korea.png"
-    },
-    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_vt_shape.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/vt_shape.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_south_korea.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/south_korea.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_bed.png.flat",
@@ -1182,6 +1206,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_two_2.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/two_2.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xxhdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xxhdpi/ic_launcher_new_foreground.webp"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_bike.png.flat",
@@ -1272,6 +1300,14 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/layout/card_exam_phonics.xml"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xxhdpi_ic_launcher_new.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xxhdpi/ic_launcher_new.webp"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-mdpi_ic_launcher_new.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-mdpi/ic_launcher_new.webp"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_vt_number.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/vt_number.png"
     },
@@ -1288,12 +1324,12 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/mexico.png"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_btn_back_150.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/btn_back_150.png"
-    },
-    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_lifeguard.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/lifeguard.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_btn_back_150.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/btn_back_150.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_z.png.flat",
@@ -1386,6 +1422,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_bottle.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/bottle.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xhdpi_ic_launcher_new.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xhdpi/ic_launcher_new.webp"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_saudi_arabia.png.flat",
@@ -1544,6 +1584,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/carrot.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-hdpi_ic_launcher_new_round.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-hdpi/ic_launcher_new_round.webp"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_ship.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/ship.png"
     },
@@ -1558,6 +1602,14 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_ham.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/ham.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/font_atma_bold.ttf.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/font/atma_bold.ttf"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/font_atma_light.ttf.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/font/atma_light.ttf"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_apricot.png.flat",
@@ -1586,6 +1638,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_st_small.jpg.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/st_small.jpg"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xxxhdpi_ic_launcher_new.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xxxhdpi/ic_launcher_new.webp"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_y.png.flat",
@@ -1724,8 +1780,20 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/yogurt.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xhdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xhdpi/ic_launcher_new_foreground.webp"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xxxhdpi_ic_launcher_new_round.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xxxhdpi/ic_launcher_new_round.webp"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_angry.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/angry.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable-hdpi_button_bg.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable-hdpi/button_bg.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_watermelon.png.flat",
@@ -1762,6 +1830,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_cycling.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/cycling.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable-xxhdpi_button_bg.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable-xxhdpi/button_bg.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_desk.png.flat",
@@ -1874,6 +1946,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_karate.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/karate.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/layout_word_image_item.xml.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/layout/word_image_item.xml"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_btn_home_150.png.flat",
@@ -2076,6 +2152,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/hexagon.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-mdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-mdpi/ic_launcher_new_foreground.webp"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_knee.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/knee.png"
     },
@@ -2132,6 +2212,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/t.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-anydpi-v26_ic_launcher_new_round.xml.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-anydpi-v26/ic_launcher_new_round.xml"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_u.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/u.png"
     },
@@ -2168,6 +2252,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/asparagus.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xhdpi_ic_launcher_new_round.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xhdpi/ic_launcher_new_round.webp"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_italy.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/italy.png"
     },
@@ -2196,8 +2284,16 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/anim/design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_face_experessions.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/face_experessions.png"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/layout_activity_main_menu.xml.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/font_atma_regular.ttf.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/font/atma_regular.ttf"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_firefighter.png.flat",
@@ -2280,6 +2376,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/map.png"
     },
     {
+        "merged": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_emoji.png.flat",
+        "source": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/emoji.png"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_h.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/h.png"
     },
@@ -2356,6 +2456,10 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/five_5.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/font_atma_semibold.ttf.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/font/atma_semibold.ttf"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_october.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/october.png"
     },
@@ -2376,8 +2480,16 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/pheasant.png"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-mdpi_ic_launcher_new_round.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-mdpi/ic_launcher_new_round.webp"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_ribonr.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/ribonr.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_message_background.xml.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/message_background.xml"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_cleaner.png.flat",
@@ -2428,12 +2540,20 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/cursor_background.xml"
     },
     {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/font_atma_medium.ttf.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/font/atma_medium.ttf"
+    },
+    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_bougainvillea.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/bougainvillea.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_home_country.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/home_country.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xxxhdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xxxhdpi/ic_launcher_new_foreground.webp"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_sparrow.png.flat",
@@ -2478,6 +2598,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_lychee.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/lychee.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-hdpi_ic_launcher_new.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-hdpi/ic_launcher_new.webp"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_apple.png.flat",
@@ -2530,6 +2654,10 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_kindergarten.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/kindergarten.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_daily_routine.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/daily_routine.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_q_queen.png.flat",
@@ -2612,12 +2740,12 @@
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/notebook.png"
     },
     {
-        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_dianthus.png.flat",
-        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/dianthus.png"
-    },
-    {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_eight_8.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/eight_8.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_dianthus.png.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/dianthus.png"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/layout_activity_exam_question.xml.flat",
@@ -2630,6 +2758,14 @@
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_lawyer.png.flat",
         "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/drawable/lawyer.png"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/layout_activity_word_image.xml.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/layout/activity_word_image.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/mipmap-xxhdpi_ic_launcher_new_round.webp.flat",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-main-70:/mipmap-xxhdpi/ic_launcher_new_round.webp"
     },
     {
         "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-merged_res-68:/drawable_string_beans.png.flat",

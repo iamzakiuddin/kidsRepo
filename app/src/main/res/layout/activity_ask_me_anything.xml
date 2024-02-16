@@ -9,12 +9,79 @@
     android:background="@drawable/splash"
     >
 
-    <TextView
-        android:id="@+id/responseText"
-        android:layout_width="wrap_content"
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/appBar"
+      android:layout_width="0dp"
+      android:layout_height="80dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:background="@color/colorWhite"
+      >
+      <ImageView
+          android:id="@+id/back"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:src="@drawable/btn_back_150"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          android:layout_marginStart="5dp"
+          android:layout_marginBottom="5dp"
+          />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="80dp"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/inputContainer"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <EditText
+            android:id="@+id/searchField"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:hint="@string/ask_me_anything"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/send"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#3d4b57"
+            android:textColorHint="#AB888F95"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textCursorDrawable="@drawable/cursor_background"
+            android:background="@drawable/background_searchtext"
+            android:padding="12dp"
+            />
+
+        <ImageView
+            android:id="@+id/send"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/btn_next_150"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="10dp"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
