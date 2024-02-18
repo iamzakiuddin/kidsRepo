@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/splash"
     android:orientation="vertical"
-    tools:context="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity">
+    tools:context="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity">
 
 
     <RelativeLayout
@@ -33,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Preschool Kids Learning"
+                android:text="@string/pre_school_kids_learning"
                 android:textColor="@color/colorBlack"
                 android:textSize="20.0dip"
                 android:textStyle="bold" />

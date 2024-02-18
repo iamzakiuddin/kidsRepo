@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorGray"
-    tools:context="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity">
+    tools:context="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SettingActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 android:id="@+id/txtTitleSubHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Settings"
+                android:text="@string/settings"
                 android:textColor="@color/colorBlack"
                 android:textSize="20.0dip"
                 android:textStyle="bold"
@@ -152,7 +152,7 @@
             android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="@dimen/menu_cell_height"
-            android:text="More App"
+            android:text="@string/more_app"
             android:textSize="18dp"
             android:textColor="@color/colorBlack"
             android:gravity="center_vertical"

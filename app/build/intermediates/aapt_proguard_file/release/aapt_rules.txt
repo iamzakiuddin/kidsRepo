@@ -13,16 +13,34 @@
 -keep class androidx.work.impl.diagnostics.DiagnosticsReceiver { <init>(); }
 -keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
 -keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
--keep class com.facebook.ads.AudienceNetworkActivity { <init>(); }
--keep class com.facebook.ads.AudienceNetworkContentProvider { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.SurfingActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AskMeAnything { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDetail { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FunActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GuideActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.HomeActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MachineLearningActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PeriodicElementsActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PrivacyPolicyActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SettingActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SynonymsActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.WordImageActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.ListenGuessActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.LookChooseActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.ListVideoActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoLearningActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoPlayActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.AppControl { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.pushnotification.MyFirebaseMessagingService { <init>(); }
 -keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
--keep class com.google.android.gms.ads.AdActivity { <init>(); }
--keep class com.google.android.gms.ads.AdService { <init>(); }
--keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
--keep class com.google.android.gms.ads.NotificationHandlerActivity { <init>(); }
--keep class com.google.android.gms.ads.OutOfContextTestingActivity { <init>(); }
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
 -keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
@@ -33,31 +51,6 @@
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
 -keep class com.google.mlkit.common.internal.MlKitComponentDiscoveryService { <init>(); }
 -keep class com.google.mlkit.common.internal.MlKitInitProvider { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.SurfingActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.AskMeAnything { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.ElementDetail { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FunActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.GuideActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.HomeActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MachineLearningActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainMenu { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PeriodicElementsActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PrivacyPolicyActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.RiddleActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SynonymsActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.WordImageActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.ListVideoActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoLearningActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoPlayActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.customclasses.AppControl { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.pushnotification.MyFirebaseMessagingService { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
@@ -98,8 +91,6 @@
 
 -keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
 
--keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
-
 -keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.constraintlayout.helper.widget.Flow { <init>(android.content.Context, android.util.AttributeSet); }
@@ -115,6 +106,8 @@
 -keep class androidx.fragment.app.FragmentContainerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.NonSwipeAbleViewPager { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
 
@@ -153,8 +146,6 @@
 -keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
-
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.customclasses.NonSwipeAbleViewPager { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView { <init>(android.content.Context, android.util.AttributeSet); }
 

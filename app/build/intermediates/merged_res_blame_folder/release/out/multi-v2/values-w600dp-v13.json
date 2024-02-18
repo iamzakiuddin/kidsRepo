@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.app-mergeReleaseResources-66:/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-63:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/src/main/res/values-w600dp/dimens.xml",
+                    "source": "/Users/DELL/Desktop/App/AbilityToLearn/app/src/main/res/values-w600dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

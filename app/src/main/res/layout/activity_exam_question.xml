@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    tools:context="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity">
+    tools:context="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.LookChooseActivity">
 
 
     <RelativeLayout
@@ -38,7 +38,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="Look and Choose Quiz"
+                    android:text="@string/look_and_choose"
                     android:textColor="@color/colorBlack"
                     android:textSize="20.0dip"
                     android:textStyle="bold" />

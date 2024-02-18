@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/build/intermediates/default_proguard_files/global/proguard-android.txt-8.2.1
+# The proguard configuration file for the following section is /Users/DELL/Desktop/App/AbilityToLearn/app/build/intermediates/default_proguard_files/global/proguard-android.txt-8.2.1
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,8 +116,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/build/intermediates/default_proguard_files/global/proguard-android.txt-8.2.1
-# The proguard configuration file for the following section is /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/proguard-rules.pro
+# End of content from /Users/DELL/Desktop/App/AbilityToLearn/app/build/intermediates/default_proguard_files/global/proguard-android.txt-8.2.1
+# The proguard configuration file for the following section is /Users/DELL/Desktop/App/AbilityToLearn/app/proguard-rules.pro
 # Add project specific ProGuard rules here.
 # You can control the set of applied configuration files using the
 # proguardFiles setting in build.gradle.
@@ -252,11 +252,11 @@ public static final *** NULL;
 
 
 -optimizations !method/inlining/*
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.** { *; }
--keepclassmembers class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.** { *; }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.** { *; }
+-keepclassmembers class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.** { *; }
 
-# End of content from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/proguard-rules.pro
-# The proguard configuration file for the following section is /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# End of content from /Users/DELL/Desktop/App/AbilityToLearn/app/proguard-rules.pro
+# The proguard configuration file for the following section is /Users/DELL/Desktop/App/AbilityToLearn/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
@@ -272,16 +272,34 @@ public static final *** NULL;
 -keep class androidx.work.impl.diagnostics.DiagnosticsReceiver { <init>(); }
 -keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
 -keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
--keep class com.facebook.ads.AudienceNetworkActivity { <init>(); }
--keep class com.facebook.ads.AudienceNetworkContentProvider { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.SurfingActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AskMeAnything { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDetail { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FunActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GuideActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.HomeActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MachineLearningActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PeriodicElementsActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PrivacyPolicyActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SettingActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SynonymsActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.WordImageActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.ListenGuessActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.LookChooseActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.ListVideoActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoLearningActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoPlayActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.AppControl { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.pushnotification.MyFirebaseMessagingService { <init>(); }
 -keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
--keep class com.google.android.gms.ads.AdActivity { <init>(); }
--keep class com.google.android.gms.ads.AdService { <init>(); }
--keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
--keep class com.google.android.gms.ads.NotificationHandlerActivity { <init>(); }
--keep class com.google.android.gms.ads.OutOfContextTestingActivity { <init>(); }
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
 -keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
@@ -292,31 +310,6 @@ public static final *** NULL;
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
 -keep class com.google.mlkit.common.internal.MlKitComponentDiscoveryService { <init>(); }
 -keep class com.google.mlkit.common.internal.MlKitInitProvider { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.SurfingActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.AskMeAnything { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.ElementDetail { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FunActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.GuideActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.HomeActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MachineLearningActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainMenu { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PeriodicElementsActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PrivacyPolicyActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.RiddleActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SynonymsActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.WordImageActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.ListVideoActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoLearningActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoPlayActivity { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.customclasses.AppControl { <init>(); }
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.pushnotification.MyFirebaseMessagingService { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
@@ -357,8 +350,6 @@ public static final *** NULL;
 
 -keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
 
--keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
-
 -keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.constraintlayout.helper.widget.Flow { <init>(android.content.Context, android.util.AttributeSet); }
@@ -374,6 +365,8 @@ public static final *** NULL;
 -keep class androidx.fragment.app.FragmentContainerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.NonSwipeAbleViewPager { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
 
@@ -413,8 +406,6 @@ public static final *** NULL;
 
 -keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
 
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.customclasses.NonSwipeAbleViewPager { <init>(android.content.Context, android.util.AttributeSet); }
-
 -keep class com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keepclassmembers class * { *** ContactUs(android.view.View); }
@@ -438,7 +429,7 @@ public static final *** NULL;
 -keepclassmembers class * { *** shareApp(android.view.View); }
 
 
-# End of content from /Users/DELL/Desktop/KidsLearning_Android_99/KidsPlay&Learning_source/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# End of content from /Users/DELL/Desktop/App/AbilityToLearn/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/751ea8fd6715938c688ed56fba2f97ff/transformed/navigation-common-2.7.6/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
@@ -633,138 +624,6 @@ public static final *** NULL;
 #-keepresourcexmlelements manifest/application/meta-data@value=GlideModule
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/af7e4106047b0f1f4cc59b164d7e9281/transformed/jetified-glide-4.14.2/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/eb6b6b3277a06175be14b28638af8c49/transformed/jetified-play-services-ads-22.6.0/proguard.txt
--keep public class com.google.android.gms.ads.internal.ClientApi {
-  <init>();
-}
-
-# When built for Android API level < 30, Proguard warns that it can't find
-# android.telephony.TelephonyDisplayInfo (since it was added only in API level
-# 30). But, all its usages are guarded by runtime checks of the API level.
-# Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.telephony.TelephonyDisplayInfo
-
-# When built for Android API level < 30, Proguard warns that it can't find
-# android.view.Surface#setFrameRate(float, int) (since it was added only in API
-# level 30). But, all its usages are guarded by runtime checks of the API level.
-# Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.view.Surface
-
-# When built for Android API level < 31, Proguard warns that it can't find
-# android.media.ApplicationMediaCapabilities (since it was added only in API
-# level 31). But, all its usages are guarded by runtime checks of the API level.
-# Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.media.ApplicationMediaCapabilities
-
-# When built for Android API level < 31, Proguard warns that it can't find
-# android.media.MediaFeature (since it was added only in API level 31). But,
-# all its usages are guarded by runtime checks of the API level.
-# Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.media.MediaFeature
-
-# When built for Android API level < 31, Proguard warns that it can't find
-# android.media.ApplicationMediaCapabilities$Builder (since it was added only in
-# API level 31). But, all its usages are guarded by runtime checks of the API
-# level. Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.media.ApplicationMediaCapabilities$Builder
-
-# When built for Android API level < 31, Proguard warns that it can't find
-# android.media.MediaFeature$HdrType (since it was added only in API level 31).
-# But, all its usages are guarded by runtime checks of the API level.
-# Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.media.MediaFeature$HdrType
-
-# When built for Android API level < 32, Proguard warns that it can't find
-# android.media.AudioAttributes$Builder (since it was added only in API level
-# 32). But, all its usages are guarded by runtime checks of the API level.
-# Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.media.AudioAttributes$Builder
-
-# When built for Android API level < 33, Proguard warns that it can't find
-# android.adservices.measurement.MeasurementManager (since it was added only
-# in API level 33). But, all its usages are guarded by runtime checks of the
-# API level. Hence, it is safe to suppress Proguard's warnings.
--dontwarn android.adservices.measurement.MeasurementManager
-
-# When built for Android API level < 33, Proguard warns that it can't find
-# javax.lang.model.element.Modifier (since it was added only in API level 33).
-# But, all its usages are guarded by runtime checks of the API level. Hence, it
-# is safe to suppress Proguard's warnings.
--dontwarn javax.lang.model.element.Modifier
-
-# These are checked at runtime for whether they exist, so it is fine if the API level doesn't include these.
--dontwarn android.content.pm.ApkChecksum
--dontwarn android.content.pm.PackageManager$OnChecksumsReadyListener
-# Only for the requestChecksums method, but sadly -dontwarn can't take just a single method.
--dontwarn android.content.pm.PackageManager
-
-# We keep all fields for every generated proto file as the runtime uses
-# reflection over them that ProGuard cannot detect. Without this keep
-# rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.ads.zzgwm {
-  <fields>;
-}
-
-# Auto-generated proguard rule(s) with obfuscated symbol
--dontwarn com.google.android.gms.ads.internal.util.zzy
-
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/eb6b6b3277a06175be14b28638af8c49/transformed/jetified-play-services-ads-22.6.0/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/proguard.txt
-# Keep implementations of the AdMob mediation adapter interfaces. Adapters for
-# third party ad networks implement these interfaces and are invoked by the
-# AdMob SDK via reflection.
-
--keep class * implements com.google.android.gms.ads.mediation.MediationAdapter {
-  public *;
-}
--keep class * implements com.google.ads.mediation.MediationAdapter {
-  public *;
-}
--keep class * implements com.google.android.gms.ads.mediation.customevent.CustomEvent {
-  public *;
-}
--keep class * implements com.google.ads.mediation.customevent.CustomEvent {
-  public *;
-}
--keep class * extends com.google.android.gms.ads.mediation.MediationAdNetworkAdapter {
-  public *;
-}
--keep class * extends com.google.android.gms.ads.mediation.Adapter {
-  public *;
-}
-
-# Keep classes used for offline ads created by reflection. WorkManagerUtil is
-# created reflectively by callers within GMSCore and OfflineNotificationPoster
-# is created reflectively by WorkManager.
--keep class com.google.android.gms.ads.internal.util.WorkManagerUtil {
-  public *;
-}
--keep class com.google.android.gms.ads.internal.offline.buffering.OfflineNotificationPoster {
-  public *;
-}
--keep class com.google.android.gms.ads.internal.offline.buffering.OfflinePingSender {
-  public *;
-}
-
-# Keeps the entry for full SDK to access via reflection.
--keep class com.google.android.gms.ads.internal.client.LiteSdkInfo {
-  public *;
-}
-
-# Keeps the entry for first party plugins to access via reflection.
--keep class com.google.android.gms.ads.MobileAds {
-  private void setPlugin(java.lang.String);
-}
-
-# We keep all fields for every generated proto file as the runtime uses
-# reflection over them that ProGuard cannot detect. Without this keep
-# rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.ads.zzgwm {
-  <fields>;
-}
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/98ae31bf41ef325f1bc106c0eb83d5cb/transformed/jetified-play-services-ads-lite-22.6.0/proguard.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/proguard.txt
 -keep class * extends androidx.work.Worker
 -keep class * extends androidx.work.InputMerger
@@ -776,6 +635,38 @@ public static final *** NULL;
 -keep class androidx.work.WorkerParameters
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/3de1c8fbfcdbfd4f3d9d65b9dd491cc1/transformed/work-runtime-2.9.0/proguard.txt
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzix {
+  <fields>;
+}
+
+# End of content from /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/proguard.txt
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/proguard.txt
+# Can be removed once we pull in a dependency on firebase-common that includes
+# https://github.com/firebase/firebase-android-sdk/pull/1472/commits/856f1ca1151cdd88679bbc778892f23dfa34fc06#diff-a2ed34b5a38b4c6c686b09e54865eb48
+-dontwarn com.google.auto.value.AutoValue
+-dontwarn com.google.auto.value.AutoValue$Builder
+
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzix {
+  <fields>;
+}
+
+# End of content from /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/proguard.txt
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/02f41da34eb0705a0e2f7bf6af464ffc/transformed/jetified-play-services-measurement-sdk-21.5.0/proguard.txt
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzix {
+  <fields>;
+}
+
+# End of content from /Users/DELL/.gradle/caches/transforms-3/02f41da34eb0705a0e2f7bf6af464ffc/transformed/jetified-play-services-measurement-sdk-21.5.0/proguard.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/2a0a2ad5acd829f429af371dafbd5020/transformed/jetified-vision-internal-vkp-18.2.2/proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
@@ -832,50 +723,6 @@ public static final *** NULL;
 
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/1f36968c1ad2e158ba0a04eec93ae7f1/transformed/jetified-play-services-base-18.0.1/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/proguard.txt
-# Proguard configurations in this file get packaged up in the AAR file and
-# merged with the application proguard rules.
-# For Dynamically Loaded library we want to keep all public classes, so that they are
-# available from internal classes.
--dontwarn com.facebook.ads.internal.**
--keeppackagenames com.facebook.*
--keep public class com.facebook.ads.** {
-   public protected *;
-}
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/4424c6e238a86dcb73e3ccc2a426960d/transformed/jetified-audience-network-sdk-6.8.0/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/proguard.txt
-# We keep all fields for every generated proto file as the runtime uses
-# reflection over them that ProGuard cannot detect. Without this keep
-# rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzix {
-  <fields>;
-}
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/c466bb607b1e68b624360a00f132c59d/transformed/jetified-play-services-measurement-21.5.0/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/proguard.txt
-# Can be removed once we pull in a dependency on firebase-common that includes
-# https://github.com/firebase/firebase-android-sdk/pull/1472/commits/856f1ca1151cdd88679bbc778892f23dfa34fc06#diff-a2ed34b5a38b4c6c686b09e54865eb48
--dontwarn com.google.auto.value.AutoValue
--dontwarn com.google.auto.value.AutoValue$Builder
-
-# We keep all fields for every generated proto file as the runtime uses
-# reflection over them that ProGuard cannot detect. Without this keep
-# rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzix {
-  <fields>;
-}
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/5f34b1bcecd598f2880e3d50653d37b7/transformed/jetified-play-services-measurement-api-21.5.0/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/02f41da34eb0705a0e2f7bf6af464ffc/transformed/jetified-play-services-measurement-sdk-21.5.0/proguard.txt
-# We keep all fields for every generated proto file as the runtime uses
-# reflection over them that ProGuard cannot detect. Without this keep
-# rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzix {
-  <fields>;
-}
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/02f41da34eb0705a0e2f7bf6af464ffc/transformed/jetified-play-services-measurement-sdk-21.5.0/proguard.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/066291a8093ca05d4f94ea1d331db7f2/transformed/jetified-play-services-measurement-impl-21.5.0/proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
@@ -909,10 +756,10 @@ public static final *** NULL;
 }
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/d896ee244647d7ba95bb75568214dc92/transformed/jetified-play-services-measurement-base-21.5.0/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/fc53c396dfe762c9c231de7cb7fcd6cf/transformed/jetified-generativeai-0.1.2/proguard.txt
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/cfc65a1fe0c0cf19066f4d27bdedde40/transformed/jetified-generativeai-0.2.0/proguard.txt
 -keep class com.google.ai.client.generativeai.internal.** { *; }
 
-# End of content from /Users/DELL/.gradle/caches/transforms-3/fc53c396dfe762c9c231de7cb7fcd6cf/transformed/jetified-generativeai-0.1.2/proguard.txt
+# End of content from /Users/DELL/.gradle/caches/transforms-3/cfc65a1fe0c0cf19066f4d27bdedde40/transformed/jetified-generativeai-0.2.0/proguard.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/6a53cfbfb9bfe53735b599ab82061abb/transformed/jetified-savedstate-1.2.1/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
@@ -1156,7 +1003,7 @@ public static final *** NULL;
 
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/3438f4ee55acd475038e5675520034a8/transformed/jetified-play-services-tasks-18.0.2/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/f60b3bc3892490c66f95d7ca16875329/transformed/jetified-play-services-basement-18.2.0/proguard.txt
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/d35375e13e35b29f8d0839e73b17beb5/transformed/jetified-play-services-basement-18.1.0/proguard.txt
 # Needed when building against pre-Marshmallow SDK.
 -dontwarn android.security.NetworkSecurityPolicy
 
@@ -1167,9 +1014,8 @@ public static final *** NULL;
 -dontwarn sun.misc.Unsafe
 -dontwarn libcore.io.Memory
 
-# Annotations used during internal SDK shrinking.
+# Internal Google annotations for generating Proguard keep rules.
 -dontwarn com.google.android.apps.common.proguard.UsedBy*
--dontwarn com.google.android.apps.common.proguard.SideEffectFree
 
 # Annotations referenced by the SDK but whose definitions are contained in
 # non-required dependencies.
@@ -1230,7 +1076,7 @@ public static final *** NULL;
 
 
 
-# End of content from /Users/DELL/.gradle/caches/transforms-3/f60b3bc3892490c66f95d7ca16875329/transformed/jetified-play-services-basement-18.2.0/proguard.txt
+# End of content from /Users/DELL/.gradle/caches/transforms-3/d35375e13e35b29f8d0839e73b17beb5/transformed/jetified-play-services-basement-18.1.0/proguard.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/629fb6063f24124d7d1e806455e80172/transformed/fragment-1.6.2/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
@@ -1331,6 +1177,55 @@ public static final *** NULL;
  -keep, allowshrinking, allowoptimization, allowobfuscation, allowaccessmodification class <1>
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/653b9e7eeab8b0e3f02d426c34a362db/transformed/rules/lib/META-INF/com.android.tools/r8/kotlinx-serialization-r8.pro
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/2e49c7411d2885ee32a95d11dad3af86/transformed/rules/lib/META-INF/proguard/retrofit2.pro
+# Retrofit does reflection on generic parameters. InnerClasses is required to use Signature and
+# EnclosingMethod is required to use InnerClasses.
+-keepattributes Signature, InnerClasses, EnclosingMethod
+
+# Retrofit does reflection on method and parameter annotations.
+-keepattributes RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations
+
+# Retain service method parameters when optimizing.
+-keepclassmembers,allowshrinking,allowobfuscation interface * {
+    @retrofit2.http.* <methods>;
+}
+
+# Ignore annotation used for build tooling.
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+
+# Ignore JSR 305 annotations for embedding nullability information.
+-dontwarn javax.annotation.**
+
+# Guarded by a NoClassDefFoundError try/catch and only used when on the classpath.
+-dontwarn kotlin.Unit
+
+# Top-level functions that can only be used by Kotlin.
+-dontwarn retrofit2.KotlinExtensions
+-dontwarn retrofit2.KotlinExtensions$*
+
+# With R8 full mode, it sees no subtypes of Retrofit interfaces since they are created with a Proxy
+# and replaces all potential values with null. Explicitly keeping the interfaces prevents this.
+-if interface * { @retrofit2.http.* <methods>; }
+-keep,allowobfuscation interface <1>
+
+# End of content from /Users/DELL/.gradle/caches/transforms-3/2e49c7411d2885ee32a95d11dad3af86/transformed/rules/lib/META-INF/proguard/retrofit2.pro
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/ef03f024375164f3bf088884bf846633/transformed/rules/lib/META-INF/proguard/okhttp3.pro
+# JSR 305 annotations are for embedding nullability information.
+-dontwarn javax.annotation.**
+
+# A resource is loaded with a relative path so the package of this class must be preserved.
+-keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
+
+# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
+-dontwarn org.codehaus.mojo.animal_sniffer.*
+
+# OkHttp platform used only on JVM and when Conscrypt and other security providers are available.
+-dontwarn okhttp3.internal.platform.**
+-dontwarn org.conscrypt.**
+-dontwarn org.bouncycastle.**
+-dontwarn org.openjsse.**
+
+# End of content from /Users/DELL/.gradle/caches/transforms-3/ef03f024375164f3bf088884bf846633/transformed/rules/lib/META-INF/proguard/okhttp3.pro
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/1e854d53c89be20d2b0752673f15ead3/transformed/jetified-startup-runtime-1.1.1/proguard.txt
 # It's important that we preserve initializer names, given they are used in the AndroidManifest.xml.
 -keepnames class * extends androidx.startup.Initializer
@@ -1395,55 +1290,6 @@ public static final *** NULL;
 }
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/dc9ffa53a3528fd511a63a9731e2d239/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/2e49c7411d2885ee32a95d11dad3af86/transformed/rules/lib/META-INF/proguard/retrofit2.pro
-# Retrofit does reflection on generic parameters. InnerClasses is required to use Signature and
-# EnclosingMethod is required to use InnerClasses.
--keepattributes Signature, InnerClasses, EnclosingMethod
-
-# Retrofit does reflection on method and parameter annotations.
--keepattributes RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations
-
-# Retain service method parameters when optimizing.
--keepclassmembers,allowshrinking,allowobfuscation interface * {
-    @retrofit2.http.* <methods>;
-}
-
-# Ignore annotation used for build tooling.
--dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-
-# Ignore JSR 305 annotations for embedding nullability information.
--dontwarn javax.annotation.**
-
-# Guarded by a NoClassDefFoundError try/catch and only used when on the classpath.
--dontwarn kotlin.Unit
-
-# Top-level functions that can only be used by Kotlin.
--dontwarn retrofit2.KotlinExtensions
--dontwarn retrofit2.KotlinExtensions$*
-
-# With R8 full mode, it sees no subtypes of Retrofit interfaces since they are created with a Proxy
-# and replaces all potential values with null. Explicitly keeping the interfaces prevents this.
--if interface * { @retrofit2.http.* <methods>; }
--keep,allowobfuscation interface <1>
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/2e49c7411d2885ee32a95d11dad3af86/transformed/rules/lib/META-INF/proguard/retrofit2.pro
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/ef03f024375164f3bf088884bf846633/transformed/rules/lib/META-INF/proguard/okhttp3.pro
-# JSR 305 annotations are for embedding nullability information.
--dontwarn javax.annotation.**
-
-# A resource is loaded with a relative path so the package of this class must be preserved.
--keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
-
-# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
--dontwarn org.codehaus.mojo.animal_sniffer.*
-
-# OkHttp platform used only on JVM and when Conscrypt and other security providers are available.
--dontwarn okhttp3.internal.platform.**
--dontwarn org.conscrypt.**
--dontwarn org.bouncycastle.**
--dontwarn org.openjsse.**
-
-# End of content from /Users/DELL/.gradle/caches/transforms-3/ef03f024375164f3bf088884bf846633/transformed/rules/lib/META-INF/proguard/okhttp3.pro
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/62f9a56f5ca8ff3c99429a88e84e42f1/transformed/jetified-library-2.3/proguard.txt
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified

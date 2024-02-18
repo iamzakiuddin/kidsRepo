@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    tools:context="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity">
+    tools:context="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.ListenGuessActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Listen and Guess"
+                android:text="@string/listen_and_guess"
                 android:textColor="@color/colorBlack"
                 android:textSize="20.0dip"
                 android:textStyle="bold" />

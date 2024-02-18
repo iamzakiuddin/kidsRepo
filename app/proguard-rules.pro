@@ -132,5 +132,5 @@ public static final *** NULL;
 
 
 -optimizations !method/inlining/*
--keep class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.** { *; }
--keepclassmembers class com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.model.** { *; }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.** { *; }
+-keepclassmembers class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.** { *; }

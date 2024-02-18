@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoLearningActivity"
+    tools:context="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoLearningActivity"
     android:background="@drawable/splash"
     >
 
@@ -34,11 +34,11 @@
                 android:id="@+id/txtTitleSubHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Learning From Video Song"
+                android:layout_centerInParent="true"
+                android:text="@string/learning_from_video_song"
                 android:textColor="@color/colorBlack"
                 android:textSize="20.0dip"
-                android:textStyle="bold"
-                android:layout_centerInParent="true"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 

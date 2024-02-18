@@ -5,7 +5,7 @@
     android:layout_height="fill_parent"
     android:background="@drawable/splash"
     android:orientation="vertical"
-    tools:context="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity">
+    tools:context="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity">
 
 
     <RelativeLayout
@@ -35,7 +35,7 @@
 
         </RelativeLayout>
 
-        <com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.customclasses.NonSwipeAbleViewPager
+        <com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.NonSwipeAbleViewPager
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

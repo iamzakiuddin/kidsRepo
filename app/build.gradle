@@ -3,25 +3,30 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 //apply plugin: 'com.google.gms.google-services'
 
+def properties = new Properties()
+try {
+    properties.load(project.rootProject.file("local.properties").newDataInputStream())
+}catch (Exception ignored){
 
+}
 android {
     compileSdk 34
     defaultConfig {
-        applicationId "com.kidslearning.kidsplay.kidsgames.kidseducation.preschool"
+        applicationId "com.apps.abilitytohelp.kidslearning.kidseducation.preschool"
         minSdk 21
         targetSdk 34
-        versionCode 1
-        versionName "1.8"
+        versionCode 6
+        versionName "1.0.3"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        buildConfigField("String", "GEMINI_AI", "\"" + properties['API_KEY']+"\"")
     }
     buildTypes {
         release {
-            debuggable true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'com.kidslearning.kidsplay.kidsgames.kidseducation.preschool'
+    namespace 'com.apps.abilitytohelp.kidslearning.kidseducation.preschool'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
@@ -54,10 +59,10 @@ dependencies {
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
-    implementation 'com.facebook.android:audience-network-sdk:6.8.0'
+    //implementation 'com.facebook.android:audience-network-sdk:6.8.0'
     implementation 'com.google.firebase:firebase-analytics:21.5.0'
     implementation 'com.google.firebase:firebase-messaging:23.4.0'
-    implementation 'com.google.android.gms:play-services-ads:22.6.0'
+    //implementation 'com.google.android.gms:play-services-ads:22.6.0'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'androidx.work:work-runtime:2.9.0'
 
@@ -73,7 +78,7 @@ dependencies {
 
     //ML kit
     implementation ("com.google.mlkit:image-labeling:17.0.7")
-    implementation("com.google.ai.client.generativeai:generativeai:0.1.2")
+    implementation("com.google.ai.client.generativeai:generativeai:0.2.0")
 }
 
 repositories {

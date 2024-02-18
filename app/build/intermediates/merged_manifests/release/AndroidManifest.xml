@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool"
-    android:versionCode="1"
-    android:versionName="1.8" >
+    package="com.apps.abilitytohelp.kidslearning.kidseducation.preschool"
+    android:versionCode="6"
+    android:versionName="1.0.3" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -19,43 +19,28 @@
         <intent>
             <action android:name="com.google.android.youtube.api.service.START" />
         </intent>
-        <!-- For browser content -->
-        <intent>
-            <action android:name="android.intent.action.VIEW" />
-
-            <category android:name="android.intent.category.BROWSABLE" />
-
-            <data android:scheme="https" />
-        </intent> <!-- End of browser content -->
-        <!-- For CustomTabsService -->
-        <intent>
-            <action android:name="android.support.customtabs.action.CustomTabsService" />
-        </intent>
-
-        <package android:name="com.facebook.katana" />
     </queries>
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
 
     <permission
-        android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.customclasses.AppControl"
+        android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.AppControl"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:debuggable="true"
         android:extractNativeLibs="true"
         android:fullBackupContent="false"
         android:fullBackupOnly="false"
@@ -69,51 +54,51 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.WordImageActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.WordImageActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.AskMeAnything"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AskMeAnything"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MachineLearningActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MachineLearningActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.ElementDetail"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDetail"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PeriodicElementsActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PeriodicElementsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.RiddleActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SynonymsActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SynonymsActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.SurfingActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.SurfingActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FunActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FunActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.GuideActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GuideActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainMenu"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SplashActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -124,42 +109,42 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.MainActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.HomeActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.HomeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SubActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.FullScreenActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.LookChooseActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.LookChooseActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.exam.ListenGuessActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.ListenGuessActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.ListVideoActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.ListVideoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoLearningActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoLearningActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.video.VideoPlayActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoPlayActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppThemeYoutube" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.SettingActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SettingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.activity.PrivacyPolicyActivity"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PrivacyPolicyActivity"
             android:screenOrientation="portrait" />
 
         <service
-            android:name="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.pushnotification.MyFirebaseMessagingService"
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.pushnotification.MyFirebaseMessagingService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -167,9 +152,6 @@
             </intent-filter>
         </service>
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/AD_MOB_APPLICATION_ID" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -226,43 +208,11 @@
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
-        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent" />
-
-        <provider
-            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.mobileadsinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
-
-        <service
-            android:name="com.google.android.gms.ads.AdService"
-            android:enabled="true"
-            android:exported="false" />
-
-        <activity
-            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:exported="false" />
-        <activity
-            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:launchMode="singleTask"
-            android:taskAffinity=""
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <property
-            android:name="android.adservices.AD_SERVICES_CONFIG"
-            android:resource="@xml/gma_ad_services_config" />
+        </service>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.androidx-startup"
+            android:authorities="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"
@@ -388,27 +338,6 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
-        <provider
-            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.mlkitinitprovider"
-            android:exported="false"
-            android:initOrder="99" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="com.facebook.ads.AudienceNetworkActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <provider
-            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.AudienceNetworkContentProvider"
-            android:exported="false" />
-
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true"
@@ -430,8 +359,19 @@
             android:resource="@xml/ga_ad_services_config" />
 
         <provider
+            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+            android:authorities="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.mlkitinitprovider"
+            android:exported="false"
+            android:initOrder="99" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.kidslearning.kidsplay.kidsgames.kidseducation.preschool.firebaseinitprovider"
+            android:authorities="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
