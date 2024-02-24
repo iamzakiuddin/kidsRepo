@@ -6,6 +6,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -26,7 +27,7 @@ class SynonymsActivity : AppCompatActivity() {
     var synonymsListView: RecyclerView? = null
     var searchField: EditText? = null
     var searchBtn: Button? = null
-    var back: ImageView? = null
+    var back: LinearLayout? = null
     var synonymsList = ArrayList<String>()
     var synonymAdapter : SynonymAdapter? = null
 
@@ -39,13 +40,13 @@ class SynonymsActivity : AppCompatActivity() {
         synonymsListView = findViewById(R.id.synonymsListView)
         searchBtn = findViewById(R.id.searchBtn)
         searchField = findViewById(R.id.searchField)
-        back = findViewById(R.id.back)
+        back = findViewById(R.id.backBtn)
         synonymAdapter = SynonymAdapter(synonymsList)
         synonymsListView?.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         synonymsListView?.adapter = synonymAdapter
 
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
         searchBtn?.setOnClickListener {
             var word = searchField?.text.toString()
@@ -88,5 +89,10 @@ class SynonymsActivity : AppCompatActivity() {
             val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(view.windowToken, 0)
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
     }
 }

@@ -25,6 +25,7 @@ public class ListVideoActivity extends AppCompatActivity {
     DatabaseHelper databaseHelper;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
+    LinearLayout backBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,12 +34,19 @@ public class ListVideoActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         context=this;
         initDefine();
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
     }
 
 
 
     private void initDefine() {
         rvVideoList=findViewById(R.id.rvVideoList);
+        backBtn = findViewById(R.id.backBtn);
         TextView txtTitleSubHome=findViewById(R.id.txtTitleSubHome);
         Intent intent=getIntent();
         txtTitleSubHome.setText(intent.getStringExtra("Category"));
@@ -69,6 +77,12 @@ public class ListVideoActivity extends AppCompatActivity {
     }
 
     public void onClickBack(View view) {
-        finish();
+        onBackPressed();
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
     }
 }

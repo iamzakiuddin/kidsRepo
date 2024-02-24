@@ -15,6 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CorrectAnswerCallback;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
@@ -29,11 +30,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class ListenGuessActivity extends AppCompatActivity {
+public class ListenGuessActivity extends AppCompatActivity implements CorrectAnswerCallback {
 
     Context context;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
+    LinearLayout backBtnn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,23 +58,20 @@ public class ListenGuessActivity extends AppCompatActivity {
         rv_exam = findViewById(R.id.rv_exam);
         tvName = findViewById(R.id.tvName);
         txtTitleSubHome = findViewById(R.id.txtTitleSubHome);
-
+        backBtnn = findViewById(R.id.backBtn);
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
-        //Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
 
-//        textToSpeech = new TextToSpeech(context, new TextToSpeech.OnInitListener() {
-//            @Override
-//            public void onInit(int status) {
-//                if (status != TextToSpeech.ERROR) {
-//                    textToSpeech.setLanguage(Locale.UK);
-//                }
-//            }
-//        });
         Intent intent = getIntent();
         prepareDataForLearning(intent.getIntExtra("categoryPosition", 0));
         txtTitleSubHome.setText(intent.getStringExtra("SubCate"));
         getRandomArray();
+        backBtnn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
     }
 
 
@@ -117,7 +116,7 @@ public class ListenGuessActivity extends AppCompatActivity {
     private void setRvAdapter() {
         GridLayoutManager gridLayoutManager = new GridLayoutManager(context, 2, GridLayoutManager.VERTICAL, false);
         rv_exam.setLayoutManager(gridLayoutManager);
-        listenGuessAdapter = new ListenGuessAdapter(context, examQuestionAnswerList, learningDataModelArrayList.get(correctPosition));
+        listenGuessAdapter = new ListenGuessAdapter(context, examQuestionAnswerList, learningDataModelArrayList.get(correctPosition),this);
         rv_exam.setAdapter(listenGuessAdapter);
     }
 
@@ -136,7 +135,7 @@ public class ListenGuessActivity extends AppCompatActivity {
 
 
     public void onClickBack(View view) {
-        finish();
+        onBackPressed();
     }
 
     ArrayList<LearningDataModel> learningDataModelArrayList;
@@ -696,4 +695,26 @@ public class ListenGuessActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onAnswerSelected() {
+        getRandomArray();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        AppControl.textToSpeech.stop();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        AppControl.textToSpeech.setOnUtteranceProgressListener(null);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
+    }
 }

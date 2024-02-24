@@ -8,39 +8,59 @@
 
 
     <RelativeLayout
+        android:id="@+id/rltTop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorTheme"
-        android:paddingTop="24dp">
+        android:paddingTop="@dimen/header_top_padding"
+        android:background="@color/colorWhite"
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize">
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorWhite"
+            >
+            <LinearLayout
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp"
+                >
+                <ImageView
+                    android:id="@+id/imgBackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/back_blue" />
 
-
-            <ImageView
-                android:id="@+id/imgBackButton"
-                android:layout_width="45.0dip"
-                android:layout_height="45.0dip"
-                android:layout_margin="5.0dip"
-                android:onClick="onClickBack"
-                android:layout_centerVertical="true"
-                android:src="@drawable/btn_back_150" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/ios_blue"
+                    />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/txtTitleSubHome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 android:text="@string/video_learning"
                 android:textColor="@color/colorBlack"
                 android:textSize="20.0dip"
-                android:textStyle="bold"
-                android:layout_centerInParent="true"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
     </RelativeLayout>
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvVideoList"

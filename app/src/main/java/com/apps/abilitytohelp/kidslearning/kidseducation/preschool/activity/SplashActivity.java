@@ -9,12 +9,10 @@ import android.util.Log;
 
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.Constant;
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.AdsCallback;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CallbackListener;
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.CommonConstantAd;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
 
-public class SplashActivity extends AppCompatActivity implements CallbackListener, AdsCallback {
+public class SplashActivity extends AppCompatActivity implements CallbackListener {
     /*For Internet*/
     @Override
     public void onSuccess() {
@@ -63,45 +61,9 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
             startNextActivity(1000);
         } else {
             Log.e("TAG", "successCall::::ELSEEE " + Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1));
-            //checkAd();
+            startNextActivity(0);
         }
     }
-
-    private void checkAd() {
-        if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "").equals(Constant.ENABLE)) {
-            if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE)) {
-                //CommonConstantAd.googlebeforloadAd(this);
-                //Log.e("TAG", "checkAd:Google::::  ");
-            } else if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_FACEBOOK)) {
-                //CommonConstantAd.facebookbeforeloadFullAd(this,this);
-                Log.e("TAG", "checkAd:Facebook:::: ");
-            }
-            if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "").equals(Constant.ENABLE)) {
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (Utils.getPref(SplashActivity.this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE)) {
-                            //CommonConstantAd.showInterstitialAdsGoogle(SplashActivity.this,SplashActivity.this);
-                        } else if (Utils.getPref(SplashActivity.this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_FACEBOOK)) {
-                            //CommonConstantAd.showInterstitialAdsFacebook(SplashActivity.this);
-                        } else {
-                            startNextActivity(0);
-                        }
-                    }
-
-                }, 3000);
-                Utils.setPref(this, Constant.SPLASH_SCREEN_COUNT, 1);
-
-            } else {
-                startNextActivity(0);
-            }
-        } else {
-            Utils.setPref(this, Constant.SPLASH_SCREEN_COUNT, 1);
-            Log.e("TAG", "checkAd:ELSE:::: " + Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, ""));
-            startNextActivity(1000);
-        }
-    }
-
 
     public void startNextActivity(Integer time) {
         Handler handler = new Handler();
@@ -117,27 +79,8 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
 
 
     /*For ads*/
-    @Override
-    public void adLoadingFailed() {
-        startNextActivity(0);
-    }
-
-    @Override
-    public void adClose() {
-        startNextActivity(0);
-    }
-
-    @Override
-    public void startNextScreen() {
-        startNextActivity(0);
-    }
 
     private Boolean isLoaded = false;
-
-    @Override
-    public void onLoaded() {
-        isLoaded = true;
-    }
 
     private Handler handler = new Handler();
     private Runnable myRunnable = new Runnable() {

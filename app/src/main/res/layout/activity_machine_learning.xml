@@ -38,7 +38,7 @@
                 android:layout_marginBottom="5.0dip"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:src="@drawable/btn_back_150" />
+                android:src="@drawable/back" />
 
 
             <ImageView

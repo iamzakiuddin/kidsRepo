@@ -13,23 +13,26 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.AppControl;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CorrectAnswerCallback;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.ExamQuestionAdapter;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.LearningDataModel;
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class LookChooseActivity extends AppCompatActivity {
+public class LookChooseActivity extends AppCompatActivity implements CorrectAnswerCallback {
 
     Context context;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
+    LinearLayout backBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +41,12 @@ public class LookChooseActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         context = this;
         initDefine();
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
     }
 
 
@@ -59,11 +68,11 @@ public class LookChooseActivity extends AppCompatActivity {
         getRandomArray();
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
-        //Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+        backBtn = findViewById(R.id.backBtn);
     }
 
     ArrayList<ArrayList<LearningDataModel>> arrOfPrevious = new ArrayList<>();
-//    ArrayList<Integer> arrOfPreviousPosition = new ArrayList<>();
+
 
     private void getRandomArray() {
         random = new Random();
@@ -105,9 +114,9 @@ public class LookChooseActivity extends AppCompatActivity {
                     break;
                 }
             }
-            examQuestionAdapter = new ExamQuestionAdapter(context, examQuestionAnswerList, learningDataModel);
+            examQuestionAdapter = new ExamQuestionAdapter(context, examQuestionAnswerList, learningDataModel,this);
         } else {
-            examQuestionAdapter = new ExamQuestionAdapter(context, examQuestionAnswerList, learningDataModelArrayList.get(correctPosition));
+            examQuestionAdapter = new ExamQuestionAdapter(context, examQuestionAnswerList, learningDataModelArrayList.get(correctPosition),this);
         }
         rv_exam.setAdapter(examQuestionAdapter);
     }
@@ -125,7 +134,7 @@ public class LookChooseActivity extends AppCompatActivity {
 
 
     public void onClickBack(View view) {
-        finish();
+        onBackPressed();
     }
 
     ArrayList<LearningDataModel> learningDataModelArrayList;
@@ -684,4 +693,26 @@ public class LookChooseActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onAnswerSelected() {
+        getRandomArray();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        AppControl.textToSpeech.setOnUtteranceProgressListener(null);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        AppControl.textToSpeech.stop();
+    }
 }

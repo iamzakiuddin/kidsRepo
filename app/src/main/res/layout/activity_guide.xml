@@ -145,7 +145,7 @@
                     app:layout_constraintBottom_toTopOf="@+id/options"
                     app:layout_constraintStart_toStartOf="parent"
                     android:layout_margin="20dp"
-                    android:src="@drawable/btn_back_150"
+                    android:src="@drawable/back"
                     />
             </LinearLayout>
         </ScrollView>

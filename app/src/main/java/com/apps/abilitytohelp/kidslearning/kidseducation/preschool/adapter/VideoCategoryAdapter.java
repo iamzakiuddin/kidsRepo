@@ -1,5 +1,6 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import androidx.annotation.NonNull;
@@ -26,11 +27,13 @@ public class VideoCategoryAdapter extends RecyclerView.Adapter<VideoCategoryAdap
     Context context;
     String[] videocategory;
     int[] tumbnailList;
+    Activity activity;
 
-    public VideoCategoryAdapter(Context context, String[] videocategory, int[] tumbnailList) {
+    public VideoCategoryAdapter(Context context, String[] videocategory, int[] tumbnailList, Activity activity) {
         this.context = context;
         this.videocategory = videocategory;
         this.tumbnailList = tumbnailList;
+        this.activity = activity;
     }
 
     @NonNull
@@ -47,6 +50,7 @@ public class VideoCategoryAdapter extends RecyclerView.Adapter<VideoCategoryAdap
             public void onClick(View view) {
                 Constant.VIDEO_CATEGORY_ID=String.valueOf(i);
                 context.startActivity(new Intent(context, ListVideoActivity.class).putExtra("Category",videocategory[i]));
+                activity.overridePendingTransition(R.anim.enter_anim,R.anim.exit);
             }
         });
     }

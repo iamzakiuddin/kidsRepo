@@ -4,13 +4,14 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PeriodicElementResponseItem
 
 class ElementDetail : AppCompatActivity() {
 
-    var back : ImageView? = null
+    var back : LinearLayout? = null
     var atomicMass : TextView? = null
     var atomicNumber : TextView? = null
     var atomicRadius : TextView? = null
@@ -45,7 +46,7 @@ class ElementDetail : AppCompatActivity() {
         setContentView(R.layout.activity_element_detail)
         initUI()
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
         displayData()
     }
@@ -85,7 +86,7 @@ class ElementDetail : AppCompatActivity() {
 
     private fun initUI() {
         supportActionBar?.hide()
-        back = findViewById(R.id.back)
+        back = findViewById(R.id.backBtn)
         atomicMass = findViewById(R.id.atomicMass)
         atomicNumber= findViewById(R.id.atomicNumber)
         atomicRadius = findViewById(R.id.atomicRadius)
@@ -113,5 +114,10 @@ class ElementDetail : AppCompatActivity() {
         yearOfDiscovers = findViewById(R.id.yearOfDiscovers)
         minerals = findViewById(R.id.minerals)
         histroy = findViewById(R.id.histroy)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
     }
 }

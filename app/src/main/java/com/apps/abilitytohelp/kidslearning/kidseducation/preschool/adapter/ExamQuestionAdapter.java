@@ -1,10 +1,14 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter;
 
 import android.content.Context;
+import android.os.Handler;
+import android.os.Looper;
 import android.speech.tts.TextToSpeech;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.speech.tts.UtteranceProgressListener;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +20,7 @@ import android.widget.Toast;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.AppControl;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.Constant;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CorrectAnswerCallback;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.LearningDataModel;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
 
@@ -30,11 +35,14 @@ public class ExamQuestionAdapter extends RecyclerView.Adapter<ExamQuestionAdapte
     Context context;
     ArrayList<LearningDataModel> examQuestionAnswerList;
     LearningDataModel learningDataModel;
+    CorrectAnswerCallback answerCallback;
 
-    public ExamQuestionAdapter(Context context, ArrayList<LearningDataModel> examQuestionAnswerList, LearningDataModel learningDataModel) {
+    public ExamQuestionAdapter(Context context, ArrayList<LearningDataModel> examQuestionAnswerList, LearningDataModel learningDataModel, CorrectAnswerCallback answerCallback) {
         this.context = context;
         this.examQuestionAnswerList = examQuestionAnswerList;
         this.learningDataModel = learningDataModel;
+        this.answerCallback = answerCallback;
+        AppControl.textToSpeech.setOnUtteranceProgressListener(new CustomUtteranceProgressListener());
     }
 
 
@@ -79,8 +87,9 @@ public class ExamQuestionAdapter extends RecyclerView.Adapter<ExamQuestionAdapte
                     Toast.makeText(context, "Correct Answer", Toast.LENGTH_SHORT).show();
                     viewHolder.lloutExamAnswer.setBackgroundColor(context.getResources().getColor(R.color.colorCorrect));
                     if (Utils.getPref(Constant.SOUND,true)) {
-                        AppControl.textToSpeech.speak("Correct Answer", TextToSpeech.QUEUE_FLUSH, null);
+                        AppControl.textToSpeech.speak("Correct Answer", TextToSpeech.QUEUE_FLUSH, null,"LOOKANDCHOOSE");
                     }
+                    //answerCallback.onAnswerSelected();
                 } else {
                     Toast.makeText(context, "Wrong Answer", Toast.LENGTH_SHORT).show();
                     viewHolder.lloutExamAnswer.setBackgroundColor(context.getResources().getColor(R.color.colorWrong));
@@ -95,5 +104,32 @@ public class ExamQuestionAdapter extends RecyclerView.Adapter<ExamQuestionAdapte
 
     public int getItemCount() {
         return examQuestionAnswerList.size();
+    }
+
+
+    private class CustomUtteranceProgressListener extends UtteranceProgressListener {
+
+        @Override
+        public void onStart(String utteranceId) {
+            // Called when TTS starts speaking
+        }
+
+        @Override
+        public void onDone(String utteranceId) {
+
+            if (utteranceId.contentEquals("LOOKANDCHOOSE")){
+                new Handler(Looper.getMainLooper()).post(new Runnable() {
+                    @Override
+                    public void run() {
+                        answerCallback.onAnswerSelected();
+                    }
+                });
+            }
+        }
+
+        @Override
+        public void onError(String utteranceId) {
+            // Called when an error occurs during TTS
+        }
     }
 }

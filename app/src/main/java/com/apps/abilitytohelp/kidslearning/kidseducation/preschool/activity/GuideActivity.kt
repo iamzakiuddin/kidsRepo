@@ -36,7 +36,7 @@ class GuideActivity : AppCompatActivity() {
         adhd = findViewById(R.id.adhd)
 
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
 
         dailyRoutine?.setOnClickListener {
@@ -68,5 +68,10 @@ class GuideActivity : AppCompatActivity() {
         adhd?.setOnClickListener {
             startActivity(Intent(this,SurfingActivity::class.java).putExtra("fileName","tou.html"))
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.slide_down_a,R.anim.slide_down_b)
     }
 }

@@ -24,6 +24,7 @@ public class SubActivity extends AppCompatActivity {
     Context context;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
+    LinearLayout backBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,12 @@ public class SubActivity extends AppCompatActivity {
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
         //Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
     }
 
 
@@ -51,6 +58,7 @@ public class SubActivity extends AppCompatActivity {
         TYPE=intent.getIntExtra("Type",0);
         txtTitleSubHome.setText(category);
         prepareDataForLearning(position);
+        backBtn = findViewById(R.id.backBtn);
     }
 
 
@@ -642,11 +650,17 @@ public class SubActivity extends AppCompatActivity {
     private void setRvAdapter() {
         GridLayoutManager gridLayoutManager = new GridLayoutManager(context, 2, GridLayoutManager.VERTICAL, false);
         rvSubHome.setLayoutManager(gridLayoutManager);
-        subHomeAdapter = new SubHomeAdapter(context, learningDataModelArrayList,position,TYPE);
+        subHomeAdapter = new SubHomeAdapter(context, learningDataModelArrayList,position,TYPE,this);
         rvSubHome.setAdapter(subHomeAdapter);
     }
 
     public void onClickBack(View view) {
-        finish();
+        onBackPressed();
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
     }
 }

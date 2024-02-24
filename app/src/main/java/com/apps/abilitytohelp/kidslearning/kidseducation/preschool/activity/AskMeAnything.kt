@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -25,7 +26,7 @@ class AskMeAnything : AppCompatActivity() {
     var chatListView: RecyclerView? = null
     var inputField: EditText? = null
     var send: ImageView? = null
-    var back : ImageView? = null
+    var back : LinearLayout? = null
     var dataAdapter : ChatAdapter? = null
     var repo:Repository? = null
     var dataList = ArrayList<String>()
@@ -51,7 +52,7 @@ class AskMeAnything : AppCompatActivity() {
 
 
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
         send?.setOnClickListener {
             val prompt = inputField?.text?.toString()
@@ -86,7 +87,7 @@ class AskMeAnything : AppCompatActivity() {
     }
 
     private fun initUI() {
-        back = findViewById(R.id.back)
+        back = findViewById(R.id.backBtn)
         chatListView = findViewById(R.id.chatListView)
         send = findViewById(R.id.send)
         inputField = findViewById(R.id.searchField)
@@ -100,5 +101,10 @@ class AskMeAnything : AppCompatActivity() {
             val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(view.windowToken, 0)
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
     }
 }

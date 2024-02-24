@@ -7,6 +7,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -25,7 +26,7 @@ class WordImageActivity : AppCompatActivity() {
     var imagesListView: RecyclerView? = null
     var searchField: EditText? = null
     var searchBtn: Button? = null
-    var back: ImageView? = null
+    var back: LinearLayout? = null
     var imagesList = ArrayList<String>()
     var wordImageAdapter : WordImageAdapter? = null
 
@@ -37,14 +38,14 @@ class WordImageActivity : AppCompatActivity() {
         imagesListView = findViewById(R.id.imagesListView)
         searchBtn = findViewById(R.id.searchBtn)
         searchField = findViewById(R.id.searchField)
-        back = findViewById(R.id.back)
+        back = findViewById(R.id.backBtn)
         wordImageAdapter = WordImageAdapter(imagesList)
         imagesListView?.layoutManager = LinearLayoutManager(this,
             LinearLayoutManager.VERTICAL,false)
         imagesListView?.adapter = wordImageAdapter
 
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
         searchBtn?.setOnClickListener {
             var word = searchField?.text.toString()
@@ -87,5 +88,10 @@ class WordImageActivity : AppCompatActivity() {
             val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(view.windowToken, 0)
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
     }
 }

@@ -52,12 +52,14 @@ public class FullScreenActivity extends AppCompatActivity {
 
 
     TextView tvItemName;
+    LinearLayout backBtn;
 
     private void initDefine() {
         viewPager = findViewById(R.id.viewPager);
         tvItemName = findViewById(R.id.tvItemName);
         imgBtnNext = findViewById(R.id.imgBtnNext);
         imgBtnPrev = findViewById(R.id.imgBtnPrev);
+        backBtn = findViewById(R.id.backBtn);
 
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
@@ -70,6 +72,12 @@ public class FullScreenActivity extends AppCompatActivity {
 //                }
 //            }
 //        });
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
         Intent intent = getIntent();
         categoryPosition = intent.getIntExtra("categoryPosition", 0);
         selectedPosition = intent.getIntExtra("selectedPosition", 0);
@@ -117,7 +125,7 @@ public class FullScreenActivity extends AppCompatActivity {
     }
 
     public void onClickBack(View view) {
-        finish();
+        onBackPressed();
     }
 
     public void onClickPrev(View view) {
@@ -768,5 +776,17 @@ public class FullScreenActivity extends AppCompatActivity {
             learningDataModelArrayList.add(new LearningDataModel(R.drawable.z, "Z for Zebra", "Zebra"));
         }
         setViewPagerAdapter(learningDataModelArrayList);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        AppControl.textToSpeech.stop();
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
     }
 }

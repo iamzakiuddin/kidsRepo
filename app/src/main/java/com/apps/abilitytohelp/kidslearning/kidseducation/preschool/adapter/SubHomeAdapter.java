@@ -1,5 +1,6 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import androidx.annotation.NonNull;
@@ -28,12 +29,14 @@ public class SubHomeAdapter extends RecyclerView.Adapter<SubHomeAdapter.ViewHold
     Context context;
     ArrayList<LearningDataModel> learningDataModelArrayList;
     int p, TYPE;
+    Activity mactivity;
 
-    public SubHomeAdapter(Context context, ArrayList<LearningDataModel> learningDataModelArrayList, int i, int position) {
+    public SubHomeAdapter(Context context, ArrayList<LearningDataModel> learningDataModelArrayList, int i, int position, Activity activity) {
         this.context = context;
         this.learningDataModelArrayList = learningDataModelArrayList;
         this.p = i;
         this.TYPE = position;
+        this.mactivity = activity;
     }
 
 
@@ -65,6 +68,7 @@ public class SubHomeAdapter extends RecyclerView.Adapter<SubHomeAdapter.ViewHold
                 intent.putExtra("categoryPosition", p);
                 intent.putExtra("selectedPosition", i);
                 context.startActivity(intent);
+                mactivity.overridePendingTransition(R.anim.enter_anim,R.anim.exit);
             }
         });
     }

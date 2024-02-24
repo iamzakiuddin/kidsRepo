@@ -1,5 +1,6 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import androidx.annotation.NonNull;
@@ -45,12 +46,14 @@ public class HomeCategoriesAdapter extends RecyclerView.Adapter<HomeCategoriesAd
     int[] mainCategoryList;
     String[] homeCategoryTitles;
     int TYPE;
+    Activity activity;
 
-    public HomeCategoriesAdapter(Context context, int[] mainCategoryList, String[] homeCategoryTitles, int type) {
+    public HomeCategoriesAdapter(Context context, int[] mainCategoryList, String[] homeCategoryTitles, int type, Activity activity) {
         this.context = context;
         this.mainCategoryList = mainCategoryList;
         this.homeCategoryTitles = homeCategoryTitles;
         this.TYPE = type;
+        this.activity = activity;
     }
 
     @NonNull
@@ -70,18 +73,21 @@ public class HomeCategoriesAdapter extends RecyclerView.Adapter<HomeCategoriesAd
                     intent.putExtra("Category", homeCategoryTitles[i]);
                     intent.putExtra("Type",TYPE);
                     context.startActivity(intent);
+                    activity.overridePendingTransition(R.anim.enter_anim,R.anim.exit);
                 } else if (TYPE == 2) {
                     Intent intent = new Intent(context, LookChooseActivity.class);
                     intent.putExtra("categoryPosition", i);
                     intent.putExtra("SubCate", homeCategoryTitles[i]);
                     intent.putExtra("TYPE", 2);
                     context.startActivity(intent);
+                    activity.overridePendingTransition(R.anim.enter_anim,R.anim.exit);
                 } else if (TYPE == 3) {
                     Intent intent = new Intent(context, ListenGuessActivity.class);
                     intent.putExtra("categoryPosition", i);
                     intent.putExtra("SubCate", homeCategoryTitles[i]);
                     intent.putExtra("TYPE", 3);
                     context.startActivity(intent);
+                    activity.overridePendingTransition(R.anim.enter_anim,R.anim.exit);
                 }
 
 

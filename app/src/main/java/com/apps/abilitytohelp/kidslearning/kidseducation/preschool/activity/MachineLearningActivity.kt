@@ -48,7 +48,7 @@ class MachineLearningActivity : AppCompatActivity() {
 
     private fun setListeners() {
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
 
         camera?.setOnClickListener {
@@ -170,5 +170,10 @@ class MachineLearningActivity : AppCompatActivity() {
             e.printStackTrace()
             null
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
     }
 }

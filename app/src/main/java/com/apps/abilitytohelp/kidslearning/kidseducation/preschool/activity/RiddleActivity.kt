@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
@@ -21,7 +22,7 @@ class RiddleActivity : AppCompatActivity() {
     var riddle: TextView? = null
     var answer: TextView? = null
     var loading: ProgressBar? = null
-    var back : ImageView? = null
+    var back : LinearLayout? = null
 
     val viewmodel: FunActivityViewModel by viewModels()
 
@@ -58,7 +59,7 @@ class RiddleActivity : AppCompatActivity() {
         }
 
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
     }
 
@@ -67,9 +68,14 @@ class RiddleActivity : AppCompatActivity() {
         riddle = findViewById(R.id.riddle)
         answer = findViewById(R.id.answer)
         loading = findViewById(R.id.loading)
-        back = findViewById(R.id.back)
+        back = findViewById(R.id.backBtn)
         var loadingDrawable = loading?.progressDrawable?.mutate()
         loadingDrawable?.setColorFilter(resources.getColor(R.color.yellow),android.graphics.PorterDuff.Mode.SRC_IN)
         loading?.progressDrawable = loadingDrawable
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
     }
 }

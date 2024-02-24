@@ -1,7 +1,8 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network
 
 import androidx.annotation.NonNull
-import javax.annotation.Nullable
+import androidx.annotation.Nullable
+
 
 class NetworkResources<T> (var status: NetworkStatus?,
                            @Nullable var data: T?,

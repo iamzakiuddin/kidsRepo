@@ -22,15 +22,19 @@ class MainMenu : AppCompatActivity() {
 
         mySchool?.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
+            overridePendingTransition(R.anim.slide_up_a,R.anim.slide_up_b)
         }
 
         guide?.setOnClickListener {
             startActivity(Intent(this,GuideActivity::class.java))
+            overridePendingTransition(R.anim.slide_up_a,R.anim.slide_up_b)
         }
 
         funActivity?.setOnClickListener {
             startActivity(Intent(this,FunActivity::class.java))
+            overridePendingTransition(R.anim.slide_up_a,R.anim.slide_up_b)
         }
 
     }
+
 }

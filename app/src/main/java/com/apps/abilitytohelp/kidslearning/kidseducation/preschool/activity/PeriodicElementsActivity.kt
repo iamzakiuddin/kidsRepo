@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -19,7 +20,7 @@ import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.viewmodels.Fu
 
 class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onClickPeriodicElement {
 
-    var back: ImageView? = null
+    var back: LinearLayout? = null
     var periodicTable : RecyclerView? = null
     var loading: ProgressBar? = null
 
@@ -35,7 +36,7 @@ class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onCli
         viewmodel?.getPeriodicTable()
 
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
 
         viewmodel?.periodicTableObserver()?.observe(this, Observer {
@@ -66,7 +67,7 @@ class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onCli
 
     private fun initUI() {
         supportActionBar?.hide()
-        back = findViewById(R.id.back)
+        back = findViewById(R.id.backBtn)
         periodicTable = findViewById(R.id.periodicElementsList)
         loading = findViewById(R.id.loading)
         val gridLayoutManager = GridLayoutManager(this, 4, GridLayoutManager.VERTICAL, false)
@@ -77,5 +78,11 @@ class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onCli
 
     override fun onClickElement(pos: Int) {
         startActivity(Intent(this,ElementDetail::class.java).putExtra("elementDetail",dataList.get(pos)))
+        overridePendingTransition(R.anim.enter_anim,R.anim.exit)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left)
     }
 }

@@ -23,30 +23,36 @@ class FunActivity : AppCompatActivity() {
         supportActionBar?.hide()
         initUI()
         back?.setOnClickListener {
-            finish()
+            onBackPressed()
         }
         synonyms?.setOnClickListener {
             startActivity(Intent(this,SynonymsActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
         riddle?.setOnClickListener {
             startActivity(Intent(this,RiddleActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
         periodicTable?.setOnClickListener {
             startActivity(Intent(this,PeriodicElementsActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
         machineLearningActivity?.setOnClickListener {
             startActivity(Intent(this,MachineLearningActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
         askMeAnything?.setOnClickListener {
             startActivity(Intent(this,AskMeAnything::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
         wordToImage?.setOnClickListener {
             startActivity(Intent(this,WordImageActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
     }
@@ -59,5 +65,10 @@ class FunActivity : AppCompatActivity() {
         machineLearningActivity = findViewById(R.id.machine_learning)
         askMeAnything = findViewById(R.id.ask_me_anything)
         wordToImage = findViewById(R.id.word_image)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(R.anim.slide_down_a,R.anim.slide_down_b)
     }
 }

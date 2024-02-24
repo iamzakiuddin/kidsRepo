@@ -20,6 +20,7 @@ public class HomeActivity extends AppCompatActivity {
     Context context;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
+    LinearLayout backBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,12 @@ public class HomeActivity extends AppCompatActivity {
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
         //Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
     }
 
 
@@ -40,6 +47,7 @@ public class HomeActivity extends AppCompatActivity {
     TextView txtExamTitle;
     int type=1;
     private void initDefine() {
+        backBtn = findViewById(R.id.backBtn);
         rvHomeCategories = findViewById(R.id.rvHomeCategories);
         txtExamTitle = findViewById(R.id.txtTitleSubHome);
         Intent intent=getIntent();
@@ -64,11 +72,17 @@ public class HomeActivity extends AppCompatActivity {
     private void setRvAdapter() {
         GridLayoutManager gridLayoutManager = new GridLayoutManager(context, 2, GridLayoutManager.VERTICAL, false);
         rvHomeCategories.setLayoutManager(gridLayoutManager);
-        homeCategoriesAdapter = new HomeCategoriesAdapter(context, mainCategoryList,homeCategoryTitles,type);
+        homeCategoriesAdapter = new HomeCategoriesAdapter(context, mainCategoryList,homeCategoryTitles,type,this);
         rvHomeCategories.setAdapter(homeCategoriesAdapter);
     }
 
     public void onClickBack(View view) {
-        finish();
+        onBackPressed();
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
     }
 }
