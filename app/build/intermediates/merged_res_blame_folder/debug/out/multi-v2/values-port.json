@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-63:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/DELL/.gradle/caches/transforms-3/2ba0ed19032389e2c9f398764696ed2c/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

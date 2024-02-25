@@ -35,7 +35,7 @@ public class SubActivity extends AppCompatActivity {
         initDefine();
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
-        //Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import com.google.mlkit.vision.common.InputImage
@@ -18,6 +20,7 @@ import com.google.mlkit.vision.label.ImageLabeler
 import com.google.mlkit.vision.label.ImageLabeling
 import com.google.mlkit.vision.label.defaults.ImageLabelerOptions
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 import java.io.IOException
 import java.util.UUID
 
@@ -36,6 +39,9 @@ class MachineLearningActivity : AppCompatActivity() {
     private val IMAGE_CAPTURE_CODE: Int = 654
     private val RESULT_LOAD_IMAGE: Int = 123
     var imageLabeler: ImageLabeler? = null
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -91,6 +97,9 @@ class MachineLearningActivity : AppCompatActivity() {
         back = findViewById(R.id.back)
         info = findViewById(R.id.info)
         contentImage = findViewById(R.id.content)
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
     }
 
     private fun initMLKit() {

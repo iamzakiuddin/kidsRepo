@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.RelativeLayout
 import android.widget.TextView
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PeriodicElementResponseItem
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 
 class ElementDetail : AppCompatActivity() {
 
@@ -39,7 +41,8 @@ class ElementDetail : AppCompatActivity() {
     var yearOfDiscovers : TextView? = null
     var minerals : TextView? = null
     var histroy : TextView? = null
-
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -114,6 +117,9 @@ class ElementDetail : AppCompatActivity() {
         yearOfDiscovers = findViewById(R.id.yearOfDiscovers)
         minerals = findViewById(R.id.minerals)
         histroy = findViewById(R.id.histroy)
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
     }
 
     override fun onBackPressed() {

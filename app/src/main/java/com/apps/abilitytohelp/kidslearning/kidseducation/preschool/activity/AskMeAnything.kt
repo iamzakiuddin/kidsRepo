@@ -7,6 +7,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -31,7 +32,8 @@ class AskMeAnything : AppCompatActivity() {
     var repo:Repository? = null
     var dataList = ArrayList<String>()
     var generativeModel : GenerativeModel? = null
-
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
     init {
         repo = NetworkUtil.provideRepository()
         generativeModel = GenerativeModel(
@@ -93,6 +95,9 @@ class AskMeAnything : AppCompatActivity() {
         inputField = findViewById(R.id.searchField)
         chatListView?.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,true)
         chatListView?.adapter = dataAdapter
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
     }
 
     private fun hideKeyboardNow() {

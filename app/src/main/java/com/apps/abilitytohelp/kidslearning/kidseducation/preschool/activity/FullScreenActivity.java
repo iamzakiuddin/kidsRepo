@@ -63,7 +63,7 @@ public class FullScreenActivity extends AppCompatActivity {
 
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
-        //Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
 //        textToSpeech = new TextToSpeech(context, new TextToSpeech.OnInitListener() {
 //            @Override
 //            public void onInit(int status) {

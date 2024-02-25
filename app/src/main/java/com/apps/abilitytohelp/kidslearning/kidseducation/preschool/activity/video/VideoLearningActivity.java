@@ -42,7 +42,7 @@ public class VideoLearningActivity extends AppCompatActivity {
 
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
-        //Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
     }
 
 

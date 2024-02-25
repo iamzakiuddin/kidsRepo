@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.AppControl;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CorrectAnswerCallback;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
@@ -69,6 +70,7 @@ public class LookChooseActivity extends AppCompatActivity implements CorrectAnsw
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
         backBtn = findViewById(R.id.backBtn);
+        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
     }
 
     ArrayList<ArrayList<LearningDataModel>> arrOfPrevious = new ArrayList<>();

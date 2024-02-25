@@ -9,6 +9,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ProgressBar
+import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
@@ -17,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.WordImageAdapter
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network.NetworkResources
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.viewmodels.FunActivityViewModel
 
 class WordImageActivity : AppCompatActivity() {
@@ -29,6 +31,8 @@ class WordImageActivity : AppCompatActivity() {
     var back: LinearLayout? = null
     var imagesList = ArrayList<String>()
     var wordImageAdapter : WordImageAdapter? = null
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,11 +43,13 @@ class WordImageActivity : AppCompatActivity() {
         searchBtn = findViewById(R.id.searchBtn)
         searchField = findViewById(R.id.searchField)
         back = findViewById(R.id.backBtn)
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
         wordImageAdapter = WordImageAdapter(imagesList)
         imagesListView?.layoutManager = LinearLayoutManager(this,
             LinearLayoutManager.VERTICAL,false)
         imagesListView?.adapter = wordImageAdapter
-
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
         back?.setOnClickListener {
             onBackPressed()
         }

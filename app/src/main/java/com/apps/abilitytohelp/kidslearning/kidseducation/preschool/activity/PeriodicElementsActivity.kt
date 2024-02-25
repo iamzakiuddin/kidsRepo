@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ProgressBar
+import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -16,6 +17,7 @@ import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.PeriodicTableAdapter
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PeriodicElementResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network.NetworkResources
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.viewmodels.FunActivityViewModel
 
 class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onClickPeriodicElement {
@@ -27,7 +29,8 @@ class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onCli
     val viewmodel : FunActivityViewModel by viewModels()
     var adapter : PeriodicTableAdapter? = null
     var dataList = PeriodicElementResponse()
-
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_periodic_elements)
@@ -73,7 +76,9 @@ class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onCli
         val gridLayoutManager = GridLayoutManager(this, 4, GridLayoutManager.VERTICAL, false)
         periodicTable?.layoutManager = gridLayoutManager
         periodicTable?.adapter = adapter
-
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
     }
 
     override fun onClickElement(pos: Int) {

@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+//apply plugin: 'com.google.gms.google-services'
 
 def properties = new Properties()
 try {
@@ -56,7 +57,7 @@ dependencies {
     implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
-
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'androidx.work:work-runtime:2.9.0'
 

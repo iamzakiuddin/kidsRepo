@@ -8,12 +8,14 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ProgressBar
+import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network.NetworkResources
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.viewmodels.FunActivityViewModel
 
 class RiddleActivity : AppCompatActivity() {
@@ -23,7 +25,8 @@ class RiddleActivity : AppCompatActivity() {
     var answer: TextView? = null
     var loading: ProgressBar? = null
     var back : LinearLayout? = null
-
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
     val viewmodel: FunActivityViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -72,6 +75,9 @@ class RiddleActivity : AppCompatActivity() {
         var loadingDrawable = loading?.progressDrawable?.mutate()
         loadingDrawable?.setColorFilter(resources.getColor(R.color.yellow),android.graphics.PorterDuff.Mode.SRC_IN)
         loading?.progressDrawable = loadingDrawable
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
     }
 
     override fun onBackPressed() {

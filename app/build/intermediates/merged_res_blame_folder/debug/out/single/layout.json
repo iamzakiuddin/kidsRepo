@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_periodic_elements.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_periodic_elements.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/periodic_element.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/periodic_element.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_ask_me_anything.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_ask_me_anything.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/video_card_list.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/video_card_list.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_exam_listen_guess.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_exam_listen_guess.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_privacy_policy.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_home.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_splash.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_exam_phonics.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_exam_phonics.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_fun.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_fun.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_video_learning.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_video_learning.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_video_learning.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_video_learning.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_main.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_item_related_list.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_item_related_list.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_riddle.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_riddle.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_list_start.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_list_start.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_element_detail.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_element_detail.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/item_notification_expand.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/item_notification_expand.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/synonym_item.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/synonym_item.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_main_menu.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_exam_answer.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_exam_answer.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_synonyms.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_synonyms.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_sub.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_sub.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_list_video.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_list_video.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/word_image_item.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/word_image_item.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_full_screen.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_full_screen.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_exam_question.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_exam_question.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_word_image.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_word_image.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_video_play.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_video_play.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_item_video_list.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_item_video_list.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_list_home.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_list_home.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_guide.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/synonym_item.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/synonym_item.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/viewpager_layout.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/viewpager_layout.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/item_notification_coll.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/item_notification_coll.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_synonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_synonyms.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_sub_list_home.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_sub_list_home.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_machine_learning.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_machine_learning.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_surfing.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_surfing.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/message_layout.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/message_layout.xml"
+    },
+    {
+        "merged": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_setting.xml",
+        "source": "/Users/DELL/.gradle/daemon/8.2.1/com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_setting.xml"
+    }
+]

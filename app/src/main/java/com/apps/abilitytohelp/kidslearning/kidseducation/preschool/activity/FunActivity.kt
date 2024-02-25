@@ -1,11 +1,14 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.RelativeLayout
+import androidx.appcompat.app.AppCompatActivity
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 
 class FunActivity : AppCompatActivity() {
 
@@ -16,7 +19,8 @@ class FunActivity : AppCompatActivity() {
     var machineLearningActivity: Button? = null
     var askMeAnything : Button? = null
     var wordToImage : Button? = null
-
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fun)
@@ -51,7 +55,7 @@ class FunActivity : AppCompatActivity() {
         }
 
         wordToImage?.setOnClickListener {
-            startActivity(Intent(this,WordImageActivity::class.java))
+            startActivity(Intent(this,  WordImageActivity::class.java))
             overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
@@ -65,6 +69,9 @@ class FunActivity : AppCompatActivity() {
         machineLearningActivity = findViewById(R.id.machine_learning)
         askMeAnything = findViewById(R.id.ask_me_anything)
         wordToImage = findViewById(R.id.word_image)
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
     }
 
     override fun onBackPressed() {

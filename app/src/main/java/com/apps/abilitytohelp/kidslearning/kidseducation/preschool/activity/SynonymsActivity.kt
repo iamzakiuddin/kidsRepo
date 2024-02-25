@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ProgressBar
+import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -17,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.SynonymAdapter
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network.NetworkResources
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.viewmodels.FunActivityViewModel
 
 
@@ -30,6 +32,8 @@ class SynonymsActivity : AppCompatActivity() {
     var back: LinearLayout? = null
     var synonymsList = ArrayList<String>()
     var synonymAdapter : SynonymAdapter? = null
+    var llAdView: RelativeLayout? = null
+    var llAdViewFacebook: LinearLayout? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,6 +45,9 @@ class SynonymsActivity : AppCompatActivity() {
         searchBtn = findViewById(R.id.searchBtn)
         searchField = findViewById(R.id.searchField)
         back = findViewById(R.id.backBtn)
+        llAdView = findViewById(R.id.llAdView)
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
+        Utils.loadBannerAd(this, llAdView, llAdViewFacebook)
         synonymAdapter = SynonymAdapter(synonymsList)
         synonymsListView?.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         synonymsListView?.adapter = synonymAdapter

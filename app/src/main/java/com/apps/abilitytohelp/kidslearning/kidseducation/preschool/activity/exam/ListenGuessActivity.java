@@ -61,6 +61,7 @@ public class ListenGuessActivity extends AppCompatActivity implements CorrectAns
         backBtnn = findViewById(R.id.backBtn);
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
+        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
 
         Intent intent = getIntent();
         prepareDataForLearning(intent.getIntExtra("categoryPosition", 0));
