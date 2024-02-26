@@ -75,9 +75,9 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
     @Override
     protected void onResume() {
         super.onResume();
-        if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE)) {
+       /* if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE)) {
             CommonConstantAd.googlebeforloadAd(this);
-        }
+        }*/
     }
 
 

@@ -1,16 +1,19 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity;
 
+import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
-import android.media.ExifInterface;
 import android.net.Uri;
 
+import androidx.exifinterface.media.ExifInterface;
+
 import java.io.IOException;
+import java.util.Objects;
 
 public class ImageRotation {
-    public static Bitmap fixBitmapOrientation(Uri uri, Bitmap bmp)
+    public static Bitmap fixBitmapOrientation(Uri uri, Bitmap bmp, Activity activity)
             throws IOException {
-        ExifInterface ei = new ExifInterface(uri.getPath());
+        ExifInterface ei = new ExifInterface(Objects.requireNonNull(activity.getContentResolver().openInputStream(uri)));
         int orientation = ei.getAttributeInt(ExifInterface.TAG_ORIENTATION,
                 ExifInterface.ORIENTATION_NORMAL);
 
@@ -21,7 +24,7 @@ public class ImageRotation {
                 return rotateBitmap(bmp, 180);
             case ExifInterface.ORIENTATION_ROTATE_270:
                 return rotateBitmap(bmp, 270);
-        }//from  w  ww  .  jav  a 2  s  . c o  m
+        }
 
         return bmp;
     }

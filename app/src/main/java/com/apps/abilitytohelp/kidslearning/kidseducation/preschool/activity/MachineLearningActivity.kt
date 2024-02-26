@@ -5,9 +5,9 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.Matrix
 import android.net.Uri
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.widget.ImageView
@@ -15,14 +15,18 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.label.ImageLabeler
 import com.google.mlkit.vision.label.ImageLabeling
 import com.google.mlkit.vision.label.defaults.ImageLabelerOptions
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 import java.io.IOException
+import java.io.OutputStream
+import java.security.AccessController.getContext
 import java.util.UUID
+
 
 class MachineLearningActivity : AppCompatActivity() {
 
@@ -174,7 +178,11 @@ class MachineLearningActivity : AppCompatActivity() {
     private fun getBitmapFromUri(uri: Uri?): Bitmap? {
         return try {
             val inputStream = uri?.let { contentResolver.openInputStream(it) }
-            BitmapFactory.decodeStream(inputStream)
+            val generatedBitmap = BitmapFactory.decodeStream(inputStream)
+            //val matrix = Matrix()
+            //matrix.postRotate(90F)
+            //Bitmap.createBitmap(generatedBitmap, 0, 0, generatedBitmap.width, generatedBitmap.height, matrix, true)
+            ImageRotation.fixBitmapOrientation(uri,generatedBitmap,this)
         } catch (e: IOException) {
             e.printStackTrace()
             null
