@@ -9,6 +9,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.AdsCallback;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.CommonConstantAd;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
@@ -33,7 +36,7 @@ import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
 
 import java.util.ArrayList;
 
-public class FullScreenActivity extends AppCompatActivity {
+public class FullScreenActivity extends AppCompatActivity implements AdsCallback {
 
     Context context;
     int categoryPosition, selectedPosition;
@@ -47,6 +50,7 @@ public class FullScreenActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         context = this;
         initDefine();
+        CommonConstantAd.googlebeforloadAd(this);
     }
 
 
@@ -64,14 +68,6 @@ public class FullScreenActivity extends AppCompatActivity {
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
         Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
-//        textToSpeech = new TextToSpeech(context, new TextToSpeech.OnInitListener() {
-//            @Override
-//            public void onInit(int status) {
-//                if (status != TextToSpeech.ERROR) {
-//                    textToSpeech.setLanguage(Locale.UK);
-//                }
-//            }
-//        });
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -142,6 +138,27 @@ public class FullScreenActivity extends AppCompatActivity {
 
 
     ImageView imageView;
+
+    @Override
+    public void adLoadingFailed() {
+
+    }
+
+    @Override
+    public void adClose() {
+
+    }
+
+    @Override
+    public void startNextScreen() {
+
+    }
+
+    @Override
+    public void onLoaded() {
+
+    }
+
     class ViewPagerAdapter extends PagerAdapter {
 
         ArrayList<LearningDataModel> arrayOfImages;
@@ -779,6 +796,12 @@ public class FullScreenActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        CommonConstantAd.showInterstitialAdsGoogle(this,this);
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         AppControl.textToSpeech.stop();
@@ -789,4 +812,6 @@ public class FullScreenActivity extends AppCompatActivity {
         super.onBackPressed();
         overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
     }
+
+
 }

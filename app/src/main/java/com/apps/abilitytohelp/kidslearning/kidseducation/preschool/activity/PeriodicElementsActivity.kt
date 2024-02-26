@@ -36,6 +36,9 @@ class PeriodicElementsActivity : AppCompatActivity(), PeriodicTableAdapter.onCli
         setContentView(R.layout.activity_periodic_elements)
         adapter = PeriodicTableAdapter(dataList,this)
         initUI()
+        var loadingDrawable = loading?.progressDrawable?.mutate()
+        loadingDrawable?.setColorFilter(resources.getColor(R.color.yellow),android.graphics.PorterDuff.Mode.SRC_IN)
+        loading?.progressDrawable = loadingDrawable
         viewmodel?.getPeriodicTable()
 
         back?.setOnClickListener {

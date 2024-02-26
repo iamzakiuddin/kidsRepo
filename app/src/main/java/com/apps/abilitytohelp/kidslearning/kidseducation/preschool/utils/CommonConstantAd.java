@@ -33,7 +33,7 @@ public class CommonConstantAd {
 
     public static void googlebeforloadAd(Context context) {
         try {
-            InterstitialAd.load(context, Utils.getPref(context, Constant.GOOGLE_INTERSTITIAL, ""), getAdRequest(),
+            InterstitialAd.load(context, Constant.GOOGLE_INTERSTITIAL_ID, getAdRequest(),
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -96,12 +96,12 @@ public class CommonConstantAd {
 
 
     public static void loadBannerGoogleAd(Context context, final RelativeLayout llAdview) {
-        RequestConfiguration conf= new RequestConfiguration.Builder().setTagForChildDirectedTreatment(1).build();
-        MobileAds.setRequestConfiguration(conf);
+        /*RequestConfiguration conf= new RequestConfiguration.Builder().setTagForChildDirectedTreatment(1).build();
+        MobileAds.setRequestConfiguration(conf);*/
         MobileAds.initialize(context, initializationStatus -> { });
         final com.google.android.gms.ads.AdView adViewBottom = new com.google.android.gms.ads.AdView(context);
         adViewBottom.setAdSize(AdSize.BANNER);
-        adViewBottom.setAdUnitId(Utils.getPref(context, Constant.GOOGLE_BANNER, ""));
+        adViewBottom.setAdUnitId(Constant.GOOGLE_BANNER_ID);
         llAdview.addView(adViewBottom);
         AdRequest adRequest = new AdRequest.Builder().build();
         adViewBottom.loadAd(adRequest);

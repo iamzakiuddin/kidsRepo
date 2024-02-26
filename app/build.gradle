@@ -14,8 +14,8 @@ android {
         applicationId "com.apps.abilitytohelp.kidslearning.kidseducation.preschool"
         minSdk 21
         targetSdk 34
-        versionCode 8
-        versionName "1.0.5"
+        versionCode 9
+        versionName "1.0.6"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         buildConfigField("String", "GEMINI_AI", "\"" + properties['API_KEY']+"\"")
     }

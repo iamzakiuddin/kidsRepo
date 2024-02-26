@@ -8,14 +8,14 @@
     android:focusable="true"
     android:foreground="?android:selectableItemBackground"
     app:cardCornerRadius="10.0dip"
-    app:cardElevation="5.0dip"
+    app:cardElevation="1.0dip"
     app:cardUseCompatPadding="true">
 
     <LinearLayout
         android:id="@+id/lloutExamAnswer"
         android:layout_width="fill_parent"
         android:layout_height="100.0dip"
-        android:background="#ffcefdff"
+        android:background="@color/colorWhite"
         android:orientation="horizontal">
 
         <TextView
@@ -25,8 +25,9 @@
             android:layout_margin="5.0dip"
             android:gravity="center"
             android:text="Hello"
-            android:textColor="#ff005a65"
-            android:textSize="22.0dip"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="sans-serif"
+            android:textSize="18.0dip"
             android:textStyle="bold" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>

@@ -74,7 +74,10 @@
             android:layout_below="@+id/rltTop"
             android:layout_centerHorizontal="true"
             android:textColor="@color/colorBlack"
-            android:textSize="26dp" />
+            android:fontFamily="@font/atma_bold"
+            android:textSize="38dp"
+            android:layout_marginTop="20dp"
+            />
 
 
         <ImageView

@@ -97,7 +97,7 @@ public class Utils {
 
 
     public static void loadBannerAd(Context context, RelativeLayout llAdView, LinearLayout llAdViewFacebook){
-        if (Utils.getPref(context, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE) &&
+        /*if (Utils.getPref(context, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE) &&
                 Utils.getPref(context, Constant.STATUS_ENABLE_DISABLE, "").equals(Constant.ENABLE)) {
             CommonConstantAd.loadBannerGoogleAd(context, llAdView);
             llAdViewFacebook.setVisibility(View.GONE);
@@ -105,6 +105,9 @@ public class Utils {
         }  else {
             llAdView.setVisibility(View.GONE);
             llAdViewFacebook.setVisibility(View.GONE);
-        }
+        }*/
+        CommonConstantAd.loadBannerGoogleAd(context, llAdView);
+        llAdViewFacebook.setVisibility(View.GONE);
+        llAdView.setVisibility(View.VISIBLE);
     }
 }

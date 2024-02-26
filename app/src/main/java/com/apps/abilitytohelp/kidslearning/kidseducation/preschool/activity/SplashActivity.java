@@ -52,11 +52,11 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
             Utils.openInternetDialog(this, true,this);
         }
 
-        handler.postDelayed(myRunnable, 10000);
+        //handler.postDelayed(myRunnable, 10000);
     }
 
     private void successCall() {
-        if (Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1) == 1) {
+        /*if (Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1) == 1) {
             Log.e("TAG", "successCall::::IFFFFF " + Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1));
             Utils.setPref(this, Constant.SPLASH_SCREEN_COUNT, 2);
 
@@ -64,7 +64,8 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
         } else {
             Log.e("TAG", "successCall::::ELSEEE " + Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1));
             checkAd();
-        }
+        }*/
+        startNextActivity(2000);
     }
 
     private void checkAd() {

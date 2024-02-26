@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
 
-        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,15 +75,13 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
     @Override
     protected void onResume() {
         super.onResume();
-       /* if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE)) {
-            CommonConstantAd.googlebeforloadAd(this);
-        }*/
+        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
     }
 
 
     private void successCall() {
         if (Utils.isNetworkConnected(this)) {
-            if (Constant.ENABLE_DISABLE.equals(Constant.ENABLE)) {
+            /*if (Constant.ENABLE_DISABLE.equals(Constant.ENABLE)) {
 
                 Utils.setPref(MainActivity.this, Constant.AD_TYPE_FB_GOOGLE, Constant.AD_TYPE_FACEBOOK_GOOGLE);
                 Utils.setPref(MainActivity.this, Constant.GOOGLE_BANNER, Constant.GOOGLE_BANNER_ID);
@@ -93,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
                 setAppAdId(Constant.GOOGLE_ADMOB_APP_ID);
             } else {
                 Utils.setPref(MainActivity.this, Constant.STATUS_ENABLE_DISABLE, Constant.ENABLE_DISABLE);
-            }
+            }*/
         } else {
             Utils.openInternetDialog(this, true,this);
         }
@@ -143,13 +141,13 @@ public class MainActivity extends AppCompatActivity implements CallbackListener,
             @Override
             public void onClickCategory(int pos) {
                 position = pos;
-                if (Utils.getPref(MainActivity.this, Constant.CLICK_IMAGE_COUNT, 1) == 1) {
+               /* if (Utils.getPref(MainActivity.this, Constant.CLICK_IMAGE_COUNT, 1) == 1) {
                     Utils.setPref(MainActivity.this, Constant.CLICK_IMAGE_COUNT, 2);
                     startNextActivity();
                 }else{
                     checkAd();
-                }
-
+                }*/
+                startNextActivity();
             }
         });
         rvCategory.setAdapter(homeAdapter);

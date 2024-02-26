@@ -7,6 +7,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -14,7 +16,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.AppControl;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.Constant;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.AdsCallback;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CorrectAnswerCallback;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.CommonConstantAd;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -28,12 +33,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class LookChooseActivity extends AppCompatActivity implements CorrectAnswerCallback {
+public class LookChooseActivity extends AppCompatActivity implements CorrectAnswerCallback, AdsCallback {
 
     Context context;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
     LinearLayout backBtn;
+    LinearLayout nextBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +52,13 @@ public class LookChooseActivity extends AppCompatActivity implements CorrectAnsw
             @Override
             public void onClick(View view) {
                 onBackPressed();
+            }
+        });
+
+        nextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getRandomArray();
             }
         });
     }
@@ -70,7 +83,9 @@ public class LookChooseActivity extends AppCompatActivity implements CorrectAnsw
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
         backBtn = findViewById(R.id.backBtn);
+        nextBtn = findViewById(R.id.nextBtn);
         Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
+        CommonConstantAd.googlebeforloadAd(this);
     }
 
     ArrayList<ArrayList<LearningDataModel>> arrOfPrevious = new ArrayList<>();
@@ -124,7 +139,7 @@ public class LookChooseActivity extends AppCompatActivity implements CorrectAnsw
     }
 
     public void onClickNext(View view) {
-        getRandomArray();
+        //getRandomArray();
     }
 
 
@@ -713,8 +728,34 @@ public class LookChooseActivity extends AppCompatActivity implements CorrectAnsw
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        CommonConstantAd.showInterstitialAdsGoogle(this,this);
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         AppControl.textToSpeech.stop();
+    }
+
+    @Override
+    public void adLoadingFailed() {
+
+    }
+
+    @Override
+    public void adClose() {
+
+    }
+
+    @Override
+    public void startNextScreen() {
+
+    }
+
+    @Override
+    public void onLoaded() {
+
     }
 }

@@ -14,8 +14,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
@@ -32,7 +35,8 @@ import java.util.ArrayList;
 public class VideoPlayActivity extends AppCompatActivity {
 
     Context context;
-
+    RelativeLayout llAdView;
+    LinearLayout llAdViewFacebook;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +60,9 @@ public class VideoPlayActivity extends AppCompatActivity {
         POSITION = intent.getIntExtra("Position", 0);
         setRvVideoAdapter();
         initVideoPlayer();
-
+        llAdView = findViewById(R.id.llAdView);
+        llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
+        Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
     }
 
     YouTubePlayerView youTubePlayerView;

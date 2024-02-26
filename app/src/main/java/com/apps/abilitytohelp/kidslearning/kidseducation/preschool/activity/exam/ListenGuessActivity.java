@@ -8,6 +8,8 @@ import android.speech.tts.TextToSpeech;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -15,7 +17,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.AdsCallback;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CorrectAnswerCallback;
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.CommonConstantAd;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
@@ -30,13 +34,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class ListenGuessActivity extends AppCompatActivity implements CorrectAnswerCallback {
+public class ListenGuessActivity extends AppCompatActivity implements CorrectAnswerCallback, AdsCallback {
 
     Context context;
     RelativeLayout llAdView;
     LinearLayout llAdViewFacebook;
     LinearLayout backBtnn;
-
+    LinearLayout nextBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +48,7 @@ public class ListenGuessActivity extends AppCompatActivity implements CorrectAns
         getSupportActionBar().hide();
         context = this;
         initDefine();
-
+        CommonConstantAd.googlebeforloadAd(this);
     }
 
     ImageView iVQuestion;
@@ -59,6 +63,7 @@ public class ListenGuessActivity extends AppCompatActivity implements CorrectAns
         tvName = findViewById(R.id.tvName);
         txtTitleSubHome = findViewById(R.id.txtTitleSubHome);
         backBtnn = findViewById(R.id.backBtn);
+        nextBtn = findViewById(R.id.nextBtn);
         llAdView = findViewById(R.id.llAdView);
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook);
         Utils.loadBannerAd(this,llAdView,llAdViewFacebook);
@@ -71,6 +76,13 @@ public class ListenGuessActivity extends AppCompatActivity implements CorrectAns
             @Override
             public void onClick(View view) {
                 onBackPressed();
+            }
+        });
+
+        nextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getRandomArray();
             }
         });
     }
@@ -702,6 +714,12 @@ public class ListenGuessActivity extends AppCompatActivity implements CorrectAns
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        CommonConstantAd.showInterstitialAdsGoogle(this,this);
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         AppControl.textToSpeech.stop();
@@ -717,5 +735,25 @@ public class ListenGuessActivity extends AppCompatActivity implements CorrectAns
     public void onBackPressed() {
         super.onBackPressed();
         overridePendingTransition(R.anim.left_to_right,R.anim.right_to_left);
+    }
+
+    @Override
+    public void adLoadingFailed() {
+
+    }
+
+    @Override
+    public void adClose() {
+
+    }
+
+    @Override
+    public void startNextScreen() {
+
+    }
+
+    @Override
+    public void onLoaded() {
+
     }
 }
