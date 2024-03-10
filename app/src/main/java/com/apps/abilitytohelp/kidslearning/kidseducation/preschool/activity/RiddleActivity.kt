@@ -41,16 +41,19 @@ class RiddleActivity : AppCompatActivity() {
                     loading?.visibility = View.VISIBLE
                 }
                 NetworkResources.NetworkStatus.SUCCESS -> {
+                    showAnswer?.isEnabled = true
                     loading?.visibility = View.GONE
                     riddle?.text = it.data?.riddle
                     answer?.text = it.data?.answer
                 }
                 NetworkResources.NetworkStatus.ERROR -> {
+                    showAnswer?.isEnabled = true
                     loading?.visibility = View.GONE
                     Log.e("fuck",it.message?:"")
                     Toast.makeText(this,it.message,Toast.LENGTH_SHORT).show()
                 }
                 else ->{
+                    showAnswer?.isEnabled = true
                     loading?.visibility = View.GONE
                     Toast.makeText(this,"Something went wrong",Toast.LENGTH_SHORT).show()
                 }
@@ -74,6 +77,7 @@ class RiddleActivity : AppCompatActivity() {
         back = findViewById(R.id.backBtn)
         var loadingDrawable = loading?.progressDrawable?.mutate()
         loadingDrawable?.setColorFilter(resources.getColor(R.color.yellow),android.graphics.PorterDuff.Mode.SRC_IN)
+        showAnswer?.isEnabled = false
         loading?.progressDrawable = loadingDrawable
         llAdView = findViewById(R.id.llAdView)
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook)

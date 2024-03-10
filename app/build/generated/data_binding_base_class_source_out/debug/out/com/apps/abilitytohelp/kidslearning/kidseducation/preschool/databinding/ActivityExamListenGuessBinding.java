@@ -36,12 +36,6 @@ public final class ActivityExamListenGuessBinding implements ViewBinding {
   public final ImageView imgBackButton;
 
   @NonNull
-  public final ImageView imgBtnNext;
-
-  @NonNull
-  public final ImageView imgBtnPrev;
-
-  @NonNull
   public final RelativeLayout llAdView;
 
   @NonNull
@@ -49,6 +43,9 @@ public final class ActivityExamListenGuessBinding implements ViewBinding {
 
   @NonNull
   public final RelativeLayout llQuestion;
+
+  @NonNull
+  public final LinearLayout nextBtn;
 
   @NonNull
   public final RelativeLayout rltRecycle;
@@ -67,21 +64,20 @@ public final class ActivityExamListenGuessBinding implements ViewBinding {
 
   private ActivityExamListenGuessBinding(@NonNull LinearLayout rootView,
       @NonNull LinearLayout backBtn, @NonNull FrameLayout flBootom, @NonNull ImageView iVQuestion,
-      @NonNull ImageView imgBackButton, @NonNull ImageView imgBtnNext,
-      @NonNull ImageView imgBtnPrev, @NonNull RelativeLayout llAdView,
+      @NonNull ImageView imgBackButton, @NonNull RelativeLayout llAdView,
       @NonNull LinearLayout llAdViewFacebook, @NonNull RelativeLayout llQuestion,
-      @NonNull RelativeLayout rltRecycle, @NonNull RelativeLayout rltTop,
-      @NonNull RecyclerView rvExam, @NonNull TextView tvName, @NonNull TextView txtTitleSubHome) {
+      @NonNull LinearLayout nextBtn, @NonNull RelativeLayout rltRecycle,
+      @NonNull RelativeLayout rltTop, @NonNull RecyclerView rvExam, @NonNull TextView tvName,
+      @NonNull TextView txtTitleSubHome) {
     this.rootView = rootView;
     this.backBtn = backBtn;
     this.flBootom = flBootom;
     this.iVQuestion = iVQuestion;
     this.imgBackButton = imgBackButton;
-    this.imgBtnNext = imgBtnNext;
-    this.imgBtnPrev = imgBtnPrev;
     this.llAdView = llAdView;
     this.llAdViewFacebook = llAdViewFacebook;
     this.llQuestion = llQuestion;
+    this.nextBtn = nextBtn;
     this.rltRecycle = rltRecycle;
     this.rltTop = rltTop;
     this.rvExam = rvExam;
@@ -140,18 +136,6 @@ public final class ActivityExamListenGuessBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imgBtnNext;
-      ImageView imgBtnNext = ViewBindings.findChildViewById(rootView, id);
-      if (imgBtnNext == null) {
-        break missingId;
-      }
-
-      id = R.id.imgBtnPrev;
-      ImageView imgBtnPrev = ViewBindings.findChildViewById(rootView, id);
-      if (imgBtnPrev == null) {
-        break missingId;
-      }
-
       id = R.id.llAdView;
       RelativeLayout llAdView = ViewBindings.findChildViewById(rootView, id);
       if (llAdView == null) {
@@ -167,6 +151,12 @@ public final class ActivityExamListenGuessBinding implements ViewBinding {
       id = R.id.llQuestion;
       RelativeLayout llQuestion = ViewBindings.findChildViewById(rootView, id);
       if (llQuestion == null) {
+        break missingId;
+      }
+
+      id = R.id.nextBtn;
+      LinearLayout nextBtn = ViewBindings.findChildViewById(rootView, id);
+      if (nextBtn == null) {
         break missingId;
       }
 
@@ -201,8 +191,8 @@ public final class ActivityExamListenGuessBinding implements ViewBinding {
       }
 
       return new ActivityExamListenGuessBinding((LinearLayout) rootView, backBtn, flBootom,
-          iVQuestion, imgBackButton, imgBtnNext, imgBtnPrev, llAdView, llAdViewFacebook, llQuestion,
-          rltRecycle, rltTop, rvExam, tvName, txtTitleSubHome);
+          iVQuestion, imgBackButton, llAdView, llAdViewFacebook, llQuestion, nextBtn, rltRecycle,
+          rltTop, rvExam, tvName, txtTitleSubHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

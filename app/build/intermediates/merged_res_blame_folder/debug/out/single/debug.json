@@ -4,10 +4,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/parallelogram.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_arm.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/arm.png"
     },
@@ -158,6 +154,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_desk.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/desk.png"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-mdpi_close.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-mdpi/close.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_scissors.png.flat",
@@ -392,10 +392,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/ice_skating.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/layout_card_item_video_list.xml.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_item_video_list.xml"
     },
@@ -456,20 +452,12 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/gardener.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_train.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/train.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_bear.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/bear.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-anydpi_ic_action_name.xml.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-anydpi/ic_action_name.xml"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_squash.png.flat",
@@ -602,6 +590,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_rhombus.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/rhombus.png"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_gallery.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/gallery.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_sp.png.flat",
@@ -758,10 +750,6 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_cylinder.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/cylinder.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_globe.png.flat",
@@ -1032,10 +1020,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/cuba.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_florist.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/florist.png"
     },
@@ -1124,10 +1108,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/e.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_new.webp.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xxxhdpi/ic_launcher_new.webp"
     },
@@ -1196,14 +1176,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/vt_clothes.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-pngs-61:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_key.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/key.png"
     },
@@ -1260,16 +1232,8 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/go_home.jpg"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xhdpi_ic_action_name.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xhdpi/ic_action_name.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_asparagus.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/asparagus.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_chef.png.flat",
@@ -1384,10 +1348,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_list_video.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xhdpi_button_bg.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xhdpi/button_bg.png"
     },
@@ -1438,10 +1398,6 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_water.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/water.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xxhdpi_ic_action_name.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xxhdpi/ic_action_name.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_soup.png.flat",
@@ -1498,10 +1454,6 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_glass.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/glass.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_wolf.png.flat",
@@ -1594,6 +1546,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/anim_bounce_amn.xml.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/anim/bounce_amn.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_close.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/close.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_new_foreground.webp.flat",
@@ -1690,10 +1646,6 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_daffodils.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/daffodils.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_milk.png.flat",
@@ -1832,6 +1784,10 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/tiger.png"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_button_bg.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/button_bg.png"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_bowling.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/bowling.png"
     },
@@ -1842,10 +1798,6 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_vt_fruit.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/vt_fruit.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_lapwing.png.flat",
@@ -1926,10 +1878,6 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_dianthus.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/dianthus.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_btn_next_150.png.flat",
@@ -2042,6 +1990,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_kiwi.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/kiwi.png"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-hdpi_close.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-hdpi/close.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_chair.png.flat",
@@ -2196,10 +2148,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/receptionist.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-hdpi_ic_action_name.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-hdpi/ic_action_name.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_orange.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/orange.png"
     },
@@ -2336,10 +2284,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/scientist.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-mdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_home_country.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/home_country.png"
     },
@@ -2396,6 +2340,10 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/driver.png"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xhdpi_close.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xhdpi/close.png"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_poppy.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/poppy.png"
     },
@@ -2450,6 +2398,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_spinach.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/spinach.png"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xxhdpi_close.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xxhdpi/close.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_hyena.png.flat",
@@ -2592,8 +2544,8 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/lifeguard.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_camera.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/camera.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_bird_of_paradise.png.flat",
@@ -2686,6 +2638,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_message_background_secondary.xml.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/message_background_secondary.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_back_blue.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/back_blue.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_doctor.png.flat",
@@ -2788,10 +2744,6 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/home_vehicle.png"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-mdpi_ic_action_name.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-mdpi/ic_action_name.png"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_card_one.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/card_one.png"
     },
@@ -2850,10 +2802,6 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_ten_10.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/ten_10.png"
-    },
-    {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_dentist.png.flat",

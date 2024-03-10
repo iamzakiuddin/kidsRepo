@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,25 +26,30 @@ public final class ActivityMainMenuBinding implements ViewBinding {
   public final Button funactivity;
 
   @NonNull
-  public final Button guide;
-
-  @NonNull
   public final Guideline guideline3;
 
   @NonNull
   public final Guideline guideline4;
 
   @NonNull
+  public final RelativeLayout llAdView;
+
+  @NonNull
+  public final LinearLayout llAdViewFacebook;
+
+  @NonNull
   public final Button mySchool;
 
   private ActivityMainMenuBinding(@NonNull ConstraintLayout rootView, @NonNull Button funactivity,
-      @NonNull Button guide, @NonNull Guideline guideline3, @NonNull Guideline guideline4,
+      @NonNull Guideline guideline3, @NonNull Guideline guideline4,
+      @NonNull RelativeLayout llAdView, @NonNull LinearLayout llAdViewFacebook,
       @NonNull Button mySchool) {
     this.rootView = rootView;
     this.funactivity = funactivity;
-    this.guide = guide;
     this.guideline3 = guideline3;
     this.guideline4 = guideline4;
+    this.llAdView = llAdView;
+    this.llAdViewFacebook = llAdViewFacebook;
     this.mySchool = mySchool;
   }
 
@@ -79,12 +86,6 @@ public final class ActivityMainMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.guide;
-      Button guide = ViewBindings.findChildViewById(rootView, id);
-      if (guide == null) {
-        break missingId;
-      }
-
       id = R.id.guideline3;
       Guideline guideline3 = ViewBindings.findChildViewById(rootView, id);
       if (guideline3 == null) {
@@ -97,14 +98,26 @@ public final class ActivityMainMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.llAdView;
+      RelativeLayout llAdView = ViewBindings.findChildViewById(rootView, id);
+      if (llAdView == null) {
+        break missingId;
+      }
+
+      id = R.id.llAdViewFacebook;
+      LinearLayout llAdViewFacebook = ViewBindings.findChildViewById(rootView, id);
+      if (llAdViewFacebook == null) {
+        break missingId;
+      }
+
       id = R.id.mySchool;
       Button mySchool = ViewBindings.findChildViewById(rootView, id);
       if (mySchool == null) {
         break missingId;
       }
 
-      return new ActivityMainMenuBinding((ConstraintLayout) rootView, funactivity, guide,
-          guideline3, guideline4, mySchool);
+      return new ActivityMainMenuBinding((ConstraintLayout) rootView, funactivity, guideline3,
+          guideline4, llAdView, llAdViewFacebook, mySchool);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

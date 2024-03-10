@@ -36,16 +36,13 @@ public final class ActivityExamQuestionBinding implements ViewBinding {
   public final ImageView imgBackButton;
 
   @NonNull
-  public final ImageView imgBtnNext;
-
-  @NonNull
-  public final ImageView imgBtnPrev;
-
-  @NonNull
   public final RelativeLayout llAdView;
 
   @NonNull
   public final LinearLayout llAdViewFacebook;
+
+  @NonNull
+  public final LinearLayout nextBtn;
 
   @NonNull
   public final RelativeLayout rltMain;
@@ -64,20 +61,19 @@ public final class ActivityExamQuestionBinding implements ViewBinding {
 
   private ActivityExamQuestionBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout backBtn,
       @NonNull FrameLayout flBootom, @NonNull ImageView iVQuestion,
-      @NonNull ImageView imgBackButton, @NonNull ImageView imgBtnNext,
-      @NonNull ImageView imgBtnPrev, @NonNull RelativeLayout llAdView,
-      @NonNull LinearLayout llAdViewFacebook, @NonNull RelativeLayout rltMain,
-      @NonNull RelativeLayout rltRecycle, @NonNull RelativeLayout rltTop,
-      @NonNull RecyclerView rvExam, @NonNull TextView txtTitleSubHome) {
+      @NonNull ImageView imgBackButton, @NonNull RelativeLayout llAdView,
+      @NonNull LinearLayout llAdViewFacebook, @NonNull LinearLayout nextBtn,
+      @NonNull RelativeLayout rltMain, @NonNull RelativeLayout rltRecycle,
+      @NonNull RelativeLayout rltTop, @NonNull RecyclerView rvExam,
+      @NonNull TextView txtTitleSubHome) {
     this.rootView = rootView;
     this.backBtn = backBtn;
     this.flBootom = flBootom;
     this.iVQuestion = iVQuestion;
     this.imgBackButton = imgBackButton;
-    this.imgBtnNext = imgBtnNext;
-    this.imgBtnPrev = imgBtnPrev;
     this.llAdView = llAdView;
     this.llAdViewFacebook = llAdViewFacebook;
+    this.nextBtn = nextBtn;
     this.rltMain = rltMain;
     this.rltRecycle = rltRecycle;
     this.rltTop = rltTop;
@@ -136,18 +132,6 @@ public final class ActivityExamQuestionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imgBtnNext;
-      ImageView imgBtnNext = ViewBindings.findChildViewById(rootView, id);
-      if (imgBtnNext == null) {
-        break missingId;
-      }
-
-      id = R.id.imgBtnPrev;
-      ImageView imgBtnPrev = ViewBindings.findChildViewById(rootView, id);
-      if (imgBtnPrev == null) {
-        break missingId;
-      }
-
       id = R.id.llAdView;
       RelativeLayout llAdView = ViewBindings.findChildViewById(rootView, id);
       if (llAdView == null) {
@@ -157,6 +141,12 @@ public final class ActivityExamQuestionBinding implements ViewBinding {
       id = R.id.llAdViewFacebook;
       LinearLayout llAdViewFacebook = ViewBindings.findChildViewById(rootView, id);
       if (llAdViewFacebook == null) {
+        break missingId;
+      }
+
+      id = R.id.nextBtn;
+      LinearLayout nextBtn = ViewBindings.findChildViewById(rootView, id);
+      if (nextBtn == null) {
         break missingId;
       }
 
@@ -191,8 +181,8 @@ public final class ActivityExamQuestionBinding implements ViewBinding {
       }
 
       return new ActivityExamQuestionBinding((LinearLayout) rootView, backBtn, flBootom, iVQuestion,
-          imgBackButton, imgBtnNext, imgBtnPrev, llAdView, llAdViewFacebook, rltMain, rltRecycle,
-          rltTop, rvExam, txtTitleSubHome);
+          imgBackButton, llAdView, llAdViewFacebook, nextBtn, rltMain, rltRecycle, rltTop, rvExam,
+          txtTitleSubHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

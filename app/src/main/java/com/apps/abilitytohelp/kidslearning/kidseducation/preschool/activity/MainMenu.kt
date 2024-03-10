@@ -14,7 +14,6 @@ import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 class MainMenu : AppCompatActivity(), AdsCallback {
 
     var mySchool: Button? = null
-    var guide: Button? = null
     var funActivity: Button? = null
     var llAdView : RelativeLayout? = null
     var llAdViewFacebook: LinearLayout? = null
@@ -24,7 +23,6 @@ class MainMenu : AppCompatActivity(), AdsCallback {
         setContentView(R.layout.activity_main_menu)
         supportActionBar?.hide()
         mySchool = findViewById(R.id.mySchool)
-        guide =  findViewById(R.id.guide)
         funActivity = findViewById(R.id.funactivity)
         llAdView = findViewById(R.id.llAdView)
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
@@ -34,11 +32,6 @@ class MainMenu : AppCompatActivity(), AdsCallback {
         mySchool?.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
             overridePendingTransition(R.anim.slide_up_a,R.anim.slide_up_b)
-        }
-
-        guide?.setOnClickListener {
-            //startActivity(Intent(this,GuideActivity::class.java))
-            //overridePendingTransition(R.anim.slide_up_a,R.anim.slide_up_b)
         }
 
         funActivity?.setOnClickListener {

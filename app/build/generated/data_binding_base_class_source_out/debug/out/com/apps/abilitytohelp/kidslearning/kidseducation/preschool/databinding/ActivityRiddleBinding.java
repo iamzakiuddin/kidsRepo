@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -13,6 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R;
@@ -22,7 +22,7 @@ import java.lang.String;
 
 public final class ActivityRiddleBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final TextView answer;
@@ -54,7 +54,7 @@ public final class ActivityRiddleBinding implements ViewBinding {
   @NonNull
   public final TextView txtTitleSubHome;
 
-  private ActivityRiddleBinding(@NonNull FrameLayout rootView, @NonNull TextView answer,
+  private ActivityRiddleBinding(@NonNull ConstraintLayout rootView, @NonNull TextView answer,
       @NonNull LinearLayout backBtn, @NonNull ImageView imgBackButton,
       @NonNull RelativeLayout llAdView, @NonNull LinearLayout llAdViewFacebook,
       @NonNull ProgressBar loading, @NonNull TextView riddle, @NonNull RelativeLayout rltTop,
@@ -74,7 +74,7 @@ public final class ActivityRiddleBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -159,7 +159,7 @@ public final class ActivityRiddleBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRiddleBinding((FrameLayout) rootView, answer, backBtn, imgBackButton,
+      return new ActivityRiddleBinding((ConstraintLayout) rootView, answer, backBtn, imgBackButton,
           llAdView, llAdViewFacebook, loading, riddle, rltTop, showAnswer, txtTitleSubHome);
     }
     String missingId = rootView.getResources().getResourceName(id);

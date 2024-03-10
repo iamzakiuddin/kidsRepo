@@ -3224,6 +3224,7 @@ drawable circle
 drawable clean_my_teeth
 drawable cleaner
 drawable clock
+drawable close
 drawable cockscomb
 drawable coconut
 drawable coffee
@@ -3401,7 +3402,6 @@ drawable hornbill
 drawable hyena
 drawable i
 drawable i_icecream
-drawable ic_action_name
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3415,7 +3415,6 @@ drawable ic_close_rate
 drawable ic_exam_phonics
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -4084,7 +4083,6 @@ id groupBlock
 id group_divider
 id grouping
 id groups
-id guide
 id guideline
 id guideline3
 id guideline4
@@ -4240,6 +4238,7 @@ id negativity
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nextBtn
 id noScroll
 id noState
 id none
@@ -4719,8 +4718,6 @@ layout synonym_item
 layout video_card_list
 layout viewpager_layout
 layout word_image_item
-mipmap ic_launcher
-mipmap ic_launcher_foreground
 mipmap ic_launcher_new
 mipmap ic_launcher_new_foreground
 mipmap ic_launcher_new_round

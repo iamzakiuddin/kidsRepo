@@ -679,6 +679,31 @@ public class LookChooseActivity extends AppCompatActivity implements CorrectAnsw
             learningDataModelArrayList.add(new LearningDataModel(R.drawable.subway, "Subway", "Subway"));
             learningDataModelArrayList.add(new LearningDataModel(R.drawable.train, "Train", "Train"));
             learningDataModelArrayList.add(new LearningDataModel(R.drawable.truck, "Truck", "Truck"));
+        }else if (i2 == 20){
+            learningDataModelArrayList = new ArrayList();
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.wake_up, "Wake up", "Wake up"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.get_up, "Get up", "Get up"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.clean_my_teeth, "Clean my teeth", "Clean my teeth"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.have_a_shower, "Have a shower", "Have a shower"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.get_dressed, "Get dressed", "Get dressed"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.have_breakfast, "Have breakfast", "Have breakfast"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.go_to_school, "Go to school", "Go to school"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.go_home, "Go home", "Go home"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.have_lunch, "Have lunch", "Have lunch"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.do_homework, "Do homework", "Do homework"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.have_dinner, "Have dinner", "Have dinner"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.go_to_bed, "Go to bed", "Go to bed"));
+
+        } else if(i2 == 21){
+            learningDataModelArrayList = new ArrayList();
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.angry, "Angry", "Angry"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.kiss, "Kiss", "Kiss"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.love, "Love", "Love"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.neutral, "Neutral", "Neutral"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.sad, "Sad", "Sad"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.shy, "Shy", "Shy"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.smiling, "Smiling", "Smiling"));
+            learningDataModelArrayList.add(new LearningDataModel(R.drawable.wink, "Wink", "Wink"));
         } else {
             learningDataModelArrayList = new ArrayList();
             learningDataModelArrayList.add(new LearningDataModel(R.drawable.a, "A for Apple", "Apple"));
