@@ -16,8 +16,13 @@ public final class ActivitySplashBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
 
-  private ActivitySplashBinding(@NonNull RelativeLayout rootView) {
+  @NonNull
+  public final RelativeLayout parentLayout;
+
+  private ActivitySplashBinding(@NonNull RelativeLayout rootView,
+      @NonNull RelativeLayout parentLayout) {
     this.rootView = rootView;
+    this.parentLayout = parentLayout;
   }
 
   @Override
@@ -47,6 +52,8 @@ public final class ActivitySplashBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new ActivitySplashBinding((RelativeLayout) rootView);
+    RelativeLayout parentLayout = (RelativeLayout) rootView;
+
+    return new ActivitySplashBinding((RelativeLayout) rootView, parentLayout);
   }
 }

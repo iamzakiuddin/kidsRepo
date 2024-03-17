@@ -3586,6 +3586,8 @@ drawable notification_bg_normal
 drawable notification_bg_normal_pressed
 drawable notification_icon
 drawable notification_icon_background
+drawable notification_large
+drawable notification_launcher
 drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
@@ -4277,6 +4279,7 @@ id oxidationStates
 id packed
 id parallax
 id parent
+id parentLayout
 id parentPanel
 id parentRelative
 id parent_matrix

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.abilitytohelp.kidslearning.kidseducation.preschool"
-    android:versionCode="17"
-    android:versionName="1.1.4" >
+    android:versionCode="18"
+    android:versionName="1.1.5" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
@@ -152,6 +153,8 @@
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PrivacyPolicyActivity"
             android:screenOrientation="portrait" />
+
+        <receiver android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.broadcastmanagers.DailyBroadcast" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

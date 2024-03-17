@@ -968,6 +968,10 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/archery.png"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xhdpi_notification_launcher.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xhdpi/notification_launcher.png"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/font_atma_medium.ttf.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/font/atma_medium.ttf"
     },
@@ -1628,6 +1632,10 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-mdpi/camera.png"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xxxhdpi_notification_launcher.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xxxhdpi/notification_launcher.png"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_btn_sound.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/btn_sound.png"
     },
@@ -1900,6 +1908,10 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/sad.png"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-xxhdpi_notification_launcher.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-xxhdpi/notification_launcher.png"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_nerium_oleander.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/nerium_oleander.png"
     },
@@ -2046,6 +2058,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_r.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/r.png"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-hdpi_notification_launcher.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-hdpi/notification_launcher.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_home_shape.png.flat",
@@ -2696,6 +2712,10 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/u.png"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_notification_large.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/notification_large.png"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-mdpi_button_bg.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-mdpi/button_bg.png"
     },
@@ -2734,6 +2754,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_fox.png.flat",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable/fox.png"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable-mdpi_notification_launcher.png.flat",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/drawable-mdpi/notification_launcher.png"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-merged_res-65:/drawable_home_fruits.png.flat",

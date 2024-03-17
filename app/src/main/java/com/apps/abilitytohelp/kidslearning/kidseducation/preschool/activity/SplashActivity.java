@@ -1,20 +1,30 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Handler;
+
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+
 import android.os.Bundle;
-import android.util.Log;
+import android.provider.Settings;
 
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R;
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.Constant;
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.AdsCallback;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CallbackListener;
-import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.CommonConstantAd;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
 
-public class SplashActivity extends AppCompatActivity implements CallbackListener, AdsCallback {
+public class SplashActivity extends AppCompatActivity implements CallbackListener {
+    private boolean isComingFromSettings = false;
+
     /*For Internet*/
     @Override
     public void onSuccess() {
@@ -33,16 +43,59 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
 
 
     Context context;
-
+    private ActivityResultLauncher<String> notificationsPermissionLauncher;
+    Boolean hasNotificationPermissionGranted = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
-        context = this;
+        notificationsPermissionLauncher = registerForActivityResult(new ActivityResultContracts.RequestPermission(), new ActivityResultCallback<Boolean>() {
+                    @Override
+                    public void onActivityResult(Boolean isGranted) {
+                        if (!isGranted) {
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                if (Build.VERSION.SDK_INT >= 33) {
+                                    if (shouldShowRequestPermissionRationale(android.Manifest.permission.POST_NOTIFICATIONS)) {
+                                        showNotificationPermissionRationale();
+                                    } else {
+                                        showSettingDialog();
+                                    }
+                                }
+                            }
+                        } else {
+                            navigateToMainMenu();
+                        }
+                    }
+                });
+                context = this;
         callApi();
 
+    }
+
+    private void showSettingDialog() {
+        new AlertDialog.Builder(this)
+                .setTitle("Alert")
+                .setMessage("Notification permission is required, Please allow notification permission from setting")
+                .setCancelable(false)
+                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        isComingFromSettings = true;
+                        Intent intent = new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        intent.putExtra(Settings.EXTRA_APP_PACKAGE, getPackageName());
+                        startActivity(intent);
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        navigateToMainMenu();
+                    }
+                })
+                .show();
     }
 
     public void callApi() {
@@ -51,90 +104,89 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
         } else {
             Utils.openInternetDialog(this, true,this);
         }
-
-        //handler.postDelayed(myRunnable, 10000);
     }
 
     private void successCall() {
-        /*if (Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1) == 1) {
-            Log.e("TAG", "successCall::::IFFFFF " + Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1));
-            Utils.setPref(this, Constant.SPLASH_SCREEN_COUNT, 2);
-
-            startNextActivity(1000);
-        } else {
-            Log.e("TAG", "successCall::::ELSEEE " + Utils.getPref(this, Constant.SPLASH_SCREEN_COUNT, 1));
-            checkAd();
-        }*/
         startNextActivity(2000);
     }
-
-    private void checkAd() {
-        if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "").equals(Constant.ENABLE)) {
-            if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE)) {
-                CommonConstantAd.googlebeforloadAd(this);
-                Log.e("TAG", "checkAd:Google::::  ");
-            }
-            if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "").equals(Constant.ENABLE)) {
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (Utils.getPref(SplashActivity.this, Constant.AD_TYPE_FB_GOOGLE, "").equals(Constant.AD_GOOGLE)) {
-                            //CommonConstantAd.showInterstitialAdsGoogle(SplashActivity.this,SplashActivity.this);
-                            startNextActivity(0);
-                        } else {
-                            startNextActivity(0);
-                        }
-                    }
-
-                }, 3000);
-                Utils.setPref(this, Constant.SPLASH_SCREEN_COUNT, 1);
-
-            } else {
-                startNextActivity(0);
-            }
-        } else {
-            Utils.setPref(this, Constant.SPLASH_SCREEN_COUNT, 1);
-            Log.e("TAG", "checkAd:ELSE:::: " + Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, ""));
-            startNextActivity(1000);
-        }
-    }
-
 
     public void startNextActivity(Integer time) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, MainMenu.class);
-                startActivity(intent);
-                finish();
+                if (notificationsPermissionLauncher!=null){
+                    if (Build.VERSION.SDK_INT >= 33) {
+                        notificationsPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS);
+                    } else {
+                        hasNotificationPermissionGranted = true;
+                    }
+                    if (hasNotificationPermissionGranted){
+                        navigateToMainMenu();
+                    }
+                }
             }
         }, time);
     }
 
-
-    /*For ads*/
-    @Override
-    public void adLoadingFailed() {
-        startNextActivity(0);
+    private void navigateToMainMenu() {
+        Intent intent = new Intent(SplashActivity.this, MainMenu.class);
+        startActivity(intent);
+        finish();
     }
 
-    @Override
-    public void adClose() {
-        startNextActivity(0);
-    }
+  /*  private boolean ensureNotificationsPermission() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) {return true;}
+        String permission = android.Manifest.permission.POST_NOTIFICATIONS;
+        boolean granted = ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED;
 
-    @Override
-    public void startNextScreen() {
-        startNextActivity(0);
+        if (granted) return true;
+
+        if (shouldShowRequestPermissionRationale(permission)) {
+            new AlertDialog.Builder(this)
+                    .setTitle(R.string.app_name)
+                    .setMessage("Ability to Help app needs permission to send daily notification. If denied, you won't receive these notifications, and the app won't ask again. Thank you for understanding.")
+                    .setCancelable(false)
+                    .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            notificationsPermissionLauncher.launch(permission);
+                        }
+                    })
+                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            navigateToMainMenu();
+                        }
+                    })
+                    .show();
+            return false;
+        }
+        notificationsPermissionLauncher.launch(permission);
+        return false;
+    }
+*/
+    private void showNotificationPermissionRationale(){
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.app_name)
+                .setMessage("Ability to Help app needs permission to send daily notification. If denied, you won't receive daily notification. Thank you for understanding.")
+                .setCancelable(false)
+                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        notificationsPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS);
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        navigateToMainMenu();
+                    }
+                })
+                .show();
     }
 
     private Boolean isLoaded = false;
-
-    @Override
-    public void onLoaded() {
-        isLoaded = true;
-    }
 
     private Handler handler = new Handler();
     private Runnable myRunnable = new Runnable() {
@@ -149,6 +201,15 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
     };
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        if (isComingFromSettings){
+            isComingFromSettings = false;
+            navigateToMainMenu();
+        }
+    }
+
+    @Override
     protected void onStop() {
         super.onStop();
         handler.removeCallbacks(myRunnable);
@@ -157,6 +218,7 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        notificationsPermissionLauncher = null;
         handler.removeCallbacks(myRunnable);
     }
 }
