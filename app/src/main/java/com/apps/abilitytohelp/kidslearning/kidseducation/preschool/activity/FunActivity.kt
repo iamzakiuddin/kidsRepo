@@ -14,6 +14,9 @@ class FunActivity : AppCompatActivity() {
 
     var back : ImageView? = null
     var synonyms: Button? = null
+    var antonymsSynoyms: Button? = null
+    var speechFinder: Button? = null
+    var grammarGenius: Button? = null
     var riddle: Button? = null
     var periodicTable: Button? = null
     var machineLearningActivity: Button? = null
@@ -25,12 +28,29 @@ class FunActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fun)
         supportActionBar?.hide()
+
         initUI()
+
         back?.setOnClickListener {
             onBackPressed()
         }
         synonyms?.setOnClickListener {
             startActivity(Intent(this,SynonymsActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
+        }
+
+        antonymsSynoyms?.setOnClickListener {
+            startActivity(Intent(this,AntonymsActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
+        }
+
+        speechFinder?.setOnClickListener {
+            startActivity(Intent(this,PartsOfSpeechActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
+        }
+
+        grammarGenius?.setOnClickListener {
+            startActivity(Intent(this,GrammarGeniusActivity::class.java))
             overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
@@ -64,6 +84,9 @@ class FunActivity : AppCompatActivity() {
     private fun initUI() {
         back = findViewById(R.id.close)
         synonyms = findViewById(R.id.synonyms)
+        antonymsSynoyms = findViewById(R.id.antonyms_synonyms)
+        speechFinder = findViewById(R.id.speech_finder)
+        grammarGenius = findViewById(R.id.grammar_genius)
         riddle = findViewById(R.id.riddleBtn)
         periodicTable = findViewById(R.id.learning_periodic_table)
         machineLearningActivity = findViewById(R.id.machine_learning)

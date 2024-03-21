@@ -9,6 +9,7 @@
     <color name="colorWrong">#ed1725</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
+    <color name="light">#1A000000</color>
     <!--<color name="colorTheme">#D2FFEB3B</color>-->
     <color name="colorTheme">#FFFFFF</color>
     <color name="colorBlue">#056336</color>

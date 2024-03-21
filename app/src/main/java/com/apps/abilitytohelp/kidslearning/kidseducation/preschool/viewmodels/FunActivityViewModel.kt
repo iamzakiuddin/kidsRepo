@@ -4,6 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.AntonymsSynonymsResponse
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PartOfSpeechResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PeriodicElementResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.RiddleResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.SynonymsResponse
@@ -28,6 +30,12 @@ class FunActivityViewModel : ViewModel(){
 
     private var periodicElementsResponse = MutableLiveData<NetworkResources<PeriodicElementResponse>>()
     var periodicResponse : LiveData<NetworkResources<PeriodicElementResponse>> = periodicElementsResponse
+
+    private var antonymsSynonymsResponse = MutableLiveData<NetworkResources<AntonymsSynonymsResponse>>()
+    var antonymsSynResponse : LiveData<NetworkResources<AntonymsSynonymsResponse>> = antonymsSynonymsResponse
+
+    private var partOfSpeechResponse = MutableLiveData<NetworkResources<PartOfSpeechResponse>>()
+    var speechResponse : LiveData<NetworkResources<PartOfSpeechResponse>> = partOfSpeechResponse
 
     init {
         repository = NetworkUtil.provideRepository()
@@ -73,5 +81,27 @@ class FunActivityViewModel : ViewModel(){
 
     fun periodicTableObserver() : LiveData<NetworkResources<PeriodicElementResponse>>{
         return periodicResponse
+    }
+
+    fun getAntonymSynonyms(word: String){
+        antonymsSynonymsResponse.value = NetworkResources.loading()
+        viewModelScope.launch {
+            antonymsSynonymsResponse.value = repository?.getAntonymsSynonyms(word)
+        }
+    }
+
+    fun getAntonymsSynonymsObserver() : LiveData<NetworkResources<AntonymsSynonymsResponse>>{
+        return antonymsSynResponse
+    }
+
+    fun getPartsOfSpeech(word: String){
+        partOfSpeechResponse.value = NetworkResources.loading()
+        viewModelScope.launch {
+            partOfSpeechResponse.value = repository?.getPartsOfSpeech(word)
+        }
+    }
+
+    fun partsOfSpeechObserver() : LiveData<NetworkResources<PartOfSpeechResponse>>{
+        return speechResponse
     }
 }

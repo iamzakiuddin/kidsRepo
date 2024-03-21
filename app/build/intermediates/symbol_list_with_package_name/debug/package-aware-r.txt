@@ -1524,6 +1524,7 @@ color highlighted_text_material_light
 color ic_launcher_background
 color ic_launcher_new_background
 color ios_blue
+color light
 color light_blue
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -3741,6 +3742,9 @@ drawable sweden
 drawable swimming
 drawable t
 drawable t_train
+drawable tab_color_selected
+drawable tab_layout_bg
+drawable tab_selector
 drawable table
 drawable table_tennis
 drawable tailor
@@ -3900,8 +3904,10 @@ id actions
 id activity_chooser_view_content
 id add
 id adhd
+id adjective
 id adjust_height
 id adjust_width
+id adverb
 id affinity
 id alertTitle
 id aligned
@@ -3914,6 +3920,9 @@ id animateToStart
 id answer
 id antiClockwise
 id anticipate
+id antonymsListView
+id antonymsSynonymsContainer
+id antonyms_synonyms
 id appBar
 id arc
 id asConfigured
@@ -3960,6 +3969,8 @@ id cancel_button
 id cardView
 id cardViewMain
 id carryVelocity
+id category
+id categoryType
 id cellImgViewPager
 id center
 id centerCrop
@@ -3988,6 +3999,8 @@ id container
 id content
 id contentPanel
 id content_text
+id context
+id contextData
 id contiguous
 id continuousVelocity
 id coordinator
@@ -4078,6 +4091,8 @@ id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
 id gone
+id grammarErrorsListView
+id grammar_genius
 id graph
 id graph_wrap
 id group
@@ -4190,6 +4205,7 @@ id material_value_index
 id matrix
 id meltingPoints
 id message
+id messageData
 id messageText
 id middle
 id minerals
@@ -4283,6 +4299,7 @@ id parentLayout
 id parentPanel
 id parentRelative
 id parent_matrix
+id partofspeech
 id password_toggle
 id path
 id pathRelative
@@ -4300,6 +4317,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id replacement
+id replacementData
 id report_drawn
 id reverseSawtooth
 id riddle
@@ -4371,6 +4390,7 @@ id south
 id spacer
 id special_effects_controller_view_tag
 id speech_delay
+id speech_finder
 id speedOfSound
 id spline
 id split_action_bar
@@ -4399,6 +4419,7 @@ id synonyms
 id synonymsListView
 id tVExamAnswer
 id tabMode
+id tab_layout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -4458,10 +4479,12 @@ id unlabeled
 id up
 id useLogo
 id vanDerWaalsRadius
+id verb
 id vertical_only
 id videoTitleOfVideo
 id viewPager
 id view_offset_helper
+id view_pager
 id view_transition
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
@@ -4475,6 +4498,7 @@ id wide
 id withText
 id with_icon
 id withinBounds
+id word
 id wordImage
 id word_image
 id wrap
@@ -4600,18 +4624,21 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_antonyms
 layout activity_ask_me_anything
 layout activity_element_detail
 layout activity_exam_listen_guess
 layout activity_exam_question
 layout activity_full_screen
 layout activity_fun
+layout activity_grammar_genius
 layout activity_guide
 layout activity_home
 layout activity_list_video
 layout activity_machine_learning
 layout activity_main
 layout activity_main_menu
+layout activity_parts_of_speech
 layout activity_periodic_elements
 layout activity_privacy_policy
 layout activity_riddle
@@ -4650,6 +4677,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_antonyms
+layout fragment_synonyms
+layout grammar_item_layout
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_notification_coll
@@ -4758,6 +4788,7 @@ string abc_toolbar_collapse_description
 string adhd
 string android_animations_lib_name
 string androidx_startup
+string antonyms_and_synonyms
 string app_name
 string appbar_scrolling_view_behavior
 string ask_me_anything
@@ -4814,7 +4845,9 @@ string find_synonyms
 string first_fragment_label
 string fun_activity
 string games
+string grammar_genius
 string guide
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -4977,6 +5010,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string sound
 string speech_delay
+string speech_finder
 string status_bar_notification_info_overflow
 string synonyms
 string title_activity_synonyms
@@ -5309,6 +5343,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style RoundedTabLayoutStyle
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
@@ -6103,6 +6138,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style tab_text
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

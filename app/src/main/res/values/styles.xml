@@ -35,4 +35,18 @@
         <item name="android:windowDisablePreview">true</item>
     </style>
 
+    <style name="RoundedTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabIndicator">@null</item>
+        <item name="android:background">@drawable/tab_layout_bg</item>
+        <item name="tabSelectedTextColor">@color/colorBlack</item>
+        <item name="tabTextColor">@color/colorBlack</item>
+        <item name="fontFamily">@font/atma_semibold</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/atma_semibold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
 </resources>

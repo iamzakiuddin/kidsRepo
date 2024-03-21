@@ -1,5 +1,7 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network
 
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.AntonymsSynonymsResponse
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PartOfSpeechResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PeriodicElementResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.RiddleResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.SynonymsResponse
@@ -35,4 +37,20 @@ interface RestApi {
         @Url baseUrl: String,
         @Header("X-RapidAPI-Key") key: String,
         @Header("X-RapidAPI-Host") host: String) : Response<WordImageResponse>
+
+    @GET
+    suspend fun getAntonymsSynonyms(
+        @Url baseUrl: String,
+        @Header("X-RapidAPI-Key") key: String,
+        @Header("X-RapidAPI-Host") host: String,
+        @Query("word") word: String) : Response<AntonymsSynonymsResponse>
+
+    @GET
+    suspend fun getPartsOfSpeech(
+        @Url baseUrl: String,
+        @Header("X-RapidAPI-Key") key: String,
+        @Header("X-RapidAPI-Host") host: String,
+        @Query("word") word: String) : Response<PartOfSpeechResponse>
+
+
 }

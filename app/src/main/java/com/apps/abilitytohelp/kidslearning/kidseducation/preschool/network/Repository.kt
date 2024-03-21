@@ -1,5 +1,7 @@
 package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network
 
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.AntonymsSynonymsResponse
+import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PartOfSpeechResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.PeriodicElementResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.RiddleResponse
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.model.SynonymsResponse
@@ -105,5 +107,49 @@ class Repository(val dataApi: RestApi) {
         }
     }
 
+    suspend fun getAntonymsSynonyms(word: String) : NetworkResources<AntonymsSynonymsResponse>{
+        try {
+            val response = dataApi.getAntonymsSynonyms("https://thesaurus-by-api-ninjas.p.rapidapi.com/v1/thesaurus/","73c0c813a4mshebc31b8efca06b3p1dd4abjsn5b42d292097c","thesaurus-by-api-ninjas.p.rapidapi.com",word)
+            if (response.isSuccessful) {
+                val responseBody = response.body()
+                if (responseBody != null && response.code() == 200) {
+                    // Check if the response body is not empty
+                    if (responseBody.word.isNotEmpty()) {
+                        return NetworkResources.success(responseBody)
+                    } else {
+                        return NetworkResources.error("No data!")
+                    }
+                } else {
+                    return NetworkResources.error("No data!")
+                }
+            } else {
+                return NetworkResources.error(response.message())
+            }
+        }catch (e: Exception){
+            return NetworkResources.error(e.message!!)
+        }
+    }
 
+    suspend fun getPartsOfSpeech(word: String) : NetworkResources<PartOfSpeechResponse>{
+        try {
+            val response = dataApi.getPartsOfSpeech("https://speechfinder-word-class-identification.p.rapidapi.com/part_of_speech/","73c0c813a4mshebc31b8efca06b3p1dd4abjsn5b42d292097c","speechfinder-word-class-identification.p.rapidapi.com", word)
+            if (response.isSuccessful) {
+                val responseBody = response.body()
+                if (responseBody != null && response.code() == 200) {
+                    // Check if the response body is not empty
+                    if (!responseBody.word.isNullOrEmpty()) {
+                        return NetworkResources.success(responseBody)
+                    } else {
+                        return NetworkResources.error("No data!")
+                    }
+                } else {
+                    return NetworkResources.error("No data!")
+                }
+            } else {
+                return NetworkResources.error(response.message())
+            }
+        }catch (e: Exception){
+            return NetworkResources.error(e.message!!)
+        }
+    }
 }

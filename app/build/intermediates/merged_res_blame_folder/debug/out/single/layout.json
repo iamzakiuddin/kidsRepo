@@ -1,11 +1,11 @@
 [
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_splash.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_splash.xml"
-    },
-    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_main.xml",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_splash.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_splash.xml"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/card_list_home.xml",
@@ -56,12 +56,28 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/item_notification_expand.xml"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/fragment_antonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/fragment_antonyms.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_parts_of_speech.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_parts_of_speech.xml"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_periodic_elements.xml",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_periodic_elements.xml"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/viewpager_layout.xml",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/viewpager_layout.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_antonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_antonyms.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/grammar_item_layout.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/grammar_item_layout.xml"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_riddle.xml",
@@ -108,6 +124,10 @@
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/periodic_element.xml"
     },
     {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_grammar_genius.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_grammar_genius.xml"
+    },
+    {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_exam_listen_guess.xml",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_exam_listen_guess.xml"
     },
@@ -138,6 +158,10 @@
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_exam_question.xml",
         "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_exam_question.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/fragment_synonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/fragment_synonyms.xml"
     },
     {
         "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeDebugResources-64:/layout/activity_synonyms.xml",

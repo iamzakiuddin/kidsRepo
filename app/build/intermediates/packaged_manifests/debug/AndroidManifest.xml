@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.abilitytohelp.kidslearning.kidseducation.preschool"
-    android:versionCode="18"
-    android:versionName="1.1.5" >
+    android:versionCode="19"
+    android:versionName="1.1.6" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -64,6 +64,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GrammarGeniusActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PartsOfSpeechActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AntonymsActivity"
+            android:exported="false" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.WordImageActivity"
             android:exported="false"

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -9,11 +8,13 @@
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
+
     <queries>
         <intent>
             <action android:name="android.intent.action.TTS_SERVICE" />
         </intent>
     </queries>
+
     <application
         android:name=".customclasses.AppControl"
         android:allowBackup="false"
@@ -29,10 +30,18 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activity.GrammarGeniusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PartsOfSpeechActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AntonymsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.WordImageActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
-            />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.AskMeAnything"
             android:exported="false"
@@ -119,7 +128,7 @@
             android:name=".activity.PrivacyPolicyActivity"
             android:screenOrientation="portrait" />
 
-        <receiver android:name=".broadcastmanagers.DailyBroadcast"/>
+        <receiver android:name=".broadcastmanagers.DailyBroadcast" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

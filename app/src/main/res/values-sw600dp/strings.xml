@@ -30,10 +30,13 @@
     <string name="find_synonyms">Find synonyms</string>
     <string name="learning_from_video_song">Learning From Video Song</string>
 
+    <string name="synonyms">Find Synonyms</string>
+    <string name="antonyms_and_synonyms">Antonyms &amp; Synonyms</string>
+    <string name="speech_finder">Speech Finder</string>
+    <string name="grammar_genius">Grammar Genius</string>
     <string name="machine_learning">My Machine Learning</string>
     <string name="word_image">Word Image</string>
     <string name="riddle">Riddle</string>
-    <string name="synonyms">Find Synonyms</string>
     <string name="periodic_table">Learn Periodic table</string>
     <string name="ask_me_anything">Ask me anything</string>
     <string name="title_activity_synonyms">SynonymsActivity</string>
