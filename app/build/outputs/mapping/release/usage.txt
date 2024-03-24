@@ -13512,6 +13512,25 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.SurfingActivity:
     public final void setBack(android.widget.ImageView)
     public final void setFileName(java.lang.String)
     public final void setHtmlLoader(android.webkit.WebView)
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AbbreviationsActivity:
+    public final java.util.ArrayList getAbbreviationsResultList()
+    public final com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.AbbreviationsAdapter getAdapter()
+    public final android.widget.LinearLayout getBack()
+    public final android.widget.RelativeLayout getLlAdView()
+    public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final android.widget.ProgressBar getLoadingView()
+    public final androidx.recyclerview.widget.RecyclerView getRecyclerView()
+    public final android.widget.Button getSearchBtn()
+    public final android.widget.EditText getSearchField()
+    public final void setAbbreviationsResultList(java.util.ArrayList)
+    public final void setAdapter(com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.AbbreviationsAdapter)
+    public final void setBack(android.widget.LinearLayout)
+    public final void setLlAdView(android.widget.RelativeLayout)
+    public final void setLlAdViewFacebook(android.widget.LinearLayout)
+    public final void setLoadingView(android.widget.ProgressBar)
+    public final void setRecyclerView(androidx.recyclerview.widget.RecyclerView)
+    public final void setSearchBtn(android.widget.Button)
+    public final void setSearchField(android.widget.EditText)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AntonymsActivity:
     public final java.util.ArrayList getAntonymsList()
     public final android.widget.LinearLayout getBack()
@@ -13559,6 +13578,25 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AskMeAnythi
     public final void setLlAdViewFacebook(android.widget.LinearLayout)
     public final void setRepo(com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network.Repository)
     public final void setSend(android.widget.ImageView)
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.DictionaryActivity:
+    public final com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.DictionaryAdapter getAdapter()
+    public final android.widget.LinearLayout getBack()
+    public final java.util.ArrayList getDictionaryResultList()
+    public final android.widget.RelativeLayout getLlAdView()
+    public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final android.widget.ProgressBar getLoadingView()
+    public final androidx.recyclerview.widget.RecyclerView getRecyclerView()
+    public final android.widget.Button getSearchBtn()
+    public final android.widget.EditText getSearchField()
+    public final void setAdapter(com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.DictionaryAdapter)
+    public final void setBack(android.widget.LinearLayout)
+    public final void setDictionaryResultList(java.util.ArrayList)
+    public final void setLlAdView(android.widget.RelativeLayout)
+    public final void setLlAdViewFacebook(android.widget.LinearLayout)
+    public final void setLoadingView(android.widget.ProgressBar)
+    public final void setRecyclerView(androidx.recyclerview.widget.RecyclerView)
+    public final void setSearchBtn(android.widget.Button)
+    public final void setSearchField(android.widget.EditText)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDetail:
     public final android.widget.TextView getAffinity()
     public final android.widget.TextView getAtomicMass()
@@ -13620,33 +13658,46 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDeta
     public final void setStandardState(android.widget.TextView)
     public final void setVanDerWaalsRadius(android.widget.TextView)
     public final void setYearOfDiscovers(android.widget.TextView)
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.EnglishWords:
+    private android.widget.Button searchBtn
+    private android.widget.EditText searchField
+    public final com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.EnglishAdapter getAdapter()
+    public final android.widget.LinearLayout getBack()
+    public final android.widget.RelativeLayout getLlAdView()
+    public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final androidx.recyclerview.widget.RecyclerView getRecyclerView()
+    public final android.widget.Button getSearchBtn()
+    public final android.widget.EditText getSearchField()
+    public final java.util.HashMap getSentencesData()
+    private final void hideKeyboardNow()
+    public final void setAdapter(com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.EnglishAdapter)
+    public final void setBack(android.widget.LinearLayout)
+    public final void setLlAdView(android.widget.RelativeLayout)
+    public final void setLlAdViewFacebook(android.widget.LinearLayout)
+    public final void setRecyclerView(androidx.recyclerview.widget.RecyclerView)
+    public final void setSearchBtn(android.widget.Button)
+    public final void setSearchField(android.widget.EditText)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity:
     public void adClose()
     public void adLoadingFailed()
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FunActivity:
-    public final android.widget.Button getAntonymsSynoyms()
     public final android.widget.Button getAskMeAnything()
     public final android.widget.ImageView getBack()
-    public final android.widget.Button getGrammarGenius()
     public final android.widget.RelativeLayout getLlAdView()
     public final android.widget.LinearLayout getLlAdViewFacebook()
     public final android.widget.Button getMachineLearningActivity()
     public final android.widget.Button getPeriodicTable()
     public final android.widget.Button getRiddle()
-    public final android.widget.Button getSpeechFinder()
-    public final android.widget.Button getSynonyms()
+    public final android.widget.Button getSpeechToText()
     public final android.widget.Button getWordToImage()
-    public final void setAntonymsSynoyms(android.widget.Button)
     public final void setAskMeAnything(android.widget.Button)
     public final void setBack(android.widget.ImageView)
-    public final void setGrammarGenius(android.widget.Button)
     public final void setLlAdView(android.widget.RelativeLayout)
     public final void setLlAdViewFacebook(android.widget.LinearLayout)
     public final void setMachineLearningActivity(android.widget.Button)
     public final void setPeriodicTable(android.widget.Button)
     public final void setRiddle(android.widget.Button)
-    public final void setSpeechFinder(android.widget.Button)
-    public final void setSynonyms(android.widget.Button)
+    public final void setSpeechToText(android.widget.Button)
     public final void setWordToImage(android.widget.Button)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GrammarGeniusActivity:
     public final android.widget.LinearLayout getBack()
@@ -13688,6 +13739,25 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GuideActivi
     public final void setSpeechDelay(android.widget.Button)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ImageRotation:
     public void <init>()
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.LiteratureActivity:
+    public final com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.LiteratureAdapter getAdapter()
+    public final android.widget.LinearLayout getBack()
+    public final java.util.ArrayList getLiteratureResultList()
+    public final android.widget.RelativeLayout getLlAdView()
+    public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final android.widget.ProgressBar getLoadingView()
+    public final androidx.recyclerview.widget.RecyclerView getRecyclerView()
+    public final android.widget.Button getSearchBtn()
+    public final android.widget.EditText getSearchField()
+    public final void setAdapter(com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.LiteratureAdapter)
+    public final void setBack(android.widget.LinearLayout)
+    public final void setLiteratureResultList(java.util.ArrayList)
+    public final void setLlAdView(android.widget.RelativeLayout)
+    public final void setLlAdViewFacebook(android.widget.LinearLayout)
+    public final void setLoadingView(android.widget.ProgressBar)
+    public final void setRecyclerView(androidx.recyclerview.widget.RecyclerView)
+    public final void setSearchBtn(android.widget.Button)
+    public final void setSearchField(android.widget.EditText)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MachineLearningActivity:
     private android.graphics.Bitmap bitmapImg
     public final android.widget.ImageView getBack()
@@ -13722,11 +13792,38 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu:
     public final android.widget.Button getFunActivity()
     public final android.widget.RelativeLayout getLlAdView()
     public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final android.widget.Button getMyGrammar()
     public final android.widget.Button getMySchool()
     public final void setFunActivity(android.widget.Button)
     public final void setLlAdView(android.widget.RelativeLayout)
     public final void setLlAdViewFacebook(android.widget.LinearLayout)
+    public final void setMyGrammar(android.widget.Button)
     public final void setMySchool(android.widget.Button)
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MyGrammarActivity:
+    public final android.widget.Button getAbbreviations()
+    public final android.widget.Button getAntonymsSynoyms()
+    public final android.widget.ImageView getBack()
+    public final android.widget.Button getDictionary()
+    public final android.widget.Button getEnglishWords()
+    public final android.widget.Button getGrammarGenius()
+    public final android.widget.Button getLiterature()
+    public final android.widget.RelativeLayout getLlAdView()
+    public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final android.widget.Button getPhrases()
+    public final android.widget.Button getSpeechFinder()
+    public final android.widget.Button getSynonyms()
+    public final void setAbbreviations(android.widget.Button)
+    public final void setAntonymsSynoyms(android.widget.Button)
+    public final void setBack(android.widget.ImageView)
+    public final void setDictionary(android.widget.Button)
+    public final void setEnglishWords(android.widget.Button)
+    public final void setGrammarGenius(android.widget.Button)
+    public final void setLiterature(android.widget.Button)
+    public final void setLlAdView(android.widget.RelativeLayout)
+    public final void setLlAdViewFacebook(android.widget.LinearLayout)
+    public final void setPhrases(android.widget.Button)
+    public final void setSpeechFinder(android.widget.Button)
+    public final void setSynonyms(android.widget.Button)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PartsOfSpeechActivity:
     public final android.widget.TextView getAdjective()
     public final android.widget.TextView getAdverb()
@@ -13765,6 +13862,25 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PeriodicEle
     public final void setLlAdViewFacebook(android.widget.LinearLayout)
     public final void setLoading(android.widget.ProgressBar)
     public final void setPeriodicTable(androidx.recyclerview.widget.RecyclerView)
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PhrasesActivity:
+    public final com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.PhrasesAdapter getAdapter()
+    public final android.widget.LinearLayout getBack()
+    public final android.widget.RelativeLayout getLlAdView()
+    public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final android.widget.ProgressBar getLoadingView()
+    public final java.util.ArrayList getPhrasesResultList()
+    public final androidx.recyclerview.widget.RecyclerView getRecyclerView()
+    public final android.widget.Button getSearchBtn()
+    public final android.widget.EditText getSearchField()
+    public final void setAdapter(com.apps.abilitytohelp.kidslearning.kidseducation.preschool.adapter.PhrasesAdapter)
+    public final void setBack(android.widget.LinearLayout)
+    public final void setLlAdView(android.widget.RelativeLayout)
+    public final void setLlAdViewFacebook(android.widget.LinearLayout)
+    public final void setLoadingView(android.widget.ProgressBar)
+    public final void setPhrasesResultList(java.util.ArrayList)
+    public final void setRecyclerView(androidx.recyclerview.widget.RecyclerView)
+    public final void setSearchBtn(android.widget.Button)
+    public final void setSearchField(android.widget.EditText)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActivity:
     public final android.widget.TextView getAnswer()
     public final android.widget.LinearLayout getBack()
@@ -13780,6 +13896,15 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActiv
     public final void setLoading(android.widget.ProgressBar)
     public final void setRiddle(android.widget.TextView)
     public final void setShowAnswer(android.widget.Button)
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SpeechToTextActivity:
+    public final android.widget.LinearLayout getBack()
+    public final android.widget.RelativeLayout getLlAdView()
+    public final android.widget.LinearLayout getLlAdViewFacebook()
+    public final int getRecordAudioRequestCode()
+    private final void hideKeyboardNow()
+    public final void setBack(android.widget.LinearLayout)
+    public final void setLlAdView(android.widget.RelativeLayout)
+    public final void setLlAdViewFacebook(android.widget.LinearLayout)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity:
     public void onCancel()
     public void onSuccess()
@@ -13875,9 +14000,13 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.customclasses.NonSwi
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.database.DatabaseHelper:
     public final android.content.Context getContext$app_release()
     public final void setContext$app_release(android.content.Context)
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.AbbreviationsItemBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityAbbreviationsBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityAntonymsBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityAskMeAnythingBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityDictionaryBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityElementDetailBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityEnglishWordsBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityExamListenGuessBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityExamQuestionBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityFullScreenBinding
@@ -13886,14 +14015,18 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.Activity
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityGuideBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityHomeBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityListVideoBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityLiteratureBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityMachineLearningBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityMainBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityMainMenuBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityMyGrammarBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityPartsOfSpeechBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityPeriodicElementsBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityPhrasesBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityPrivacyPolicyBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivityRiddleBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivitySettingBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivitySpeechToTextBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivitySplashBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivitySubBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ActivitySurfingBinding
@@ -13909,13 +14042,17 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.CardList
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.CardListStartBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.CardSubListHomeBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.CardVideoLearningBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.DictionaryItemBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.EnglishWordItemBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.FragmentAntonymsBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.FragmentSynonymsBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.GrammarItemLayoutBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ItemNotificationCollBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ItemNotificationExpandBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.LiteratureItemLayoutBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.MessageLayoutBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.PeriodicElementBinding
+com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.PhrasesItemBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.SynonymItemBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.VideoCardListBinding
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.databinding.ViewpagerLayoutBinding
@@ -13947,14 +14084,22 @@ com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils:
     public static void setPref(android.content.Context,java.lang.String,java.lang.Integer)
     public static void setPref(android.content.Context,java.lang.String,java.lang.String)
 com.apps.abilitytohelp.kidslearning.kidseducation.preschool.viewmodels.FunActivityViewModel:
+    public final androidx.lifecycle.LiveData getAbbreviationsResponse()
     public final androidx.lifecycle.LiveData getAntonymsSynonymsObserver()
+    public final androidx.lifecycle.LiveData getDictionaryResponse()
+    public final androidx.lifecycle.LiveData getLiteratureResponse()
     public final androidx.lifecycle.LiveData getPeriodicResponse()
+    public final androidx.lifecycle.LiveData getPhrasesResponse()
     public final androidx.lifecycle.LiveData getRiddleResponseObserver()
     public final androidx.lifecycle.LiveData getSpeechResponse()
     public final androidx.lifecycle.LiveData getSynonymsResponseObserver()
     public final androidx.lifecycle.LiveData getWordImageResponseObserver()
+    public final void setAbbreviationsResponse(androidx.lifecycle.LiveData)
     public final void setAntonymsSynResponse(androidx.lifecycle.LiveData)
+    public final void setDictionaryResponse(androidx.lifecycle.LiveData)
+    public final void setLiteratureResponse(androidx.lifecycle.LiveData)
     public final void setPeriodicResponse(androidx.lifecycle.LiveData)
+    public final void setPhrasesResponse(androidx.lifecycle.LiveData)
     public final void setRepository(com.apps.abilitytohelp.kidslearning.kidseducation.preschool.network.Repository)
     public final void setRiddleResponseObserver(androidx.lifecycle.LiveData)
     public final void setSpeechResponse(androidx.lifecycle.LiveData)
@@ -21257,7 +21402,6 @@ com.google.android.gms.tasks.Task:
     public com.google.android.gms.tasks.Task addOnCanceledListener(android.app.Activity,com.google.android.gms.tasks.OnCanceledListener)
     public com.google.android.gms.tasks.Task addOnCanceledListener(com.google.android.gms.tasks.OnCanceledListener)
     public com.google.android.gms.tasks.Task addOnCompleteListener(android.app.Activity,com.google.android.gms.tasks.OnCompleteListener)
-    public abstract com.google.android.gms.tasks.Task addOnFailureListener(android.app.Activity,com.google.android.gms.tasks.OnFailureListener)
     public abstract com.google.android.gms.tasks.Task addOnSuccessListener(android.app.Activity,com.google.android.gms.tasks.OnSuccessListener)
     public com.google.android.gms.tasks.Task continueWith(com.google.android.gms.tasks.Continuation)
     public abstract java.lang.Object getResult(java.lang.Class)
@@ -21285,28 +21429,12 @@ com.google.android.gms.tasks.zzac
 com.google.android.gms.tasks.zzad
 com.google.android.gms.tasks.zzae
 com.google.android.gms.tasks.zzaf
-com.google.android.gms.tasks.zzd:
-    public final void zzc()
-com.google.android.gms.tasks.zzf:
-    public final void zzc()
-com.google.android.gms.tasks.zzh:
-    public final void zzc()
-com.google.android.gms.tasks.zzj:
-    public final void zzc()
-com.google.android.gms.tasks.zzl:
-    public final void zzc()
-com.google.android.gms.tasks.zzn:
-    public final void zzc()
 com.google.android.gms.tasks.zzo
 com.google.android.gms.tasks.zzp
-com.google.android.gms.tasks.zzq:
-    public abstract void zzc()
-com.google.android.gms.tasks.zzv
 com.google.android.gms.tasks.zzw:
     public final com.google.android.gms.tasks.Task addOnCanceledListener(android.app.Activity,com.google.android.gms.tasks.OnCanceledListener)
     public final com.google.android.gms.tasks.Task addOnCanceledListener(com.google.android.gms.tasks.OnCanceledListener)
     public final com.google.android.gms.tasks.Task addOnCompleteListener(android.app.Activity,com.google.android.gms.tasks.OnCompleteListener)
-    public final com.google.android.gms.tasks.Task addOnFailureListener(android.app.Activity,com.google.android.gms.tasks.OnFailureListener)
     public final com.google.android.gms.tasks.Task addOnSuccessListener(android.app.Activity,com.google.android.gms.tasks.OnSuccessListener)
     public final com.google.android.gms.tasks.Task continueWith(com.google.android.gms.tasks.Continuation)
     public final java.lang.Object getResult(java.lang.Class)
@@ -30350,6 +30478,105 @@ com.google.android.odml.image.zzg
 com.google.android.odml.image.zzh
 com.google.android.odml.image.zzi
 com.google.android.odml.image.zzj
+com.google.android.play.appupdate.R
+com.google.android.play.appupdate.ktx.R
+com.google.android.play.core.appupdate.AppUpdateInfo:
+    public int availableVersionCode()
+    public long bytesDownloaded()
+    public java.lang.Integer clientVersionStalenessDays()
+    public java.util.Set getFailedUpdatePreconditions(com.google.android.play.core.appupdate.AppUpdateOptions)
+    public int installStatus()
+    public java.lang.String packageName()
+    public long totalBytesToDownload()
+    public int updatePriority()
+    private static java.util.Set zze(java.util.Set)
+com.google.android.play.core.appupdate.AppUpdateManager:
+    public abstract com.google.android.gms.tasks.Task completeUpdate()
+    public abstract void registerListener(com.google.android.play.core.install.InstallStateUpdatedListener)
+    public abstract com.google.android.gms.tasks.Task startUpdateFlow(com.google.android.play.core.appupdate.AppUpdateInfo,android.app.Activity,com.google.android.play.core.appupdate.AppUpdateOptions)
+    public abstract boolean startUpdateFlowForResult(com.google.android.play.core.appupdate.AppUpdateInfo,int,com.google.android.play.core.common.IntentSenderForResultStarter,int)
+    public abstract boolean startUpdateFlowForResult(com.google.android.play.core.appupdate.AppUpdateInfo,android.app.Activity,com.google.android.play.core.appupdate.AppUpdateOptions,int)
+    public abstract boolean startUpdateFlowForResult(com.google.android.play.core.appupdate.AppUpdateInfo,androidx.activity.result.ActivityResultLauncher,com.google.android.play.core.appupdate.AppUpdateOptions)
+    public abstract boolean startUpdateFlowForResult(com.google.android.play.core.appupdate.AppUpdateInfo,com.google.android.play.core.common.IntentSenderForResultStarter,com.google.android.play.core.appupdate.AppUpdateOptions,int)
+    public abstract void unregisterListener(com.google.android.play.core.install.InstallStateUpdatedListener)
+com.google.android.play.core.appupdate.AppUpdateManagerFactory:
+    private void <init>()
+com.google.android.play.core.appupdate.AppUpdateOptions$Builder:
+    public abstract com.google.android.play.core.appupdate.AppUpdateOptions$Builder setAppUpdateType(int)
+com.google.android.play.core.appupdate.internal.zzac
+com.google.android.play.core.appupdate.internal.zzc:
+    private void <init>()
+com.google.android.play.core.appupdate.internal.zzd:
+    public final void zzc(java.lang.String,android.os.Bundle,com.google.android.play.core.appupdate.internal.zzh)
+com.google.android.play.core.appupdate.internal.zzf:
+    public abstract void zzc(java.lang.String,android.os.Bundle,com.google.android.play.core.appupdate.internal.zzh)
+com.google.android.play.core.appupdate.internal.zzj
+com.google.android.play.core.appupdate.internal.zzk:
+    final synthetic com.google.android.play.core.appupdate.internal.zzl zza
+    synthetic void <init>(com.google.android.play.core.appupdate.internal.zzl,com.google.android.play.core.appupdate.internal.zzj)
+    public final void onReceive(android.content.Context,android.content.Intent)
+com.google.android.play.core.appupdate.internal.zzl:
+    protected abstract void zza(android.content.Context,android.content.Intent)
+    public final synchronized void zzb(com.google.android.play.core.listener.StateUpdatedListener)
+    public final synchronized void zzc(com.google.android.play.core.listener.StateUpdatedListener)
+    public final synchronized void zzd(java.lang.Object)
+    private final void zze()
+com.google.android.play.core.appupdate.internal.zzm:
+    public final varargs int zza(java.lang.String,java.lang.Object[])
+com.google.android.play.core.appupdate.testing.FakeAppUpdateManager
+com.google.android.play.core.appupdate.zzab:
+    private void <init>()
+com.google.android.play.core.appupdate.zzc:
+    protected final void zza(android.content.Context,android.content.Intent)
+com.google.android.play.core.appupdate.zze
+com.google.android.play.core.appupdate.zzg:
+    public final com.google.android.gms.tasks.Task completeUpdate()
+    public final synchronized void registerListener(com.google.android.play.core.install.InstallStateUpdatedListener)
+    public final com.google.android.gms.tasks.Task startUpdateFlow(com.google.android.play.core.appupdate.AppUpdateInfo,android.app.Activity,com.google.android.play.core.appupdate.AppUpdateOptions)
+    public final boolean startUpdateFlowForResult(com.google.android.play.core.appupdate.AppUpdateInfo,int,com.google.android.play.core.common.IntentSenderForResultStarter,int)
+    public final boolean startUpdateFlowForResult(com.google.android.play.core.appupdate.AppUpdateInfo,android.app.Activity,com.google.android.play.core.appupdate.AppUpdateOptions,int)
+    public final boolean startUpdateFlowForResult(com.google.android.play.core.appupdate.AppUpdateInfo,androidx.activity.result.ActivityResultLauncher,com.google.android.play.core.appupdate.AppUpdateOptions)
+    public final synchronized void unregisterListener(com.google.android.play.core.install.InstallStateUpdatedListener)
+com.google.android.play.core.appupdate.zzn
+com.google.android.play.core.appupdate.zzp
+com.google.android.play.core.appupdate.zzr:
+    static synthetic bridge android.os.Bundle zzc()
+    public final com.google.android.gms.tasks.Task zzd(java.lang.String)
+com.google.android.play.core.common.LocalTestingException
+com.google.android.play.core.install.InstallException:
+    public int getErrorCode()
+com.google.android.play.core.install.InstallState
+com.google.android.play.core.install.InstallStateUpdatedListener
+com.google.android.play.core.install.NativeInstallStateUpdateListener
+com.google.android.play.core.install.model.ActivityResult
+com.google.android.play.core.install.model.AppUpdateType
+com.google.android.play.core.install.model.InstallErrorCode
+com.google.android.play.core.install.model.InstallStatus
+com.google.android.play.core.install.model.UpdateAvailability
+com.google.android.play.core.install.model.UpdatePrecondition
+com.google.android.play.core.install.zza
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$requestAppUpdateInfo$1
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$requestUpdateFlow$1$1
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$requestUpdateFlow$1$2
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$requestUpdateFlow$1$3
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$requestUpdateFlow$1$globalUpdateListener$1
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$requestUpdateFlow$1$globalUpdateListener$2
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$requestUpdateFlow$1
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$runTask$2
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$runTask$3$1
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$runTask$3$2
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$runTask$3$3
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt$startUpdateFlowForResult$1
+com.google.android.play.core.ktx.AppUpdateManagerKtxKt
+com.google.android.play.core.ktx.AppUpdatePassthroughListener
+com.google.android.play.core.ktx.AppUpdateResult$Available
+com.google.android.play.core.ktx.AppUpdateResult$Downloaded
+com.google.android.play.core.ktx.AppUpdateResult$InProgress
+com.google.android.play.core.ktx.AppUpdateResult$NotAvailable
+com.google.android.play.core.ktx.AppUpdateResult
+com.google.android.play.core.listener.StateUpdatedListener
+com.google.android.play.corecommon.R$style
+com.google.android.play.corecommon.R
 com.google.android.ump.ConsentDebugSettings$Builder
 com.google.android.ump.ConsentDebugSettings$DebugGeography
 com.google.android.ump.ConsentDebugSettings
@@ -32632,8 +32859,6 @@ com.google.gson.JsonArray:
     public long getAsLong()
     public java.lang.Number getAsNumber()
     public short getAsShort()
-    private com.google.gson.JsonElement getAsSingleElement()
-    public java.lang.String getAsString()
     public boolean isEmpty()
     public com.google.gson.JsonElement remove(int)
     public boolean remove(com.google.gson.JsonElement)
@@ -32655,7 +32880,6 @@ com.google.gson.JsonElement:
     public long getAsLong()
     public java.lang.Number getAsNumber()
     public short getAsShort()
-    public java.lang.String getAsString()
 com.google.gson.JsonIOException:
     private static final long serialVersionUID
 com.google.gson.JsonNull:
@@ -32669,7 +32893,6 @@ com.google.gson.JsonObject:
     public java.util.Map asMap()
     public synthetic bridge com.google.gson.JsonElement deepCopy()
     public com.google.gson.JsonObject deepCopy()
-    public com.google.gson.JsonElement get(java.lang.String)
     public com.google.gson.JsonArray getAsJsonArray(java.lang.String)
     public com.google.gson.JsonObject getAsJsonObject(java.lang.String)
     public com.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)
@@ -38691,7 +38914,6 @@ kotlin.collections.CollectionsKt___CollectionsJvmKt:
     private static final java.math.BigInteger sumOfBigInteger(java.lang.Iterable,kotlin.jvm.functions.Function1)
     public static final java.util.SortedSet toSortedSet(java.lang.Iterable)
     public static final java.util.SortedSet toSortedSet(java.lang.Iterable,java.util.Comparator)
-kotlin.collections.CollectionsKt___CollectionsKt$elementAt$1
 kotlin.collections.CollectionsKt___CollectionsKt$groupingBy$1
 kotlin.collections.CollectionsKt___CollectionsKt$withIndex$1
 kotlin.collections.CollectionsKt___CollectionsKt:
@@ -38729,9 +38951,7 @@ kotlin.collections.CollectionsKt___CollectionsKt:
     public static final java.util.List drop(java.lang.Iterable,int)
     public static final java.util.List dropLastWhile(java.util.List,kotlin.jvm.functions.Function1)
     public static final java.util.List dropWhile(java.lang.Iterable,kotlin.jvm.functions.Function1)
-    public static final java.lang.Object elementAt(java.lang.Iterable,int)
     private static final java.lang.Object elementAt(java.util.List,int)
-    public static final java.lang.Object elementAtOrElse(java.lang.Iterable,int,kotlin.jvm.functions.Function1)
     private static final java.lang.Object elementAtOrElse(java.util.List,int,kotlin.jvm.functions.Function1)
     public static final java.lang.Object elementAtOrNull(java.lang.Iterable,int)
     private static final java.lang.Object elementAtOrNull(java.util.List,int)
@@ -38984,7 +39204,6 @@ kotlin.collections.MapsKt__MapsKt:
     public static final java.lang.Object getOrElseNullable(java.util.Map,java.lang.Object,kotlin.jvm.functions.Function0)
     public static final java.lang.Object getOrPut(java.util.Map,java.lang.Object,kotlin.jvm.functions.Function0)
     private static final java.util.HashMap hashMapOf()
-    public static final varargs java.util.HashMap hashMapOf(kotlin.Pair[])
     private static final java.lang.Object ifEmpty(java.util.Map,kotlin.jvm.functions.Function0)
     private static final boolean isNotEmpty(java.util.Map)
     private static final boolean isNullOrEmpty(java.util.Map)
@@ -48255,6 +48474,11 @@ com.google.android.material.transformation.FabTransformationSheetBehavior:
     private void updateImportantForAccessibility(android.view.View,boolean)
 com.google.android.material.transformation.TransformationChildCard
 com.google.android.material.transformation.TransformationChildLayout
+com.google.android.play.core.appupdate.internal.zzk
+com.google.android.play.core.appupdate.internal.zzl:
+    private com.google.android.play.core.appupdate.internal.zzk zze
+com.google.android.play.core.appupdate.internal.zzs:
+    public abstract void zza()
 com.google.firebase.components.EventBus$$Lambda$1:
     private final com.google.firebase.events.Event arg$2
 com.google.firebase.encoders.Encoder

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.abilitytohelp.kidslearning.kidseducation.preschool"
-    android:versionCode="19"
-    android:versionName="1.1.6" >
+    android:versionCode="20"
+    android:versionName="1.1.7" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
@@ -62,18 +63,48 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_new_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AbbreviationsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.EnglishWords"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.DictionaryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.LiteratureActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PhrasesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MyGrammarActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SpeechToTextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GrammarGeniusActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PartsOfSpeechActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AntonymsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.WordImageActivity"
             android:exported="false"
@@ -117,6 +148,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity"
@@ -131,27 +163,35 @@
         </activity>
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.HomeActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.LookChooseActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.ListenGuessActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.ListVideoActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoLearningActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoPlayActivity"
@@ -168,7 +208,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/AD_MOB_APPLICATION_ID" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -395,7 +435,12 @@
 
         <receiver
             android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-            android:exported="false" />
+            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" />
     </application>
 
 </manifest>

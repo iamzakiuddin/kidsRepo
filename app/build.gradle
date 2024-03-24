@@ -14,8 +14,8 @@ android {
         applicationId "com.apps.abilitytohelp.kidslearning.kidseducation.preschool"
         minSdk 21
         targetSdk 34
-        versionCode 19
-        versionName "1.1.6"
+        versionCode 20
+        versionName "1.1.7"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         buildConfigField("String", "GEMINI_AI", "\"" + properties['API_KEY']+"\"")
     }
@@ -74,6 +74,9 @@ dependencies {
     //ML kit
     implementation ("com.google.mlkit:image-labeling:17.0.7")
     implementation("com.google.ai.client.generativeai:generativeai:0.2.0")
+
+    implementation ("com.google.android.play:app-update:2.1.0")
+    implementation ("com.google.android.play:app-update-ktx:2.1.0")
 }
 
 repositories {

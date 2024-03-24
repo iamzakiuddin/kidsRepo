@@ -257,22 +257,29 @@ public static ** valueOf(java.lang.String);
 -keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
 -keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.SurfingActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AbbreviationsActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AntonymsActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AskMeAnything { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.DictionaryActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDetail { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.EnglishWords { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FunActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GrammarGeniusActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GuideActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.HomeActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.LiteratureActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MachineLearningActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MyGrammarActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PartsOfSpeechActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PeriodicElementsActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PhrasesActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PrivacyPolicyActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SettingActivity { <init>(); }
+-keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SpeechToTextActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity { <init>(); }
 -keep class com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SynonymsActivity { <init>(); }
@@ -293,6 +300,7 @@ public static ** valueOf(java.lang.String);
 -keep class com.google.android.gms.ads.NotificationHandlerActivity { <init>(); }
 -keep class com.google.android.gms.ads.OutOfContextTestingActivity { <init>(); }
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.play.core.common.PlayCoreDialogWrapperActivity { <init>(); }
 -keep class com.google.mlkit.common.internal.MlKitComponentDiscoveryService { <init>(); }
 -keep class com.google.mlkit.common.internal.MlKitInitProvider { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
@@ -615,6 +623,12 @@ public static ** valueOf(java.lang.String);
 #-keepresourcexmlelements manifest/application/meta-data@value=GlideModule
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/77256691c32384cbdb8b1bc3d2f1b8e6/transformed/jetified-glide-4.14.2/proguard.txt
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/36b72a8da99d6a4df04d9c65611dccad/transformed/jetified-app-update-ktx-2.1.0/proguard.txt
+# Proguard cannot process META-INF/versions/9.
+# See https://discuss.gradle.org/t/meta-inf-version-duplicate-error-when-using-proguard/31380
+-dontwarn module-info
+
+# End of content from /Users/DELL/.gradle/caches/transforms-3/36b72a8da99d6a4df04d9c65611dccad/transformed/jetified-app-update-ktx-2.1.0/proguard.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/9840481d7bfada1625f5630414b1ae9a/transformed/jetified-play-services-ads-22.6.0/proguard.txt
 -keep public class com.google.android.gms.ads.internal.ClientApi {
   <init>();
@@ -814,10 +828,10 @@ public static ** valueOf(java.lang.String);
 
 
 # End of content from /Users/DELL/.gradle/caches/transforms-3/b2ab65f4435358e0bfa88ed295e4bd78/transformed/jetified-play-services-base-18.0.1/proguard.txt
-# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/58ad58a93c3665626b8ead61fda28b79/transformed/jetified-play-services-tasks-18.0.1/proguard.txt
+# The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/eecf0b23ef6a7ea1664ab2c0bbda5f08/transformed/jetified-play-services-tasks-18.0.2/proguard.txt
 
 
-# End of content from /Users/DELL/.gradle/caches/transforms-3/58ad58a93c3665626b8ead61fda28b79/transformed/jetified-play-services-tasks-18.0.1/proguard.txt
+# End of content from /Users/DELL/.gradle/caches/transforms-3/eecf0b23ef6a7ea1664ab2c0bbda5f08/transformed/jetified-play-services-tasks-18.0.2/proguard.txt
 # The proguard configuration file for the following section is /Users/DELL/.gradle/caches/transforms-3/f797e320c32a4de83907de12cfb51f32/transformed/jetified-play-services-measurement-sdk-api-20.1.2/proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep

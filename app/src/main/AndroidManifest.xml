@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
@@ -29,15 +30,62 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activity.AbbreviationsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".activity.EnglishWords"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".activity.DictionaryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".activity.LiteratureActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".activity.PhrasesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".activity.MyGrammarActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".activity.SpeechToTextActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
         <activity
             android:name=".activity.GrammarGeniusActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
         <activity
             android:name=".activity.PartsOfSpeechActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
         <activity
             android:name=".activity.AntonymsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.WordImageActivity"
             android:exported="false"
@@ -81,6 +129,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.MainMenu"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.SplashActivity"
@@ -95,27 +144,37 @@
         </activity>
         <activity
             android:name=".activity.MainActivity"
-            android:screenOrientation="portrait" />
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".activity.HomeActivity"
-            android:screenOrientation="portrait" />
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".activity.SubActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.FullScreenActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.exam.LookChooseActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.exam.ListenGuessActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.video.ListVideoActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.video.VideoLearningActivity"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activity.video.VideoPlayActivity"

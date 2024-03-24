@@ -7,6 +7,7 @@
     <string name="privacy_policy">Privacy Policy</string>
     <string name="sound">Sound</string>
     <string name="guide">Guide</string>
+    <string name="my_grammar">My Grammar</string>
     <string name="fun_activity">Fun Activity</string>
     <string name="my_school">My School</string>
     <string name="games">Games</string>
@@ -34,15 +35,22 @@
     <string name="antonyms_and_synonyms">Antonyms &amp; Synonyms</string>
     <string name="speech_finder">Speech Finder</string>
     <string name="grammar_genius">Grammar Genius</string>
+    <string name="phrases">Phrases</string>
+    <string name="Literature">Literature</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="english_words">English Words</string>
+    <string name="abbreviations">Abbreviations</string>
     <string name="machine_learning">My Machine Learning</string>
     <string name="word_image">Word Image</string>
     <string name="riddle">Riddle</string>
     <string name="periodic_table">Learn Periodic table</string>
     <string name="ask_me_anything">Ask me anything</string>
     <string name="title_activity_synonyms">SynonymsActivity</string>
+    <string name="speech_to_text">Speech to text</string>
 
     <string name="show_answer">Show Answer</string>
     <string name="search">Search</string>
+    <string name="check">Check</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -85,7 +93,6 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

@@ -38,18 +38,22 @@ public final class ActivityMainMenuBinding implements ViewBinding {
   public final LinearLayout llAdViewFacebook;
 
   @NonNull
+  public final Button myGrammar;
+
+  @NonNull
   public final Button mySchool;
 
   private ActivityMainMenuBinding(@NonNull ConstraintLayout rootView, @NonNull Button funactivity,
       @NonNull Guideline guideline3, @NonNull Guideline guideline4,
       @NonNull RelativeLayout llAdView, @NonNull LinearLayout llAdViewFacebook,
-      @NonNull Button mySchool) {
+      @NonNull Button myGrammar, @NonNull Button mySchool) {
     this.rootView = rootView;
     this.funactivity = funactivity;
     this.guideline3 = guideline3;
     this.guideline4 = guideline4;
     this.llAdView = llAdView;
     this.llAdViewFacebook = llAdViewFacebook;
+    this.myGrammar = myGrammar;
     this.mySchool = mySchool;
   }
 
@@ -110,6 +114,12 @@ public final class ActivityMainMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.my_grammar;
+      Button myGrammar = ViewBindings.findChildViewById(rootView, id);
+      if (myGrammar == null) {
+        break missingId;
+      }
+
       id = R.id.mySchool;
       Button mySchool = ViewBindings.findChildViewById(rootView, id);
       if (mySchool == null) {
@@ -117,7 +127,7 @@ public final class ActivityMainMenuBinding implements ViewBinding {
       }
 
       return new ActivityMainMenuBinding((ConstraintLayout) rootView, funactivity, guideline3,
-          guideline4, llAdView, llAdViewFacebook, mySchool);
+          guideline4, llAdView, llAdViewFacebook, myGrammar, mySchool);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

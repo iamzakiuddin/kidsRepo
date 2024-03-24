@@ -13,15 +13,12 @@ import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils
 class FunActivity : AppCompatActivity() {
 
     var back : ImageView? = null
-    var synonyms: Button? = null
-    var antonymsSynoyms: Button? = null
-    var speechFinder: Button? = null
-    var grammarGenius: Button? = null
     var riddle: Button? = null
     var periodicTable: Button? = null
     var machineLearningActivity: Button? = null
     var askMeAnything : Button? = null
     var wordToImage : Button? = null
+    var speechToText: Button? = null
     var llAdView: RelativeLayout? = null
     var llAdViewFacebook: LinearLayout? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,26 +31,6 @@ class FunActivity : AppCompatActivity() {
         back?.setOnClickListener {
             onBackPressed()
         }
-        synonyms?.setOnClickListener {
-            startActivity(Intent(this,SynonymsActivity::class.java))
-            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
-        }
-
-        antonymsSynoyms?.setOnClickListener {
-            startActivity(Intent(this,AntonymsActivity::class.java))
-            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
-        }
-
-        speechFinder?.setOnClickListener {
-            startActivity(Intent(this,PartsOfSpeechActivity::class.java))
-            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
-        }
-
-        grammarGenius?.setOnClickListener {
-            startActivity(Intent(this,GrammarGeniusActivity::class.java))
-            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
-        }
-
         riddle?.setOnClickListener {
             startActivity(Intent(this,RiddleActivity::class.java))
             overridePendingTransition(R.anim.enter_anim,R.anim.exit)
@@ -79,19 +56,21 @@ class FunActivity : AppCompatActivity() {
             overridePendingTransition(R.anim.enter_anim,R.anim.exit)
         }
 
+        speechToText?.setOnClickListener {
+            startActivity(Intent(this,  SpeechToTextActivity::class.java))
+            overridePendingTransition(R.anim.enter_anim,R.anim.exit)
+        }
+
     }
 
     private fun initUI() {
         back = findViewById(R.id.close)
-        synonyms = findViewById(R.id.synonyms)
-        antonymsSynoyms = findViewById(R.id.antonyms_synonyms)
-        speechFinder = findViewById(R.id.speech_finder)
-        grammarGenius = findViewById(R.id.grammar_genius)
         riddle = findViewById(R.id.riddleBtn)
         periodicTable = findViewById(R.id.learning_periodic_table)
         machineLearningActivity = findViewById(R.id.machine_learning)
         askMeAnything = findViewById(R.id.ask_me_anything)
         wordToImage = findViewById(R.id.word_image)
+        speechToText = findViewById(R.id.speechToText)
         llAdView = findViewById(R.id.llAdView)
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
         Utils.loadBannerAd(this, llAdView, llAdViewFacebook)

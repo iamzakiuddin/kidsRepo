@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-141:12
-INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-141:12
-INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-141:12
-INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-141:12
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-200:12
+INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-200:12
+INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-200:12
+INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:2:1-200:12
 MERGED from [androidx.databinding:viewbinding:8.2.1] /Users/DELL/.gradle/caches/transforms-3/a6e18a15119a88984ec43efd92b53701/transformed/jetified-viewbinding-8.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/DELL/.gradle/caches/transforms-3/4ac30f79a67c7088a28cee6e54861e49/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/DELL/.gradle/caches/transforms-3/3a24a80e92722b59421ebbcdcd975af1/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
@@ -22,10 +22,12 @@ MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/DELL/.gradle/ca
 MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/DELL/.gradle/caches/transforms-3/51266217c0955acf14a0310a51f48041/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/DELL/.gradle/caches/transforms-3/4b33af7c048e464c1270f1f2b41290d3/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/DELL/.gradle/caches/transforms-3/77256691c32384cbdb8b1bc3d2f1b8e6/transformed/jetified-glide-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:app-update-ktx:2.1.0] /Users/DELL/.gradle/caches/transforms-3/36b72a8da99d6a4df04d9c65611dccad/transformed/jetified-app-update-ktx-2.1.0/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-ads:22.6.0] /Users/DELL/.gradle/caches/transforms-3/9840481d7bfada1625f5630414b1ae9a/transformed/jetified-play-services-ads-22.6.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/4f40afdb8168636e8a1ece995921e3ae/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:17:1-95:12
 MERGED from [androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/5882c613465a9b2fae36ff692634cda3/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
 MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/761453838a9edb3fc1eb897cf969bc21/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.play:app-update:2.1.0] /Users/DELL/.gradle/caches/transforms-3/3276a576f016740724281c4da84a7ed4/transformed/jetified-app-update-2.1.0/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-ads-base:22.6.0] /Users/DELL/.gradle/caches/transforms-3/0505985798f61fcb36ff0495d7fda497/transformed/jetified-play-services-ads-base-22.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.ump:user-messaging-platform:2.1.0] /Users/DELL/.gradle/caches/transforms-3/51eee1c2af8ec331e18a8c512c241ba3/transformed/jetified-user-messaging-platform-2.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/DELL/.gradle/caches/transforms-3/2b6996fe2640ae09ca4d450cb24f86b7/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
@@ -37,7 +39,7 @@ MERGED from [com.google.mlkit:vision-common:17.0.0] /Users/DELL/.gradle/caches/t
 MERGED from [com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/eee8cb8885c1f3a938727502d8c89be1/transformed/jetified-common-18.0.0/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/b2ab65f4435358e0bfa88ed295e4bd78/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/DELL/.gradle/caches/transforms-3/43570cba29efee26571c35f999ed0645/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/DELL/.gradle/caches/transforms-3/58ad58a93c3665626b8ead61fda28b79/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/eecf0b23ef6a7ea1664ab2c0bbda5f08/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/DELL/.gradle/caches/transforms-3/f797e320c32a4de83907de12cfb51f32/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/DELL/.gradle/caches/transforms-3/e8aab34622b91a26432f47d468d76c94/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f27b6d9f12b0a4f5e79a17d8d881359b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
@@ -103,6 +105,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/DELL/.gradle/caches/transforms-3/89bb979915dbc764ea04d7a69b2cb968/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.daimajia.easing:library:2.0] /Users/DELL/.gradle/caches/transforms-3/bea6a3cab70e9119d765117c4a0cf18b/transformed/jetified-library-2.0/AndroidManifest.xml:2:1-12:12
 MERGED from [com.daimajia.androidanimations:library:2.3] /Users/DELL/.gradle/caches/transforms-3/a94efa383bd38ebc5a1f0c613223304a/transformed/jetified-library-2.3/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:2:1-21:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/DELL/.gradle/caches/transforms-3/37654d8a340494d89014f66bbcf2e822/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
 	package
 		INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml
@@ -154,25 +157,29 @@ uses-permission#android.permission.POST_NOTIFICATIONS
 ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:7:5-77
 	android:name
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:7:22-74
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:8:5-10:38
-	android:maxSdkVersion
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:10:9-35
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:9:9-65
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:10:9-65
 queries
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:12:5-16:15
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:13:5-17:15
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/4f40afdb8168636e8a1ece995921e3ae/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:35:5-51:15
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/4f40afdb8168636e8a1ece995921e3ae/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:35:5-51:15
 intent#action:name:android.intent.action.TTS_SERVICE
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:13:9-15:18
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:14:9-16:18
 action#android.intent.action.TTS_SERVICE
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:14:13-72
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:15:13-72
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:14:21-69
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:15:21-69
 application
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:18:5-139:19
-INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:18:5-139:19
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:19:5-198:19
+INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:19:5-198:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/DELL/.gradle/caches/transforms-3/3104ae32de48eb9bca4e8ddc03555560/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/DELL/.gradle/caches/transforms-3/3104ae32de48eb9bca4e8ddc03555560/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/DELL/.gradle/caches/transforms-3/c73b773e04d530b78de12bf4b6f41e71/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -181,12 +188,16 @@ MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/DELL/.gradle/caches/trans
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/DELL/.gradle/caches/transforms-3/d0827770f4b9555c96b55ec0fc8f828f/transformed/jetified-calligraphy-2.3.0/AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/DELL/.gradle/caches/transforms-3/77256691c32384cbdb8b1bc3d2f1b8e6/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/DELL/.gradle/caches/transforms-3/77256691c32384cbdb8b1bc3d2f1b8e6/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.play:app-update-ktx:2.1.0] /Users/DELL/.gradle/caches/transforms-3/36b72a8da99d6a4df04d9c65611dccad/transformed/jetified-app-update-ktx-2.1.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.play:app-update-ktx:2.1.0] /Users/DELL/.gradle/caches/transforms-3/36b72a8da99d6a4df04d9c65611dccad/transformed/jetified-app-update-ktx-2.1.0/AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/4f40afdb8168636e8a1ece995921e3ae/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:53:5-93:19
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/4f40afdb8168636e8a1ece995921e3ae/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:53:5-93:19
 MERGED from [androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/5882c613465a9b2fae36ff692634cda3/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/5882c613465a9b2fae36ff692634cda3/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
 MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/761453838a9edb3fc1eb897cf969bc21/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/761453838a9edb3fc1eb897cf969bc21/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.play:app-update:2.1.0] /Users/DELL/.gradle/caches/transforms-3/3276a576f016740724281c4da84a7ed4/transformed/jetified-app-update-2.1.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.play:app-update:2.1.0] /Users/DELL/.gradle/caches/transforms-3/3276a576f016740724281c4da84a7ed4/transformed/jetified-app-update-2.1.0/AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.android.gms:play-services-ads-base:22.6.0] /Users/DELL/.gradle/caches/transforms-3/0505985798f61fcb36ff0495d7fda497/transformed/jetified-play-services-ads-base-22.6.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:22.6.0] /Users/DELL/.gradle/caches/transforms-3/0505985798f61fcb36ff0495d7fda497/transformed/jetified-play-services-ads-base-22.6.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/DELL/.gradle/caches/transforms-3/2b6996fe2640ae09ca4d450cb24f86b7/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
@@ -201,8 +212,8 @@ MERGED from [com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transfor
 MERGED from [com.google.mlkit:common:18.0.0] /Users/DELL/.gradle/caches/transforms-3/eee8cb8885c1f3a938727502d8c89be1/transformed/jetified-common-18.0.0/AndroidManifest.xml:8:5-24:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/b2ab65f4435358e0bfa88ed295e4bd78/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/b2ab65f4435358e0bfa88ed295e4bd78/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/DELL/.gradle/caches/transforms-3/58ad58a93c3665626b8ead61fda28b79/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/DELL/.gradle/caches/transforms-3/58ad58a93c3665626b8ead61fda28b79/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/eecf0b23ef6a7ea1664ab2c0bbda5f08/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/eecf0b23ef6a7ea1664ab2c0bbda5f08/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/DELL/.gradle/caches/transforms-3/e8aab34622b91a26432f47d468d76c94/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/DELL/.gradle/caches/transforms-3/e8aab34622b91a26432f47d468d76c94/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f27b6d9f12b0a4f5e79a17d8d881359b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
@@ -231,252 +242,334 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/DE
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/DELL/.gradle/caches/transforms-3/33df3226705b819f5651b182403513d3/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/DELL/.gradle/caches/transforms-3/fa1f9e84494d83a779e03f879c654266/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/DELL/.gradle/caches/transforms-3/fa1f9e84494d83a779e03f879c654266/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/DELL/.gradle/caches/transforms-3/37654d8a340494d89014f66bbcf2e822/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/DELL/.gradle/caches/transforms-3/37654d8a340494d89014f66bbcf2e822/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
 		INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:27:9-52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:28:9-52
 	android:roundIcon
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:28:9-58
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:29:9-58
 	android:largeHeap
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:26:9-33
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:27:9-33
 	android:icon
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:24:9-47
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:25:9-47
 	android:fullBackupOnly
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:22:9-39
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:23:9-39
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /Users/DELL/.gradle/caches/transforms-3/a13f459e471ec449b2c31b96012f11cc/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:29:9-35
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:25:9-41
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:26:9-41
 	android:hardwareAccelerated
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:23:9-43
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:24:9-43
 	android:fullBackupContent
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:21:9-42
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:22:9-42
 	android:allowBackup
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:20:9-36
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:21:9-36
 	android:theme
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:30:9-40
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:31:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:31:9-44
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:32:9-44
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:19:9-49
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GrammarGeniusActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:32:9-34:40
-	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:34:13-37
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:33:13-59
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PartsOfSpeechActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:35:9-37:40
-	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:37:13-37
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:36:13-59
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AntonymsActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:38:9-40:40
-	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:40:13-37
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:39:13-54
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.WordImageActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:41:9-44:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:20:9-49
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AbbreviationsActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:34:9-38:15
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:44:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:37:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:43:13-37
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:42:13-55
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AskMeAnything
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:45:9-49:55
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:35:13-59
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.EnglishWords
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:40:9-44:15
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:48:13-49
-	android:windowSoftInputMode
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:49:13-52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:43:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:47:13-37
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:46:13-51
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MachineLearningActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:50:9-53:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:41:13-50
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.DictionaryActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:46:9-50:15
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:53:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:49:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:52:13-37
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:51:13-61
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDetail
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:54:9-57:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:47:13-56
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.LiteratureActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:52:9-56:15
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:57:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:55:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:56:13-37
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:55:13-51
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PeriodicElementsActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:58:9-61:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:53:13-56
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PhrasesActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:58:9-62:15
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:61:13-49
 	android:exported
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:59:13-62
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:62:9-65:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:59:13-53
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MyGrammarActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:64:9-68:15
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:65:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:67:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:64:13-37
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:63:13-52
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SynonymsActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:66:9-69:52
-	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:69:13-49
-	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:68:13-37
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:67:13-54
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.SurfingActivity
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:65:13-55
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SpeechToTextActivity
 ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:70:9-73:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:73:13-49
 	android:exported
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:72:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:71:13-44
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FunActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:74:9-77:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:71:13-58
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GrammarGeniusActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:75:9-78:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:77:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:78:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:76:13-37
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:77:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:75:13-49
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GuideActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:78:9-81:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:76:13-59
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PartsOfSpeechActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:80:9-83:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:81:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:83:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:80:13-37
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:79:13-51
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:82:9-84:52
-	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:84:13-49
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:83:13-46
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:85:9-95:20
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:81:13-59
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AntonymsActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:85:9-88:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:88:13-49
 	android:exported
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:87:13-36
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:87:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:86:13-52
-intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:89:13-94:29
-action#android.intent.action.MAIN
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:90:17-69
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:90:25-66
-action#android.intent.action.VIEW
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:91:17-69
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:91:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:93:17-77
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:93:27-74
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:96:9-98:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:86:13-54
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.WordImageActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:89:9-92:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:98:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:92:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:97:13-50
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.HomeActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:99:9-101:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:90:13-55
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.AskMeAnything
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:93:9-97:55
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:96:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:97:13-52
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:94:13-51
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MachineLearningActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:98:9-101:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:101:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:100:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:100:13-50
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:102:9-104:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:99:13-61
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.ElementDetail
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:102:9-105:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:104:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:105:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:104:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:103:13-49
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:105:9-107:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:103:13-51
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PeriodicElementsActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:106:9-109:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:107:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:109:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:108:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:106:13-56
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.LookChooseActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:108:9-110:52
-	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:110:13-49
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:109:13-61
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.ListenGuessActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:111:9-113:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:107:13-62
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.RiddleActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:110:9-113:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:113:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:112:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:112:13-62
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.ListVideoActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:114:9-116:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:111:13-52
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SynonymsActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:114:9-117:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:116:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:117:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:116:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:115:13-61
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoLearningActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:117:9-119:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:115:13-54
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.SurfingActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:118:9-121:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:119:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:121:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:120:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:118:13-65
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoPlayActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:120:9-123:54
-	android:configChanges
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:122:13-59
-	android:theme
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:123:13-51
-	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:121:13-61
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SettingActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:124:9-126:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:119:13-44
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FunActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:122:9-125:52
 	android:screenOrientation
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:126:13-49
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:125:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:124:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:125:13-53
-activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PrivacyPolicyActivity
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:127:9-129:52
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:123:13-49
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.GuideActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:126:9-129:52
 	android:screenOrientation
 		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:129:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:128:13-37
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:128:13-59
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:127:13-51
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainMenu
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:130:9-133:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:133:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:132:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:131:13-46
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SplashActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:134:9-144:20
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:137:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:136:13-36
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:135:13-52
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:138:13-143:29
+action#android.intent.action.MAIN
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:139:17-69
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:139:25-66
+action#android.intent.action.VIEW
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:140:17-69
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:140:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:142:17-77
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:142:27-74
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.MainActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:145:9-149:15
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:148:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:147:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:146:13-50
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.HomeActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:150:9-154:15
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:153:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:152:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:151:13-50
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SubActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:155:9-158:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:158:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:156:13-49
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.FullScreenActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:159:9-162:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:162:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:161:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:160:13-56
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.LookChooseActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:163:9-166:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:166:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:165:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:164:13-61
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.exam.ListenGuessActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:167:9-170:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:170:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:169:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:168:13-62
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.ListVideoActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:171:9-174:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:174:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:173:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:172:13-61
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoLearningActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:175:9-178:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:178:13-49
+	android:exported
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:177:13-37
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:176:13-65
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.video.VideoPlayActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:179:9-182:54
+	android:configChanges
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:181:13-59
+	android:theme
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:182:13-51
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:180:13-61
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.SettingActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:183:9-185:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:185:13-49
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:184:13-53
+activity#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity.PrivacyPolicyActivity
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:186:9-188:52
+	android:screenOrientation
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:188:13-49
+	android:name
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:187:13-59
 receiver#com.apps.abilitytohelp.kidslearning.kidseducation.preschool.broadcastmanagers.DailyBroadcast
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:131:9-70
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:190:9-70
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:131:19-67
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:190:19-67
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:133:9-135:61
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:192:9-194:61
 	android:value
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:135:13-58
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:194:13-58
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:134:13-69
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:193:13-69
 meta-data#com.google.android.gms.version
-ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:136:9-138:69
+ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:195:9-197:69
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f27b6d9f12b0a4f5e79a17d8d881359b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/DELL/.gradle/caches/transforms-3/f27b6d9f12b0a4f5e79a17d8d881359b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:138:13-66
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:197:13-66
 	android:name
-		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:137:13-58
+		ADDED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml:196:13-58
 uses-sdk
 INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/DELL/Desktop/App/AbilityToLearn/app/src/main/AndroidManifest.xml
@@ -517,6 +610,8 @@ MERGED from [androidx.cardview:cardview:1.0.0] /Users/DELL/.gradle/caches/transf
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/DELL/.gradle/caches/transforms-3/4b33af7c048e464c1270f1f2b41290d3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/DELL/.gradle/caches/transforms-3/77256691c32384cbdb8b1bc3d2f1b8e6/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/DELL/.gradle/caches/transforms-3/77256691c32384cbdb8b1bc3d2f1b8e6/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.play:app-update-ktx:2.1.0] /Users/DELL/.gradle/caches/transforms-3/36b72a8da99d6a4df04d9c65611dccad/transformed/jetified-app-update-ktx-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:app-update-ktx:2.1.0] /Users/DELL/.gradle/caches/transforms-3/36b72a8da99d6a4df04d9c65611dccad/transformed/jetified-app-update-ktx-2.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-ads:22.6.0] /Users/DELL/.gradle/caches/transforms-3/9840481d7bfada1625f5630414b1ae9a/transformed/jetified-play-services-ads-22.6.0/AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads:22.6.0] /Users/DELL/.gradle/caches/transforms-3/9840481d7bfada1625f5630414b1ae9a/transformed/jetified-play-services-ads-22.6.0/AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads-lite:22.6.0] /Users/DELL/.gradle/caches/transforms-3/4f40afdb8168636e8a1ece995921e3ae/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:21:5-44
@@ -525,6 +620,8 @@ MERGED from [androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transf
 MERGED from [androidx.work:work-runtime:2.9.0] /Users/DELL/.gradle/caches/transforms-3/5882c613465a9b2fae36ff692634cda3/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/761453838a9edb3fc1eb897cf969bc21/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:5:5-44
 MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/DELL/.gradle/caches/transforms-3/761453838a9edb3fc1eb897cf969bc21/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:app-update:2.1.0] /Users/DELL/.gradle/caches/transforms-3/3276a576f016740724281c4da84a7ed4/transformed/jetified-app-update-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:app-update:2.1.0] /Users/DELL/.gradle/caches/transforms-3/3276a576f016740724281c4da84a7ed4/transformed/jetified-app-update-2.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-ads-base:22.6.0] /Users/DELL/.gradle/caches/transforms-3/0505985798f61fcb36ff0495d7fda497/transformed/jetified-play-services-ads-base-22.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:22.6.0] /Users/DELL/.gradle/caches/transforms-3/0505985798f61fcb36ff0495d7fda497/transformed/jetified-play-services-ads-base-22.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.ump:user-messaging-platform:2.1.0] /Users/DELL/.gradle/caches/transforms-3/51eee1c2af8ec331e18a8c512c241ba3/transformed/jetified-user-messaging-platform-2.1.0/AndroidManifest.xml:5:5-44
@@ -547,8 +644,8 @@ MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.grad
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/DELL/.gradle/caches/transforms-3/b2ab65f4435358e0bfa88ed295e4bd78/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/DELL/.gradle/caches/transforms-3/43570cba29efee26571c35f999ed0645/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/DELL/.gradle/caches/transforms-3/43570cba29efee26571c35f999ed0645/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/DELL/.gradle/caches/transforms-3/58ad58a93c3665626b8ead61fda28b79/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/DELL/.gradle/caches/transforms-3/58ad58a93c3665626b8ead61fda28b79/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/eecf0b23ef6a7ea1664ab2c0bbda5f08/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/DELL/.gradle/caches/transforms-3/eecf0b23ef6a7ea1664ab2c0bbda5f08/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/DELL/.gradle/caches/transforms-3/f797e320c32a4de83907de12cfb51f32/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/DELL/.gradle/caches/transforms-3/f797e320c32a4de83907de12cfb51f32/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/DELL/.gradle/caches/transforms-3/e8aab34622b91a26432f47d468d76c94/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
@@ -679,6 +776,8 @@ MERGED from [com.daimajia.easing:library:2.0] /Users/DELL/.gradle/caches/transfo
 MERGED from [com.daimajia.easing:library:2.0] /Users/DELL/.gradle/caches/transforms-3/bea6a3cab70e9119d765117c4a0cf18b/transformed/jetified-library-2.0/AndroidManifest.xml:8:5-10:41
 MERGED from [com.daimajia.androidanimations:library:2.3] /Users/DELL/.gradle/caches/transforms-3/a94efa383bd38ebc5a1f0c613223304a/transformed/jetified-library-2.3/AndroidManifest.xml:8:5-10:41
 MERGED from [com.daimajia.androidanimations:library:2.3] /Users/DELL/.gradle/caches/transforms-3/a94efa383bd38ebc5a1f0c613223304a/transformed/jetified-library-2.3/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/DELL/.gradle/caches/transforms-3/37654d8a340494d89014f66bbcf2e822/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/DELL/.gradle/caches/transforms-3/37654d8a340494d89014f66bbcf2e822/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 	tools:overrideLibrary
@@ -1220,3 +1319,13 @@ ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/DEL
 		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/DELL/.gradle/caches/transforms-3/33df3226705b819f5651b182403513d3/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
 	android:name
 		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/DELL/.gradle/caches/transforms-3/33df3226705b819f5651b182403513d3/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/DELL/.gradle/caches/transforms-3/e7ca9c9dfb974d8a2c7dbe17cc62a1f7/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93

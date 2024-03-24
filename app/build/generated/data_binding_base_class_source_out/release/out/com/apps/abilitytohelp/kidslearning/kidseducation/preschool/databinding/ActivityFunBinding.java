@@ -23,16 +23,10 @@ public final class ActivityFunBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button antonymsSynonyms;
-
-  @NonNull
   public final Button askMeAnything;
 
   @NonNull
   public final ImageView close;
-
-  @NonNull
-  public final Button grammarGenius;
 
   @NonNull
   public final Button learningPeriodicTable;
@@ -53,33 +47,26 @@ public final class ActivityFunBinding implements ViewBinding {
   public final Button riddleBtn;
 
   @NonNull
-  public final Button speechFinder;
-
-  @NonNull
-  public final Button synonyms;
+  public final Button speechToText;
 
   @NonNull
   public final Button wordImage;
 
-  private ActivityFunBinding(@NonNull ConstraintLayout rootView, @NonNull Button antonymsSynonyms,
-      @NonNull Button askMeAnything, @NonNull ImageView close, @NonNull Button grammarGenius,
-      @NonNull Button learningPeriodicTable, @NonNull RelativeLayout llAdView,
-      @NonNull LinearLayout llAdViewFacebook, @NonNull Button machineLearning,
-      @NonNull LinearLayout options, @NonNull Button riddleBtn, @NonNull Button speechFinder,
-      @NonNull Button synonyms, @NonNull Button wordImage) {
+  private ActivityFunBinding(@NonNull ConstraintLayout rootView, @NonNull Button askMeAnything,
+      @NonNull ImageView close, @NonNull Button learningPeriodicTable,
+      @NonNull RelativeLayout llAdView, @NonNull LinearLayout llAdViewFacebook,
+      @NonNull Button machineLearning, @NonNull LinearLayout options, @NonNull Button riddleBtn,
+      @NonNull Button speechToText, @NonNull Button wordImage) {
     this.rootView = rootView;
-    this.antonymsSynonyms = antonymsSynonyms;
     this.askMeAnything = askMeAnything;
     this.close = close;
-    this.grammarGenius = grammarGenius;
     this.learningPeriodicTable = learningPeriodicTable;
     this.llAdView = llAdView;
     this.llAdViewFacebook = llAdViewFacebook;
     this.machineLearning = machineLearning;
     this.options = options;
     this.riddleBtn = riddleBtn;
-    this.speechFinder = speechFinder;
-    this.synonyms = synonyms;
+    this.speechToText = speechToText;
     this.wordImage = wordImage;
   }
 
@@ -110,12 +97,6 @@ public final class ActivityFunBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.antonyms_synonyms;
-      Button antonymsSynonyms = ViewBindings.findChildViewById(rootView, id);
-      if (antonymsSynonyms == null) {
-        break missingId;
-      }
-
       id = R.id.ask_me_anything;
       Button askMeAnything = ViewBindings.findChildViewById(rootView, id);
       if (askMeAnything == null) {
@@ -125,12 +106,6 @@ public final class ActivityFunBinding implements ViewBinding {
       id = R.id.close;
       ImageView close = ViewBindings.findChildViewById(rootView, id);
       if (close == null) {
-        break missingId;
-      }
-
-      id = R.id.grammar_genius;
-      Button grammarGenius = ViewBindings.findChildViewById(rootView, id);
-      if (grammarGenius == null) {
         break missingId;
       }
 
@@ -170,15 +145,9 @@ public final class ActivityFunBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.speech_finder;
-      Button speechFinder = ViewBindings.findChildViewById(rootView, id);
-      if (speechFinder == null) {
-        break missingId;
-      }
-
-      id = R.id.synonyms;
-      Button synonyms = ViewBindings.findChildViewById(rootView, id);
-      if (synonyms == null) {
+      id = R.id.speechToText;
+      Button speechToText = ViewBindings.findChildViewById(rootView, id);
+      if (speechToText == null) {
         break missingId;
       }
 
@@ -188,9 +157,9 @@ public final class ActivityFunBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityFunBinding((ConstraintLayout) rootView, antonymsSynonyms, askMeAnything,
-          close, grammarGenius, learningPeriodicTable, llAdView, llAdViewFacebook, machineLearning,
-          options, riddleBtn, speechFinder, synonyms, wordImage);
+      return new ActivityFunBinding((ConstraintLayout) rootView, askMeAnything, close,
+          learningPeriodicTable, llAdView, llAdViewFacebook, machineLearning, options, riddleBtn,
+          speechToText, wordImage);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

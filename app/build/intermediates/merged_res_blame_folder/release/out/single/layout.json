@@ -1,182 +1,230 @@
 [
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/word_image_item.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/word_image_item.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_guide.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_guide.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_parts_of_speech.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_parts_of_speech.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_list_home.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_list_home.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_riddle.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_riddle.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_parts_of_speech.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_parts_of_speech.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_exam_answer.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_exam_answer.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/viewpager_layout.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/viewpager_layout.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_grammar_genius.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_grammar_genius.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_main.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_main.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_full_screen.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_full_screen.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/phrases_item.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/phrases_item.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_sub.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_sub.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_speech_to_text.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_speech_to_text.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/fragment_antonyms.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/fragment_antonyms.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_item_video_list.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_item_video_list.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_antonyms.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_antonyms.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_antonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_antonyms.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_main.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_main.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_grammar_genius.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_grammar_genius.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_video_learning.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_video_learning.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_periodic_elements.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_periodic_elements.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/video_card_list.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/video_card_list.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_video_learning.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_video_learning.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_list_video.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_list_video.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/dictionary_item.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/dictionary_item.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_guide.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_guide.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/grammar_item_layout.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/grammar_item_layout.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_splash.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_splash.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_exam_question.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_exam_question.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_element_detail.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_element_detail.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_dictionary.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_dictionary.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/item_notification_expand.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/item_notification_expand.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_setting.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_setting.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_privacy_policy.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_privacy_policy.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_item_related_list.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_item_related_list.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/viewpager_layout.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/viewpager_layout.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_list_start.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_list_start.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_fun.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_fun.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/literature_item_layout.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/literature_item_layout.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/synonym_item.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/synonym_item.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_abbreviations.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_abbreviations.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_list_start.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_list_start.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/synonym_item.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/synonym_item.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/message_layout.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/message_layout.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_video_play.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_video_play.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_synonyms.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_synonyms.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_machine_learning.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_machine_learning.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_item_related_list.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_item_related_list.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/english_word_item.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/english_word_item.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/grammar_item_layout.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/grammar_item_layout.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/fragment_synonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/fragment_synonyms.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/fragment_synonyms.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/fragment_synonyms.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_privacy_policy.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_privacy_policy.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_main_menu.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_main_menu.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_exam_phonics.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_exam_phonics.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/item_notification_coll.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/item_notification_coll.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/item_notification_coll.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/item_notification_coll.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_exam_phonics.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_exam_phonics.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_video_learning.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_video_learning.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_exam_question.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_exam_question.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_splash.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_home.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_home.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_element_detail.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_element_detail.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/periodic_element.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/periodic_element.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_sub.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_sub.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_list_home.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_list_home.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_literature.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_literature.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_sub_list_home.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_sub_list_home.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_english_words.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_english_words.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_machine_learning.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_machine_learning.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_fun.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_fun.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_video_play.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_video_play.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/word_image_item.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/word_image_item.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_item_video_list.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_item_video_list.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/message_layout.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/message_layout.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/card_video_learning.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/card_video_learning.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/periodic_element.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/periodic_element.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_word_image.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_word_image.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_list_video.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_list_video.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_setting.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_setting.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/abbreviations_item.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/abbreviations_item.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_exam_listen_guess.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_exam_listen_guess.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/fragment_antonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/fragment_antonyms.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_surfing.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_surfing.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_exam_listen_guess.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_exam_listen_guess.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_periodic_elements.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_periodic_elements.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_sub_list_home.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_sub_list_home.xml"
     },
     {
-        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-64:/layout/activity_ask_me_anything.xml",
-        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-66:/layout/activity_ask_me_anything.xml"
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/item_notification_expand.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/item_notification_expand.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_home.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_surfing.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_surfing.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_full_screen.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_full_screen.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/card_exam_answer.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/card_exam_answer.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/video_card_list.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/video_card_list.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_riddle.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_riddle.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_my_grammar.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_my_grammar.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_main_menu.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_word_image.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_word_image.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_synonyms.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_synonyms.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_phrases.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_phrases.xml"
+    },
+    {
+        "merged": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-mergeReleaseResources-65:/layout/activity_ask_me_anything.xml",
+        "source": "com.apps.abilitytohelp.kidslearning.kidseducation.preschool.app-main-67:/layout/activity_ask_me_anything.xml"
     }
 ]

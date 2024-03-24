@@ -3,27 +3,37 @@ package com.apps.abilitytohelp.kidslearning.kidseducation.preschool.activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
+import android.content.IntentSender;
 import android.os.Build;
 import android.os.Handler;
 
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 import android.os.Bundle;
 import android.provider.Settings;
+import android.util.Log;
 
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.R;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.interfaces.CallbackListener;
 import com.apps.abilitytohelp.kidslearning.kidseducation.preschool.utils.Utils;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.play.core.appupdate.AppUpdateInfo;
+import com.google.android.play.core.appupdate.AppUpdateManager;
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory;
+import com.google.android.play.core.install.model.AppUpdateType;
+import com.google.android.play.core.install.model.UpdateAvailability;
 
 public class SplashActivity extends AppCompatActivity implements CallbackListener {
     private boolean isComingFromSettings = false;
+    private AppUpdateManager appUpdateManager;
 
     /*For Internet*/
     @Override
@@ -38,7 +48,7 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
 
     @Override
     public void onRetry() {
-        callApi();
+        //callApi();
     }
 
 
@@ -51,6 +61,7 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
+        appUpdateManager = AppUpdateManagerFactory.create(this);
         notificationsPermissionLauncher = registerForActivityResult(new ActivityResultContracts.RequestPermission(), new ActivityResultCallback<Boolean>() {
                     @Override
                     public void onActivityResult(Boolean isGranted) {
@@ -100,7 +111,7 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
 
     public void callApi() {
         if (Utils.isNetworkConnected(this)) {
-            successCall();
+            checkForAppUpdates();
         } else {
             Utils.openInternetDialog(this, true,this);
         }
@@ -135,37 +146,6 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
         finish();
     }
 
-  /*  private boolean ensureNotificationsPermission() {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) {return true;}
-        String permission = android.Manifest.permission.POST_NOTIFICATIONS;
-        boolean granted = ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED;
-
-        if (granted) return true;
-
-        if (shouldShowRequestPermissionRationale(permission)) {
-            new AlertDialog.Builder(this)
-                    .setTitle(R.string.app_name)
-                    .setMessage("Ability to Help app needs permission to send daily notification. If denied, you won't receive these notifications, and the app won't ask again. Thank you for understanding.")
-                    .setCancelable(false)
-                    .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            notificationsPermissionLauncher.launch(permission);
-                        }
-                    })
-                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            navigateToMainMenu();
-                        }
-                    })
-                    .show();
-            return false;
-        }
-        notificationsPermissionLauncher.launch(permission);
-        return false;
-    }
-*/
     private void showNotificationPermissionRationale(){
         new AlertDialog.Builder(this)
                 .setTitle(R.string.app_name)
@@ -220,6 +200,40 @@ public class SplashActivity extends AppCompatActivity implements CallbackListene
         super.onDestroy();
         notificationsPermissionLauncher = null;
         handler.removeCallbacks(myRunnable);
+    }
+
+    private void checkForAppUpdates(){
+        Task<AppUpdateInfo> appUpdateInfoTask  =  appUpdateManager.getAppUpdateInfo();
+        appUpdateInfoTask.addOnSuccessListener(appUpdateInfo -> {
+            if (appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
+                    && appUpdateInfo.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE)) {
+                try {
+                    appUpdateManager.startUpdateFlowForResult(appUpdateInfo,AppUpdateType.IMMEDIATE,this,123);
+                } catch (IntentSender.SendIntentException e) {
+                    successCall();
+                }
+            }else{
+                successCall();
+            }
+        });
+        appUpdateInfoTask.addOnFailureListener(this, new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.e("Failure message: ",e.getLocalizedMessage());
+                successCall();
+            }
+        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 123){
+            if (resultCode!=RESULT_OK){
+                Log.e("App update","Something went wrong");
+                finish();
+            }
+        }
     }
 }
 

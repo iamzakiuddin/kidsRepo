@@ -2005,6 +2005,8 @@
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
   </plurals>
     <string name="AD_MOB_APPLICATION_ID">ca-app-pub-5789104871210524~2010397654</string>
+    <string name="Literature">Literature</string>
+    <string name="abbreviations">Abbreviations</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -2057,6 +2059,7 @@
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
+    <string name="check">Check</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
@@ -2079,6 +2082,8 @@
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="daily_routine">Daily Routine</string>
     <string name="dest_title">destination title</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="english_words">English Words</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
@@ -2250,6 +2255,7 @@
     <string name="mtrl_switch_track_path" translatable="false">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
     <string description="Button text to indicate that the widget will ignore the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_cancel">Cancel</string>
     <string description="Button text to indicate that the widget will save the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_confirm">OK</string>
+    <string name="my_grammar">My Grammar</string>
     <string name="my_school">My School</string>
     <string description="This string appears within a window that describes an ad&apos;s contents. It indicates that the following text would be the body field (textual content) of the native ad. [CHAR_LIMIT=NONE]" name="native_body">
     Body
@@ -2290,6 +2296,7 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="periodic_table">Learn Periodic table</string>
+    <string name="phrases">Phrases</string>
     <string name="pre_school_kids_learning">Pre school Learning</string>
     <string name="previous">Previous</string>
     <string name="privacy_policy">Privacy Policy</string>
@@ -2319,6 +2326,7 @@
     <string name="sound">Sound</string>
     <string name="speech_delay">Speech delay</string>
     <string name="speech_finder">Speech Finder</string>
+    <string name="speech_to_text">Speech to text</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="synonyms">Find Synonyms</string>
     <string name="title_activity_synonyms">SynonymsActivity</string>
@@ -6771,6 +6779,14 @@
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
+    <style name="Theme.PlayCore.Transparent" parent="android:Theme">
+<item name="android:windowIsTranslucent">true</item>
+<item name="android:windowBackground">@android:color/transparent</item>
+<item name="android:windowContentOverlay">@null</item>
+<item name="android:windowNoTitle">true</item>
+<item name="android:windowIsFloating">true</item>
+<item name="android:backgroundDimEnabled">false</item>
+</style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>

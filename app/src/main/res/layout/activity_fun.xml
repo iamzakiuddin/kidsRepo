@@ -40,62 +40,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <Button
-                    android:id="@+id/synonyms"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:textSize="18sp"
-                    android:background="@drawable/button_bg"
-                    android:fontFamily="@font/atma_semibold"
-                    android:textColor="@color/colorBlack"
-                    android:text="@string/synonyms"
-                    android:textAllCaps="false"
-                    android:layout_marginBottom="20dp"
-                    />
-
-                <Button
-                    android:id="@+id/antonyms_synonyms"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:textSize="18sp"
-                    android:background="@drawable/button_bg"
-                    android:fontFamily="@font/atma_semibold"
-                    android:textColor="@color/colorBlack"
-                    android:text="@string/antonyms_and_synonyms"
-                    android:textAllCaps="false"
-                    android:layout_marginBottom="20dp"
-                    />
-
-                <Button
-                    android:id="@+id/speech_finder"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:textSize="18sp"
-                    android:background="@drawable/button_bg"
-                    android:fontFamily="@font/atma_semibold"
-                    android:textColor="@color/colorBlack"
-                    android:text="@string/speech_finder"
-                    android:textAllCaps="false"
-                    android:layout_marginBottom="20dp"
-                    />
-
-                <Button
-                    android:id="@+id/grammar_genius"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:textSize="18sp"
-                    android:background="@drawable/button_bg"
-                    android:fontFamily="@font/atma_semibold"
-                    android:textColor="@color/colorBlack"
-                    android:text="@string/grammar_genius"
-                    android:textAllCaps="false"
-                    android:layout_marginBottom="20dp"
-                    />
 
                 <Button
                     android:id="@+id/machine_learning"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="50dp"
                     android:layout_marginBottom="20dp"
                     android:textSize="18sp"
                     android:background="@drawable/button_bg"
@@ -108,7 +57,7 @@
                 <Button
                     android:id="@+id/word_image"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="50dp"
                     android:layout_marginBottom="20dp"
                     android:textSize="18sp"
                     android:background="@drawable/button_bg"
@@ -120,7 +69,7 @@
                 <Button
                     android:id="@+id/riddleBtn"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="50dp"
                     android:textSize="18sp"
                     android:background="@drawable/button_bg"
                     android:fontFamily="@font/atma_semibold"
@@ -133,7 +82,7 @@
                 <Button
                     android:id="@+id/learning_periodic_table"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="50dp"
                     android:textSize="18sp"
                     android:background="@drawable/button_bg"
                     android:fontFamily="@font/atma_semibold"
@@ -146,12 +95,25 @@
                 <Button
                     android:id="@+id/ask_me_anything"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="50dp"
                     android:textSize="18sp"
                     android:background="@drawable/button_bg"
                     android:fontFamily="@font/atma_semibold"
                     android:textColor="@color/colorBlack"
                     android:text="@string/ask_me_anything"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="20dp"
+                    />
+
+                <Button
+                    android:id="@+id/speechToText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/atma_semibold"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/speech_to_text"
                     android:textAllCaps="false"
 
                     />

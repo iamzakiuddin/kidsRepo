@@ -27,6 +27,7 @@ import java.util.Calendar
 class MainMenu : AppCompatActivity(), AdsCallback {
 
     var mySchool: Button? = null
+    var myGrammar: Button? = null
     var funActivity: Button? = null
     var llAdView: RelativeLayout? = null
     var llAdViewFacebook: LinearLayout? = null
@@ -36,6 +37,7 @@ class MainMenu : AppCompatActivity(), AdsCallback {
         setContentView(R.layout.activity_main_menu)
         supportActionBar?.hide()
         mySchool = findViewById(R.id.mySchool)
+        myGrammar = findViewById(R.id.my_grammar)
         funActivity = findViewById(R.id.funactivity)
         llAdView = findViewById(R.id.llAdView)
         llAdViewFacebook = findViewById(R.id.llAdViewFacebook)
@@ -49,6 +51,10 @@ class MainMenu : AppCompatActivity(), AdsCallback {
             overridePendingTransition(R.anim.slide_up_a, R.anim.slide_up_b)
         }
 
+        myGrammar?.setOnClickListener {
+            startActivity(Intent(this, MyGrammarActivity::class.java))
+            overridePendingTransition(R.anim.slide_up_a, R.anim.slide_up_b)
+        }
         funActivity?.setOnClickListener {
             startActivity(Intent(this, FunActivity::class.java))
             overridePendingTransition(R.anim.slide_up_a, R.anim.slide_up_b)
